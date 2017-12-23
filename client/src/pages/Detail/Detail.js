@@ -17,34 +17,36 @@ class Detail extends Component {
   }
 
   render() {
-    return (
-      <Container fluid>
+    return <Container fluid>
         <Row>
           <Col size="md-12">
             <Jumbotron>
-              <h1>
-                {this.state.box.title} by {this.state.box.price}
-              </h1>
+              <h3>
+                {this.state.box.title}
+                <br />
+                ${this.state.box.price}
+              </h3>
+              <h4>
+                {this.state.box.description}
+              </h4>
+              <img alt="box" src={this.state.box.image}/>
             </Jumbotron>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col size="md-10 md-offset-1">
             <article>
-              <h1>Description</h1>
-              <p>
-                {this.state.box.description}
-              </p>
+              <h3>Description</h3>
+              <p>{this.state.box.description}</p>
             </article>
           </Col>
-        </Row>
+        </Row> */}
         <Row>
           <Col size="md-2">
             <Link to="/">← Back to wherever</Link>
           </Col>
         </Row>
-      </Container>
-    );
+      </Container>;
   }
 }
 

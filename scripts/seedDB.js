@@ -13,21 +13,30 @@ mongoose.connect(
 
 const boxSeed = [
   {
-    title: "The Numero Uno",
+    title: "Numero Uno",
     price: 35,
+    image:
+      "https://cdn.shopify.com/s/files/1/1709/6425/products/gift-box-complete-fair-trader-fancy-bow.jpg?v=1504802933",
     description: "Our tried-and-true. Get new mama what she wants.",
+    quantity: 20,
     date: new Date(Date.now())
   },
   {
     title: "Austin Native",
     price: 45,
+    image:
+      "https://cdn.shopify.com/s/files/1/1709/6425/products/gift-box-complete-fair-trader-fancy-bow.jpg?v=1504802933",
     description: "A curated selection of local Austin goodies.",
+    quantity: 13,
     date: new Date(Date.now())
   },
   {
     title: "Pamper Perfect",
     price: 50,
+    image:
+      "https://cdn.shopify.com/s/files/1/1709/6425/products/gift-box-complete-fair-trader-fancy-bow.jpg?v=1504802933",
     description: "When straight-up pampering is the only option.",
+    quantity: 9,
     date: new Date(Date.now())
   }
 ];

@@ -42,11 +42,12 @@ class Boxes extends Component {
 
   handleFormSubmit = event => {
     event.preventDefault();
-    if (this.state.title && this.state.author) {
+    if (this.state.title && this.state.price) {
       API.saveBox({
         title: this.state.title,
         price: this.state.price,
-        description: this.state.description
+        description: this.state.description,
+        quantity: this.state.quantity
       })
         .then(res => this.loadBoxes())
         .catch(err => console.log(err));
@@ -59,7 +60,7 @@ class Boxes extends Component {
         <Row>
           <Col size="md-6">
             <Jumbotron>
-              <h1>What Boxes Should I Gift?</h1>
+              <h3>What Boxes Should I Gift?</h3>
             </Jumbotron>
             <form>
               <Input
@@ -74,11 +75,23 @@ class Boxes extends Component {
                 name="price"
                 placeholder="Price (required)"
               />
+              <Input
+                value={this.state.image}
+                onChange={this.handleInputChange}
+                name="image"
+                placeholder="Image (required)"
+              />
               <TextArea
                 value={this.state.description}
                 onChange={this.handleInputChange}
                 name="description"
                 placeholder="Description (Optional)"
+              />
+              <Input
+                value={this.state.quantity}
+                onChange={this.handleInputChange}
+                name="quantity"
+                placeholder="Quantity (required)"
               />
               <FormBtn
                 disabled={!(this.state.price && this.state.title)}
@@ -90,7 +103,7 @@ class Boxes extends Component {
           </Col>
           <Col size="md-6 sm-12">
             <Jumbotron>
-              <h1>Boxes On My List</h1>
+              <h3>Boxes On My List</h3>
             </Jumbotron>
             {this.state.boxes.length ? (
               <List>
@@ -100,6 +113,7 @@ class Boxes extends Component {
                       <strong>
                         {box.title} for {box.price}
                       </strong>
+                      <img alt="box" src={box.image}/>
                     </Link>
                     <DeleteBtn onClick={() => this.deleteBox(box._id)} />
                   </ListItem>
