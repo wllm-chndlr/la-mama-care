@@ -4,11 +4,13 @@ import Boxes from "./pages/Boxes";
 import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
+// import AppBar from "./components/AppBar";
 
 const App = () =>
   <Router>
     <div>
       <Nav />
+      {/* <AppBar/> */}
       <Switch>
         <Route exact path="/" component={Boxes} />
         <Route exact path="/boxes" component={Boxes} />
