@@ -61,7 +61,7 @@ class Boxes extends Component {
         <Row>
           <Col size="md-6">
             <Jumbotron>
-              <h3>What Boxes Should I Gift?</h3>
+              <h3>Add new box</h3>
             </Jumbotron>
             <form>
               <Input
@@ -104,7 +104,7 @@ class Boxes extends Component {
           </Col>
           <Col size="md-6 sm-12">
             <Jumbotron>
-              <h3>Boxes On My List</h3>
+              <h3>Available boxes</h3>
             </Jumbotron>
             {this.state.boxes.length ? (
               <List>
@@ -112,7 +112,7 @@ class Boxes extends Component {
                   <ListItem key={box._id}>
                     <Link to={"/boxes/" + box._id}>
                       <strong>
-                        {box.title} for {box.price}
+                        {box.title} <br/> ${box.price}
                       </strong>
                       <img alt="box" src={box.image}/>
                     </Link>
