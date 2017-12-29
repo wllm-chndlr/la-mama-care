@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import DeleteBtn from "../../components/DeleteBtn";
-import PaperExampleSimple from "../../components/Paper";
 import Jumbotron from "../../components/Jumbotron";
 // import AppBar from "../../components/AppBar";
 import API from "../../utils/API";
@@ -107,7 +106,6 @@ class Boxes extends Component {
             <Jumbotron>
               <h3>Available boxes</h3>
             </Jumbotron>
-            <PaperExampleSimple/>
             {this.state.boxes.length ? (
               <List>
                 {this.state.boxes.map(box => (
@@ -116,7 +114,7 @@ class Boxes extends Component {
                       <strong>
                         {box.title} <br/> ${box.price}
                       </strong>
-                      <img alt="box" src={box.image}/>
+                      {/* <img alt="box" src={box.image}/> */}
                     </Link>
                     <DeleteBtn onClick={() => this.deleteBox(box._id)} />
                   </ListItem>

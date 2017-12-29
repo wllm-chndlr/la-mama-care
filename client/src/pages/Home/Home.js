@@ -6,20 +6,20 @@ import Tagline from "../../components/Tagline";
 
 const Home = () => (
   <Container fluid>
-    <Row>
-      <Col size="md-12">
-        <img
-          src="https://www.fitfamsupps.com/wp-content/uploads/2017/03/mom-with-baby.jpeg"
-          style={{
-            width: "100%",
-            opacity: "0.7",
-            paddingleft: "0",
-            paddingright: "0"
-          }}
-        />
-      </Col>
-    </Row>
     <Tagline />
+    <Row>
+      <img
+        src="http://yourdost-blog-images.s3-ap-southeast-1.amazonaws.com/wp-content/uploads/2017/05/12234626/momsassuperheros-SUPERMUM-blog.jpg"
+        alt="supermum"
+        style={{
+          width: "100%",
+          opacity: "0.7",
+          paddingleft: "0px",
+          paddingright: "0px",
+          margin: "auto"
+        }}
+      />
+    </Row>
   </Container>
 );
 

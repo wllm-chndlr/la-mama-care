@@ -1,18 +1,18 @@
 import React from "react";
 import AppBar from "material-ui/AppBar";
-import logo from '../../images/logo.png' // relative path to image 
+import logo from '../../images/logo.png'
+import "./AppBar.css";
 
-/**
- * A simple example of `AppBar` with an icon on the right.
- * By default, the left icon is a navigation-menu.
- */
+
 const AppBarExampleIcon = () => (
   <AppBar
+    className="appBar"
     title="La Mama Care"
     iconClassNameRight="muidocs-icon-navigation-expand-more"
     iconElementLeft={
       <img
         src={logo}
+        href={"/"}
         alt={"logo"}
         style={{
           width: "20%",
@@ -21,7 +21,8 @@ const AppBarExampleIcon = () => (
       />
     }
     style={{
-      marginbottom: "150px"
+      backgroundColor: "#fff",
+      marginBottom: "30px"
     }}
   />
 );
