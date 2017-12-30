@@ -6,20 +6,16 @@ import NoMatch from "./pages/NoMatch";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Packages from "./pages/Packages";
-
-
-
 // import Nav from "./components/Nav";
-import AppBarExampleIcon from "./components/AppBar";
+import AppBarTop from "./components/AppBar";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
-
 
 const App = () => (
   <MuiThemeProvider>
     <Router>
       <div>
         {/* <Nav /> */}
-        <AppBarExampleIcon />
+        <AppBarTop/>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />

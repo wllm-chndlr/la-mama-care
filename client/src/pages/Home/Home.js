@@ -6,7 +6,7 @@ import Tagline from "../../components/Tagline";
 
 const Home = () => (
   <Container fluid>
-    <Tagline />
+    <Tagline>You've got this, superhero.</Tagline>
     <Row>
       <img
         src="http://yourdost-blog-images.s3-ap-southeast-1.amazonaws.com/wp-content/uploads/2017/05/12234626/momsassuperheros-SUPERMUM-blog.jpg"

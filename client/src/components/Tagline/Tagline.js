@@ -2,19 +2,20 @@ import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
 
 
-const Tagline = () => (
+const Tagline = props => (
   <Container fluid>
     <Row>
       <Col size="md-12">
         <div>
           <h1
             style={{
-              fontFamily: "'Bangers', cursive",
+              fontFamily: "'Squada One', cursive",
               color: "rgb(0 125 138)",
-              marginBottom: "5%"
+              marginBottom: "5%",
+              marginLeft: "3%"
             }}
           >
-            You've got this, superhero.
+          {props.children}
           </h1>
         </div>
       </Col>

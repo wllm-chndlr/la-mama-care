@@ -1,3 +1,17 @@
-div.appBar {
-  background-color: #fff;
+.muidocs-icon-navigation-expand-more {
+  margin-top: 10%;
+  background-color: orange;
+}
+
+/* div.button {
+  color: orange;
+} */
+
+ul {
+  /* text-decoration: none; */
+  list-style: none;
+}
+
+ul:hover {
+  color: rgb(0, 125, 138);
 }
