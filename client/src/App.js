@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Packages from "./pages/Packages";
 // import Nav from "./components/Nav";
 import AppBarTop from "./components/AppBar";
+// import Foot from "./components/Footer";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 
 const App = () => (
@@ -16,6 +17,7 @@ const App = () => (
       <div>
         {/* <Nav /> */}
         <AppBarTop/>
+        {/* <Foot/> */}
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
@@ -25,6 +27,7 @@ const App = () => (
           <Route exact path="/boxes/:id" component={Detail} />
           <Route component={NoMatch} />
         </Switch>
+        {/* <Foot/> */}
       </div>
     </Router>
   </MuiThemeProvider>
