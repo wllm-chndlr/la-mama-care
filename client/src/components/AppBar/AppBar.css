@@ -1,23 +1,31 @@
-.muidocs-icon-navigation-expand-more {
+/* .muidocs-icon-navigation-expand-more {
   margin-top: 10%;
   background-color: orange;
-}
-
-/* div.button {
-  color: orange;
 } */
 
+div.h1 {
+  width: 0px;
+  height: 0px;
+}
+
 ul {
-  /* text-decoration: none; */
   list-style: none;
-  margin-top: 15px;
+  /* margin-top: 35px; */
 }
 
 a {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 a:hover {
   color: rgb(0, 125, 138);
   text-decoration: none;
+}
+
+div#navbtns {
+  margin-top: 30px;
+}
+
+div.container {
+  margin: 15px;
 }

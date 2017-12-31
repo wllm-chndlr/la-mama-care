@@ -59,7 +59,7 @@ class Boxes extends Component {
     return (
       <Container fluid>
         <Row>
-          <Col size="md-6">
+          {/* <Col size="md-6">
             <Jumbotron>
               <h3>Add new box</h3>
             </Jumbotron>
@@ -101,11 +101,9 @@ class Boxes extends Component {
                 Submit Box
               </FormBtn>
             </form>
-          </Col>
+          </Col> */}
           <Col size="md-6 sm-12">
-            <Jumbotron>
-              <h3>Available boxes</h3>
-            </Jumbotron>
+
             {this.state.boxes.length ? (
               <List>
                 {this.state.boxes.map(box => (

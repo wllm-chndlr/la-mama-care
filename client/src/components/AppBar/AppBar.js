@@ -31,48 +31,45 @@ import "./AppBar.css";
 
 
 const AppBarTop = () => (
-  <AppBar
-    // iconClassNameRight="muidocs-icon-navigation-expand-more"
-    style={{
-      backgroundColor: "#fff",
-      marginBottom: "30px"
-    }}
-  >
-    <Container>
+  // <AppBar
+  //   // iconClassNameRight="muidocs-icon-navigation-expand-more"
+  //   style={{
+  //     backgroundColor: "#fff",
+  //     marginBottom: "30px"
+  //   }}
+  // >
+    <Container style={{borderBottom: "1px solid rgb(182, 207, 208)"}}>
       <Row>
-        <Col size="md-8">
+        <Col size="md-6">
           <a href="/">
             <img
               src={logo}
               alt={"logo"}
               style={{
-                width: "30%",
-                height: "30%",
-                padding: "2%"
+                width: "75%",
+                height: "75%",
+                padding: "2%",
+                marginBottom: "30px"
               }}
             />
           </a>
         </Col>
-        <Col size="md-4">
-          <ul>
-            <li>
+        <Col size="md-6" id="navbtns" style={{marginTop: "30px"}}>
+          <ul className="nav nav-pills nav-justified">
+            <li role="presentation" className="active">
               <a href="/home">home</a>
             </li>
-            <li>
+            <li role="presentation">
               <a href="/about">about</a>
             </li>
-            <li>
+            <li role="presentation">
               <a href="/packages">packages</a>
             </li>
           </ul>
         </Col>
       </Row>
     </Container>
-  </AppBar>
+  // </AppBar>
 );
-
-
-
-
 
 export default AppBarTop;
