@@ -55,15 +55,15 @@ const AppBarTop = () => (
           </a>
         </Col>
         <Col size="md-6" id="navbtns" style={{marginTop: "30px"}}>
-          <ul className="nav nav-pills nav-justified">
-            <li role="presentation" className="active">
+          <ul className="nav nav-pills">
+            <li role="presentation">
               <a href="/home">home</a>
             </li>
             <li role="presentation">
               <a href="/about">about</a>
             </li>
             <li role="presentation">
-              <a href="/packages">packages</a>
+              <a href="/boxes">packages</a>
             </li>
           </ul>
         </Col>

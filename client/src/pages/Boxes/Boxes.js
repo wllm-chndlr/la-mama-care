@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import DeleteBtn from "../../components/DeleteBtn";
 import Jumbotron from "../../components/Jumbotron";
-// import AppBar from "../../components/AppBar";
 import API from "../../utils/API";
 import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../../components/Grid";
 import { List, ListItem } from "../../components/List";
 import { Input, TextArea, FormBtn } from "../../components/Form";
+import CardExample from "../../components/Card";
+import Tagline from "../../components/Tagline";
+
 
 class Boxes extends Component {
   state = {
@@ -58,6 +60,7 @@ class Boxes extends Component {
   render() {
     return (
       <Container fluid>
+          <Tagline>Packages</Tagline>
         <Row>
           {/* <Col size="md-6">
             <Jumbotron>
@@ -102,22 +105,31 @@ class Boxes extends Component {
               </FormBtn>
             </form>
           </Col> */}
-          <Col size="md-6 sm-12">
+          <Col size="md-12 sm-12">
 
             {this.state.boxes.length ? (
-              <List>
-                {this.state.boxes.map(box => (
-                  <ListItem key={box._id}>
-                    <Link to={"/boxes/" + box._id}>
-                      <strong>
-                        {box.title} <br/> ${box.price}
-                      </strong>
-                      {/* <img alt="box" src={box.image}/> */}
-                    </Link>
-                    <DeleteBtn onClick={() => this.deleteBox(box._id)} />
-                  </ListItem>
-                ))}
-              </List>
+
+            <div>
+
+              {this.state.boxes.map(box => (
+
+                <Col size="md-4">
+                
+                  <CardExample
+                    image={box.image}
+                    title={box.title}
+                    price={box.price}
+                    description={box.description}
+                  />
+
+                </Col>
+
+              ))}
+
+            </div>
+
+
+
             ) : (
               <h3>No Results to Display</h3>
             )}

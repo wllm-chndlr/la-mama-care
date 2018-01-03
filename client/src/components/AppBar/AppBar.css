@@ -14,12 +14,18 @@ ul {
 }
 
 a {
+  color: rgb(0, 125, 138);
   font-size: 2rem;
 }
 
 a:hover {
-  color: rgb(0, 125, 138);
+  color: rgb(0, 48, 87);
   text-decoration: none;
+
+}
+
+.nav-pills>li>a:hover {
+  background-color: #fff;
 }
 
 div#navbtns {

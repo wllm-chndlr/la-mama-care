@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../../components/Grid";
 import Jumbotron from "../../components/Jumbotron";
+import Card from "../../components/Card";
 import API from "../../utils/API";
 
 class Detail extends Component {
@@ -43,7 +44,7 @@ class Detail extends Component {
         </Row> */}
         <Row>
           <Col size="md-2">
-            <Link to="/">← Back to wherever</Link>
+            <Link to="/boxes">← Back to wherever</Link>
           </Col>
         </Row>
       </Container>;
