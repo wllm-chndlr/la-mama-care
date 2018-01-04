@@ -8,6 +8,7 @@ import { List, ListItem } from "../../components/List";
 import { Input, TextArea, FormBtn } from "../../components/Form";
 import CardExample from "../../components/Card";
 import Tagline from "../../components/Tagline";
+import packageImg from "../../images/package.jpeg";
 
 
 class Boxes extends Component {
@@ -116,7 +117,7 @@ class Boxes extends Component {
                 <Col size="md-4">
                 
                   <CardExample
-                    image={box.image}
+                    image={packageImg}
                     title={box.title}
                     price={box.price}
                     description={box.description}

@@ -14,8 +14,9 @@ ul {
 }
 
 a {
-  color: rgb(0, 125, 138);
+  color: #444;
   font-size: 2rem;
+  background-color: #fff;
 }
 
 a:hover {

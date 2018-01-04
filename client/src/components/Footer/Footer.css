@@ -1,3 +1,18 @@
 footer {
-  color: orange;
+  background-color: rgb(182, 207, 208);
+  height: 10%;
+  /* position: fixed; */
+  bottom: 0;
+  left: 0;
+  /* right: 0; */
+  width: 100%;
+  /* margin-top: -15%; */
+  padding: 30px;
+  margin-left: 0px;
+  margin-top: 125px;
+}
+
+#copyright {
+  color: rgb(0, 125, 138);
+  text-align: center;
 }

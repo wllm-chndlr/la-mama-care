@@ -53,7 +53,7 @@ const AppBarTop = () => (
               }}
             />
           </a>
-        </Col>
+        </Col> 
         <Col size="md-6" id="navbtns" style={{marginTop: "30px"}}>
           <ul className="nav nav-pills">
             <li role="presentation">

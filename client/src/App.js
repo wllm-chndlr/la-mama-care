@@ -8,7 +8,7 @@ import About from "./pages/About";
 import Packages from "./pages/Packages";
 // import Nav from "./components/Nav";
 import AppBarTop from "./components/AppBar";
-// import Foot from "./components/Footer";
+import Foot from "./components/Footer";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 
 const App = () => (
@@ -27,7 +27,7 @@ const App = () => (
           <Route exact path="/boxes/:id" component={Detail} />
           <Route component={NoMatch} />
         </Switch>
-        {/* <Foot/> */}
+        <Foot/>
       </div>
     </Router>
   </MuiThemeProvider>

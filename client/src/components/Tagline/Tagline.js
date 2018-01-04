@@ -10,12 +10,14 @@ const Tagline = props => (
           <h1
             style={{
               fontFamily: "'Squada One', cursive",
-              color: "rgb(0 125 138)",
+              color: "rgb(0, 125, 138)",
+              backgroundColor: "rgb(182, 207, 208)",
               marginBottom: "5%",
-              marginLeft: "3%"
+              // marginLeft: "3%",
+              padding: "20px 40px",
             }}
           >
-          {props.children}
+            {props.children}
           </h1>
         </div>
       </Col>
