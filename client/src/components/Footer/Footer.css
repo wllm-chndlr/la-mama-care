@@ -10,9 +10,12 @@ footer {
   padding: 30px;
   margin-left: 0px;
   margin-top: 125px;
+  margin-right: 0px;
+  /* border-top: 1px solid rgb(0, 125, 138); */
 }
 
-#copyright {
-  color: rgb(0, 125, 138);
+.foot-cont {
+  color: rgb(90, 90, 90);
   text-align: center;
+  font-family: 'Fjalla One', cursive;
 }

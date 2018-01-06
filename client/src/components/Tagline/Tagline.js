@@ -9,12 +9,19 @@ const Tagline = props => (
         <div>
           <h1
             style={{
-              fontFamily: "'Squada One', cursive",
-              color: "rgb(0, 125, 138)",
-              backgroundColor: "rgb(182, 207, 208)",
+              // fontFamily: "'Squada One', cursive",
+              fontFamily: "'Bungee Shade', cursive",
+              letterSpacing: "0.3em",
+              fontSize: "50px",
+              color: "rgb(90, 90, 90)",
+              // backgroundColor: "rgb(182, 207, 208)",
               marginBottom: "5%",
               // marginLeft: "3%",
               padding: "20px 40px",
+              // borderTop: "1px solid rgb(0, 125, 138)",
+              // borderBottom: "1px solid rgb(0, 125, 138)",
+              // boxShadow: "5px 5px rgb(218, 218, 218)",
+              textAlign: "center"
             }}
           >
             {props.children}

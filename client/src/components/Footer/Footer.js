@@ -6,14 +6,22 @@ import Navbar from "react";
 
 
 const Foot = () => (
-
-  // <Container fluid>
-    <footer className="navbar-bottom" id="footer">
-      {/* <footer> */}
-      <p id="copyright">© 2017 La Mama Care</p>
-    </footer>
-  // </Container>
-
+  <Container fluid>
+  <footer className="navbar-bottom" id="footer" style={{ marginRight: "0px" }}>
+    {/* <footer> */}
+    <Row>
+      <Col size="md-4">
+        <p className="foot-cont">Twitter</p>
+      </Col>
+      <Col size="md-4">
+        <p className="foot-cont">© 2017 La Mama Care</p>
+      </Col>
+      <Col size="md-4">
+        <p className="foot-cont">Contact</p>
+      </Col>
+    </Row>
+  </footer>
+  </Container>
 );
 
 export default Foot;

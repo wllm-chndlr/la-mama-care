@@ -13,8 +13,8 @@ import "./Card.css";
 const CardExample = props => (
   <Card
     style={{
-      border: "3px solid rgb(182, 207, 208)",
-      marginBottom: "90px"
+      border: "2px solid rgb(182, 207, 208)",
+      margin: "0px 20px 90px 20px"
     }}
     className="cardpack"
   >
@@ -28,9 +28,10 @@ const CardExample = props => (
     >
       <img src={props.image} alt={props.title} />
     </CardMedia>
-    <CardTitle
+    <CardTitle 
+      id="card-title"
       showExpandableButton={true}
-      style={{ color: "#444" }}
+      style={{ color: "rgb(224, 60, 49)" }}
       title={props.title}
       subtitle={props.price}
     />

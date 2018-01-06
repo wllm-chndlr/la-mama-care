@@ -38,37 +38,40 @@ const AppBarTop = () => (
   //     marginBottom: "30px"
   //   }}
   // >
-    <Container style={{borderBottom: "1px solid rgb(182, 207, 208)"}}>
-      <Row>
-        <Col size="md-6">
-          <a href="/">
-            <img
-              src={logo}
-              alt={"logo"}
-              style={{
-                width: "75%",
-                height: "75%",
-                padding: "2%",
-                marginBottom: "30px"
-              }}
-            />
-          </a>
-        </Col> 
-        <Col size="md-6" id="navbtns" style={{marginTop: "30px"}}>
-          <ul className="nav nav-pills">
-            <li role="presentation">
-              <a href="/home">home</a>
-            </li>
-            <li role="presentation">
-              <a href="/about">about</a>
-            </li>
-            <li role="presentation">
-              <a href="/boxes">packages</a>
-            </li>
-          </ul>
-        </Col>
-      </Row>
-    </Container>
+  <Container fluid>
+    <Row>
+      <Col size="md-6">
+        <a href="/">
+          <img
+            src={logo}
+            alt={"logo"}
+            style={{
+              width: "50%",
+              height: "50%",
+              padding: "2%",
+              marginBottom: "30px"
+            }}
+          />
+        </a>
+      </Col>
+      <Col size="md-6" id="navbtns" style={{ marginTop: "30px" }}>
+        <ul className="nav nav-pills nav-justified">
+          {/* <li role="presentation">
+            <a href="/home">home</a>
+          </li> */}
+          <li role="presentation">
+            <a href="/boxes">care packages</a>
+          </li>
+          <li role="presentation">
+            <a href="/resources">resources</a>
+          </li>
+          <li role="presentation">
+            <a href="/about">about</a>
+          </li>
+        </ul>
+      </Col>
+    </Row>
+  </Container>
   // </AppBar>
 );
 

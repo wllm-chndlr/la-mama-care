@@ -61,7 +61,7 @@ class Boxes extends Component {
   render() {
     return (
       <Container fluid>
-          <Tagline>Packages</Tagline>
+          <Tagline>Care Packages</Tagline>
         <Row>
           {/* <Col size="md-6">
             <Jumbotron>

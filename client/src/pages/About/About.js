@@ -11,7 +11,7 @@ const About = () => (
     <Row>
       <Col size="md-8">
         <div className="p-a">
-          <strong>Even superheroes need support.</strong>
+          <p className="p-header">Even superheroes need support.</p>
           <br />
           La Mama Care is focused on a mother’s holistic wellbeing immediately
           following childbirth. Started by three mamas who know firsthand how
@@ -24,20 +24,32 @@ const About = () => (
           period.
         </div>
       </Col>
-
-      <Col size="md-4">
+      <Col size="md-4" />
+    </Row>
+    <Row>
+      <Col size="md-4" />
+      <Col size="md-8">
         <div className="p-a" id="facts">
-          <strong>The facts</strong>
+          <p className="p-header">The facts</p>
           <br />
-          Each year in the United States: 
-          <br/>
+          Each year in the United States:
+          <br />
           <ul>
-            <li>11 to 20% of women who give birth have
-            postpartum depression symptoms, yet only 15% of women with postpartum
-            depression ever receive professional treatment.</li>
+            <li>
+              11 to 20% of women who give birth have postpartum depression
+              symptoms, yet only 15% of women with postpartum depression ever
+              receive professional treatment.
+            </li>
+            <br />
             <li>More than 600 women die of pregnancy-related causes.</li>
+            <br />
+
             <li>65,000 women will have severe pregnancy complications.</li>
-            <li><em>(Centers for Disease Control)</em></li>
+            <br />
+
+            <li>
+              <p id="cdc">Source: Centers for Disease Control</p>
+            </li>
           </ul>
         </div>
       </Col>
@@ -46,15 +58,18 @@ const About = () => (
     <Row>
       <Col size="md-12">
         <div className="p-a">
-          Bottom line: mamas still need quite a bit of care after giving birth,
-          but too often, the mama’s needs get put on the backburner while
-          focusing on their newest addition.
+          <p id="bottom-line">Bottom line:</p>
+          <p>
+            mamas still need quite a bit of care after giving birth, but too
+            often, the mama’s needs get put on the backburner while focusing on
+            their newest addition.
+          </p>
         </div>
       </Col>
     </Row>
 
     <Row>
-      <Col size="md-3">
+      <Col size="md-5">
         <div className="p-a">
           This is where La Mama Care steps in. Our care kits are intended to
           provide moms with the sustenance and supplies they need to ensure
@@ -68,7 +83,7 @@ const About = () => (
         </div>
       </Col>
 
-      <Col size="md-9">
+      <Col size="md-7">
         <div className="p-a" id="included">
           What all is included in a La Mama Care box? La Mama Care strives not
           only to support and nourish, but also educate moms during this
@@ -101,9 +116,9 @@ const About = () => (
     </Row>
 
     <Row>
-      <Col size="md-5"/>
+      <Col size="md-2" />
 
-      <Col size="md-7">
+      <Col size="md-8">
         <div className="p-a">
           La Mama Care’s hope is that every mom receives the love and support
           she deserves after embarking on one of life’s most exciting journeys.
@@ -111,6 +126,8 @@ const About = () => (
           grow and nurture each other through the years.
         </div>
       </Col>
+
+      <Col size="md-2" />
     </Row>
   </Container>
 );

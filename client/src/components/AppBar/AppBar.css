@@ -1,8 +1,3 @@
-/* .muidocs-icon-navigation-expand-more {
-  margin-top: 10%;
-  background-color: orange;
-} */
-
 div.h1 {
   width: 0px;
   height: 0px;
@@ -10,17 +5,18 @@ div.h1 {
 
 ul {
   list-style: none;
-  /* margin-top: 35px; */
+  margin-top: 35px;
 }
 
 a {
-  color: #444;
+  color: rgb(90,90,90);
   font-size: 2rem;
   background-color: #fff;
+  font-family: 'Fjalla One', cursive;
 }
 
 a:hover {
-  color: rgb(0, 48, 87);
+  color: rgb(224, 60, 49);
   text-decoration: none;
 
 }
@@ -30,9 +26,9 @@ a:hover {
 }
 
 div#navbtns {
-  margin-top: 30px;
+  margin-top: 90px;
 }
 
 div.container {
-  margin: 15px;
+  /* margin: 15px; */
 }
