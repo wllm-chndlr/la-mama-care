@@ -39,6 +39,7 @@ const AppBarTop = () => (
   //   }}
   // >
   <Container fluid>
+    <div className="app-main">
     <Row>
       <Col size="md-6">
         <a href="/">
@@ -46,10 +47,10 @@ const AppBarTop = () => (
             src={logo}
             alt={"logo"}
             style={{
-              width: "50%",
-              height: "50%",
+              width: "33%",
+              height: "33%",
               padding: "2%",
-              marginBottom: "30px"
+              margin: "2%"
             }}
           />
         </a>
@@ -60,7 +61,7 @@ const AppBarTop = () => (
             <a href="/home">home</a>
           </li> */}
           <li role="presentation">
-            <a href="/boxes">care packages</a>
+            <a href="/boxes">care kits</a>
           </li>
           <li role="presentation">
             <a href="/resources">resources</a>
@@ -71,6 +72,7 @@ const AppBarTop = () => (
         </ul>
       </Col>
     </Row>
+    </div>
   </Container>
   // </AppBar>
 );

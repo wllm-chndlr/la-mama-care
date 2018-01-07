@@ -7,7 +7,7 @@ import CardExample from "../../components/Card";
 
 const Packages = () => (
   <Container fluid>
-    <Tagline>Care Packages</Tagline>
+    <Tagline>Care Kits</Tagline>
     <Row>
       <Col size="md-1" />
       <Col size="md-2">

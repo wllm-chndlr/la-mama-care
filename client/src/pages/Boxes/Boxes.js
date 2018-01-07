@@ -61,7 +61,7 @@ class Boxes extends Component {
   render() {
     return (
       <Container fluid>
-          <Tagline>Care Packages</Tagline>
+          <Tagline>Care Kits</Tagline>
         <Row>
           {/* <Col size="md-6">
             <Jumbotron>
@@ -114,7 +114,7 @@ class Boxes extends Component {
 
               {this.state.boxes.map(box => (
 
-                <Col size="md-4">
+                <Col size="md-3">
                 
                   <CardExample
                     image={packageImg}
