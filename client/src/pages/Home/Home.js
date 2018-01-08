@@ -43,7 +43,7 @@ const Home = () => (
     </Row>
 
     <Row>
-      <Col size="md-8">
+      <Col size="md-12">
         <div className="p-a">
           La Mama Care is focused on a mother’s holistic wellbeing immediately
           following childbirth. Started by three mamas who know firsthand how
@@ -56,7 +56,7 @@ const Home = () => (
           period.
         </div>
       </Col>
-      <Col size="md-4" />
+      {/* <Col size="md-4" /> */}
     </Row>
 
     <Row>
