@@ -24,3 +24,12 @@ div#teal-top {
 #buttondiv {
   text-align: center;
 }
+
+.p-a {
+  color: rgb(90, 90, 90);
+  font-family: 'Oswald', sans-serif;
+  margin: 5%;
+  line-height: 1.5;
+  font-size: 2rem;
+  padding: 5% 5% 5% 5%;
+}
