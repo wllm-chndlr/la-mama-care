@@ -15,7 +15,7 @@ const Tagline = props => (
               fontSize: "50px",
               color: "rgb(90, 90, 90)",
               // backgroundColor: "rgb(182, 207, 208)",
-              marginBottom: "5%",
+              marginBottom: "3%",
               // marginLeft: "3%",
               padding: "20px 40px",
               // borderTop: "1px solid rgb(0, 125, 138)",

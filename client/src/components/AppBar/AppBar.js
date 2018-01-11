@@ -2,6 +2,7 @@ import React from "react";
 import AppBar from "material-ui/AppBar";
 import { Col, Row, Container } from "../../components/Grid";
 import logo from '../../images/logo.png'
+import cart from '../../images/cart.svg'
 import "./AppBar.css";
 
 
@@ -55,7 +56,7 @@ const AppBarTop = () => (
           />
         </a>
       </Col>
-      <Col size="md-6" id="navbtns" style={{ marginTop: "30px" }}>
+      <Col size="md-4" id="navbtns" style={{ marginTop: "30px" }}>
         <ul className="nav nav-pills nav-justified">
           {/* <li role="presentation">
             <a href="/home">home</a>
@@ -70,6 +71,16 @@ const AppBarTop = () => (
             <a href="/about">about</a>
           </li>
         </ul>
+      </Col>
+      <Col size="md-2" id="cart-icon">
+        <img 
+          src={cart}
+          alt={cart}
+          style={{
+            padding: "2%",
+            margin: "2%"
+          }}
+        />
       </Col>
     </Row>
     </div>

@@ -142,7 +142,7 @@ const Home = () => (
               over the next year.
             </li>
           </ul>
-          <p>          All items will come with helpful hints on how to use and where to
+          <p style={{ color: "#fff"}}>All items will come with helpful hints on how to use and where to
           purchase additional supplies, as well as other available options at a
           variety of price points.</p>
         </div>

@@ -113,7 +113,7 @@ class Boxes extends Component {
 
               {this.state.boxes.map(box => (
 
-                <Col size="md-3">
+                <Col size="md-4">
                 
                   <CardExample
                     image={packageImg}
