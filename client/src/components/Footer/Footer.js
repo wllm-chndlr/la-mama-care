@@ -23,7 +23,6 @@ const Foot = () => (
           <p className="foot-cont">Contact</p>
         </Col>
         <Col size="md-6">
-          <p>Keep in touch: ________</p>
           <p className="foot-cont">© La Mama Care 2017</p>
         </Col>
       </Row>

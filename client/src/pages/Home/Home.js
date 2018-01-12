@@ -3,7 +3,9 @@ import { Col, Row, Container } from "../../components/Grid";
 import Jumbotron from "../../components/Jumbotron";
 import Paper from "../../components/Paper";
 import Tagline from "../../components/Tagline";
+import TextField from 'material-ui/TextField';
 import "./Home.css";
+
 
 const Home = () => (
   <Container fluid>
@@ -167,7 +169,14 @@ const Home = () => (
     <Row>
       <Col size="md-3" />
       <Col size="md-6">
-        <div />
+        <div>
+          <p>Sign up</p>
+          <TextField
+            hintText="supermama@hero.org"
+            floatingLabelText="Email"
+          />
+          <br />
+        </div>
       </Col>
       <Col size="md-3" />
     </Row>

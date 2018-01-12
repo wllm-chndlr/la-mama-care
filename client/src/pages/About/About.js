@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
 import Tagline from "../../components/Tagline";
+import jc from '../../images/jc.jpg'
 import "./About.css";
 
 
@@ -24,10 +25,20 @@ const About = () => (
           period.
         </div>
       </Col>
-      <Col size="md-4" />
+      <Col size="md-4">
+        <img 
+          src={jc}
+          style={{ 
+            width: "100%", 
+            height: "100%",
+            transform: "rotate(90deg)" 
+          }}
+        />
+      </Col>
     </Row>
 
     <Row>
+      <Col size="md-4" />
       <Col size="md-8">
         <div className="p-a">
           <p className="p-header">Anne Clary</p>
@@ -43,7 +54,6 @@ const About = () => (
           period.
         </div>
       </Col>
-      <Col size="md-4" />
     </Row>
 
     <Row>
@@ -64,7 +74,6 @@ const About = () => (
       </Col>
       <Col size="md-4" />
     </Row>
-
   </Container>
 );
 
