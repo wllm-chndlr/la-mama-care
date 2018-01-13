@@ -4,6 +4,7 @@ import Jumbotron from "../../components/Jumbotron";
 import Paper from "../../components/Paper";
 import Tagline from "../../components/Tagline";
 import TextField from 'material-ui/TextField';
+import RaisedButton from "material-ui/RaisedButton";
 import "./Home.css";
 
 
@@ -36,7 +37,7 @@ const Home = () => (
                 borderRadius: "10px",
                 padding: "10px 20px"
               }}
-              onClick={() => window.location.href='/boxes'}
+              onClick={() => (window.location.href = "/boxes")}
             >
               View care kits
             </button>
@@ -144,9 +145,11 @@ const Home = () => (
               over the next year.
             </li>
           </ul>
-          <p style={{ color: "#fff"}}>All items will come with helpful hints on how to use and where to
-          purchase additional supplies, as well as other available options at a
-          variety of price points.</p>
+          <p style={{ color: "#fff" }}>
+            All items will come with helpful hints on how to use and where to
+            purchase additional supplies, as well as other available options at
+            a variety of price points.
+          </p>
         </div>
       </Col>
     </Row>
@@ -166,20 +169,6 @@ const Home = () => (
       <Col size="md-2" />
     </Row>
 
-    <Row>
-      <Col size="md-3" />
-      <Col size="md-6">
-        <div>
-          <p>Sign up</p>
-          <TextField
-            hintText="supermama@hero.org"
-            floatingLabelText="Email"
-          />
-          <br />
-        </div>
-      </Col>
-      <Col size="md-3" />
-    </Row>
   </Container>
 );
 
