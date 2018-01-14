@@ -5,6 +5,7 @@ import Paper from "../../components/Paper";
 import Tagline from "../../components/Tagline";
 import TextField from 'material-ui/TextField';
 import RaisedButton from "material-ui/RaisedButton";
+import mom1 from "../../images/mom1.jpeg";
 import "./Home.css";
 
 
@@ -28,19 +29,20 @@ const Home = () => (
               childbirth, our postpartum care kits provide moms with must-have
               self-care items for this critical time.
             </h3>
-            <button
-              style={{
-                alignContent: "center",
-                backgroundColor: "#444",
-                marginTop: "15px",
-                color: "#fff",
-                borderRadius: "10px",
-                padding: "10px 20px"
-              }}
+            <RaisedButton
+              label="View care kits"
+              primary={false}
+              style={{ margin: "12px" }}
+              // style={{
+              //   alignContent: "center",
+              //   backgroundColor: "#444",
+              //   marginTop: "15px",
+              //   color: "#fff",
+              //   borderRadius: "10px",
+              //   padding: "10px 20px"
+              // }}
               onClick={() => (window.location.href = "/boxes")}
-            >
-              View care kits
-            </button>
+            />
           </div>
         </Col>
         {/* <Col size="md-3" /> */}
@@ -48,10 +50,9 @@ const Home = () => (
     </Row>
 
     <Row>
-      <Col size="md-12">
+      <Col size="md-7">
         <div className="p-a">
-          La Mama Care is focused on a mother’s holistic wellbeing immediately
-          following childbirth. Started by three mamas who know firsthand how
+          Started by three mamas who know firsthand how
           life-changing the first few days, weeks, and months can be, La Mama
           Care was conceived with parents from all walks of life in mind.
           Whether it is a first time mom or one who already has little ones at
@@ -60,6 +61,9 @@ const Home = () => (
           to feel nourished, supported, and strengthened during the postpartum
           period.
         </div>
+      </Col>
+      <Col size="md-5">
+        <img src={mom1} style={{ maxWidth: "100%" }} />
       </Col>
       {/* <Col size="md-4" /> */}
     </Row>
@@ -168,7 +172,6 @@ const Home = () => (
 
       <Col size="md-2" />
     </Row>
-
   </Container>
 );
 

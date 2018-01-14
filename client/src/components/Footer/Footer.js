@@ -16,27 +16,32 @@ const Foot = () => (
     >
       {/* <footer> */}
       <Row>
-        <Col size="md-3"/>
+        <Col size="md-3" />
         <Col size="md-6">
           <div className="mailing">
             <TextField
               hintText="supermama@hero.org"
               floatingLabelText="Sign up"
+              style={{ width: "50%", marginLeft: "30px" }}
             />
-            <RaisedButton label="Submit" style={{ margin: "12px" }} />
+            <RaisedButton
+              label="Submit"
+              primary={true}
+              style={{ margin: "12px" }}
+            />
           </div>
         </Col>
         <Col size="md-3" />
       </Row>
 
       <Row>
-        <Col size="md-1" />
+        <Col size="md-2" />
         <Col size="md-3">
           <p className="foot-cont">Twit</p>
           <p className="foot-cont">Inst</p>
           <p className="foot-cont">Face</p>
         </Col>
-        <Col size="md-4">
+        <Col size="md-3">
           <p className="foot-cont">Contact</p>
           <p className="foot-cont">About Us</p>
         </Col>
