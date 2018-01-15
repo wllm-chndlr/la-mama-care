@@ -1,7 +1,5 @@
 import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
-import Jumbotron from "../../components/Jumbotron";
-import Paper from "../../components/Paper";
 import Tagline from "../../components/Tagline";
 import TextField from 'material-ui/TextField';
 import RaisedButton from "material-ui/RaisedButton";

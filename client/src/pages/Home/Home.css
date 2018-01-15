@@ -33,3 +33,7 @@ div#teal-top {
   font-size: 2rem;
   padding: 5% 5% 5% 5%;
 }
+
+#facts {
+  color: rgb(90, 90, 90);  
+}

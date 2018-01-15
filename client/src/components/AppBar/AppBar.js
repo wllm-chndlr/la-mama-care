@@ -41,46 +41,46 @@ const AppBarTop = () => (
   // >
   <Container fluid>
     <div className="app-main">
-    <Row>
-      <Col size="md-6">
-        <a href="/">
-          <img
-            src={logo}
-            alt={"logo"}
-            style={{
-              width: "33%",
-              height: "33%",
-              padding: "2%",
-              margin: "2%"
-            }}
-          />
-        </a>
-      </Col>
-      <Col size="md-6" id="navbtns" style={{ marginTop: "30px" }}>
-        <ul className="nav nav-pills nav-justified">
-          {/* <li role="presentation">
+      <Row>
+        <Col size="md-6">
+          <a href="/">
+            <img
+              src={logo}
+              alt={"logo"}
+              style={{
+                width: "33%",
+                height: "33%",
+                padding: "2%",
+                margin: "2%"
+              }}
+            />
+          </a>
+        </Col>
+        <Col size="md-6" id="navbtns" style={{ marginTop: "30px" }}>
+          <ul className="nav nav-pills nav-justified">
+            {/* <li role="presentation">
             <a href="/home">home</a>
           </li> */}
-          <li role="presentation">
-            <a href="/boxes">care kits</a>
-          </li>
-          <li role="presentation">
-            <a href="/resources">resources</a>
-          </li>
-          <li role="presentation">
-            <a href="/about">about</a>
-          </li>
-        </ul>
-        <img 
-          src={cart}
-          alt={cart}
-          style={{
-            padding: "2%",
-            margin: "2%"
-          }}
-        />
-      </Col>
-    </Row>
+            <li role="presentation">
+              <a href="/boxes">care kits</a>
+            </li>
+            <li role="presentation">
+              <a href="/resources">resources</a>
+            </li>
+            <li role="presentation">
+              <a href="/about">about</a>
+            </li>
+            <li role="presentation">
+              <a href="/boxes">
+                <img
+                src={cart}
+                alt={cart}
+                />
+              </a>
+            </li>
+          </ul>
+        </Col>
+      </Row>
     </div>
   </Container>
   // </AppBar>
