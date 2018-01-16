@@ -9,6 +9,9 @@ import "./About.css";
 
 const About = () => (
   <Container fluid className="cont-a">
+
+    <div id="about-main">
+
     <Tagline>About Us</Tagline>
 
     <Row>
@@ -31,11 +34,11 @@ const About = () => (
         <img 
           src={jc}
           style={{ 
-            width: "100%", 
-            height: "100%",
-            margin: "5rem",
+            width: "80%", 
+            height: "80%",
+            // margin: "5rem",
             borderRadius: "5px",
-            transform: "rotate(90deg)" 
+            // transform: "rotate(90deg)" 
           }}
         />
       </Col>
@@ -48,7 +51,7 @@ const About = () => (
           style={{ 
             width: "80%", 
             height: "80%",
-            margin: "5rem",
+            marginLeft: "6%",
             borderRadius: "5px"
           }}
         />
@@ -92,12 +95,15 @@ const About = () => (
           style={{ 
             width: "80%", 
             height: "80%",
-            margin: "5rem",
+            // margin: "5rem",
             borderRadius: "5px"
           }}
         />
       </Col>
     </Row>
+
+    </div>
+
   </Container>
 );
 
