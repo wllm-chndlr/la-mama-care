@@ -1,5 +1,9 @@
 div#about-main {
-  background-image: url('../../images/stardust.png');
+  /* background-image: url('../../images/stardust.png'); */
+  /* background-image: url('../../images/foil.png');   */
+  background-image: url('../../images/sos.png');
+  
+  /* background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png"); */
 }
 
 .p-a {

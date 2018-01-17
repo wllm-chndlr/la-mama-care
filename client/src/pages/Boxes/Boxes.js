@@ -8,6 +8,7 @@ import { Input, TextArea, FormBtn } from "../../components/Form";
 import CardExample from "../../components/Card";
 import Tagline from "../../components/Tagline";
 import packageImg from "../../images/package.jpeg";
+import "./Boxes.css";
 
 
 class Boxes extends Component {
@@ -60,81 +61,88 @@ class Boxes extends Component {
   render() {
     return (
       <Container fluid>
+
+        <div id="boxes-main">
+
           <Tagline>Care Kits</Tagline>
-        <Row>
-          {/* <Col size="md-6">
-            <Jumbotron>
-              <h3>Add new box</h3>
-            </Jumbotron>
-            <form>
-              <Input
-                value={this.state.title}
-                onChange={this.handleInputChange}
-                name="title"
-                placeholder="Title (required)"
-              />
-              <Input
-                value={this.state.price}
-                onChange={this.handleInputChange}
-                name="price"
-                placeholder="Price (required)"
-              />
-              <Input
-                value={this.state.image}
-                onChange={this.handleInputChange}
-                name="image"
-                placeholder="Image (required)"
-              />
-              <TextArea
-                value={this.state.description}
-                onChange={this.handleInputChange}
-                name="description"
-                placeholder="Description (Optional)"
-              />
-              <Input
-                value={this.state.quantity}
-                onChange={this.handleInputChange}
-                name="quantity"
-                placeholder="Quantity (required)"
-              />
-              <FormBtn
-                disabled={!(this.state.price && this.state.title)}
-                onClick={this.handleFormSubmit}
-              >
-                Submit Box
-              </FormBtn>
-            </form>
-          </Col> */}
-          <Col size="md-12 sm-12">
+          
+          <Row>
+            {/* <Col size="md-6">
+              <Jumbotron>
+                <h3>Add new box</h3>
+              </Jumbotron>
+              <form>
+                <Input
+                  value={this.state.title}
+                  onChange={this.handleInputChange}
+                  name="title"
+                  placeholder="Title (required)"
+                />
+                <Input
+                  value={this.state.price}
+                  onChange={this.handleInputChange}
+                  name="price"
+                  placeholder="Price (required)"
+                />
+                <Input
+                  value={this.state.image}
+                  onChange={this.handleInputChange}
+                  name="image"
+                  placeholder="Image (required)"
+                />
+                <TextArea
+                  value={this.state.description}
+                  onChange={this.handleInputChange}
+                  name="description"
+                  placeholder="Description (Optional)"
+                />
+                <Input
+                  value={this.state.quantity}
+                  onChange={this.handleInputChange}
+                  name="quantity"
+                  placeholder="Quantity (required)"
+                />
+                <FormBtn
+                  disabled={!(this.state.price && this.state.title)}
+                  onClick={this.handleFormSubmit}
+                >
+                  Submit Box
+                </FormBtn>
+              </form>
+            </Col> */}
+            <Col size="md-12 sm-12">
 
-            {this.state.boxes.length ? (
+              {this.state.boxes.length ? (
 
-            <div>
+              <div>
 
-              {this.state.boxes.map(box => (
+                {this.state.boxes.map(box => (
 
-                <Col size="md-4">
-                
-                  <CardExample
-                    image={packageImg}
-                    title={box.title}
-                    price={box.price}
-                    description={box.description}
-                  />
+                  <Col size="md-4">
+                  
+                    <CardExample
+                      image={packageImg}
+                      title={box.title}
+                      price={box.price}
+                      description={box.description}
+                    />
 
-                </Col>
+                  </Col>
 
-              ))}
+                ))}
 
-            </div>
+              </div>
 
 
 
-            ) : (
-              <h3>No Results to Display</h3>
-            )}
-          </Col>
-        </Row>
+              ) : (
+                <h3>No Results to Display</h3>
+              )}
+            </Col>
+          </Row>
+      
+        </div>
+        
       </Container>
     );
   }

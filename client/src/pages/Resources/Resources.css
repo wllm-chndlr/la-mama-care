@@ -1,0 +1,5 @@
+div#resources-main {
+  /* background-image: url('../../images/stardust.png'); */
+  background-image: url('../../images/foil.png');
+  min-height: 600px;
+}
