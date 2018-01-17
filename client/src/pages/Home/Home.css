@@ -1,6 +1,7 @@
 div#home-main {
   /* background-image: url('../../images/stardust.png'); */
   background-image: url('../../images/sos.png');
+  margin-top: 100px;
 }
 
 h1, h3 {

@@ -1,6 +1,7 @@
 * {
   font-family: 'Oswald', cursive;
   color: rgb (90,90,90);
+  
 }
 
 html, body, #root {
@@ -8,7 +9,7 @@ html, body, #root {
   margin: 0;
   height: 100%;
   color: #444;
-  /* background-image: url('images/stardust.png'); */
+  background-image: url('images/sos.png');
   /* min-height: 100%; */
 }
 

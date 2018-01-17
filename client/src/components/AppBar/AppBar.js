@@ -48,9 +48,9 @@ const AppBarTop = () => (
               src={logo}
               alt={"logo"}
               style={{
-                width: "33%",
-                height: "33%",
-                padding: "2%",
+                width: "20%",
+                height: "20%",
+                // padding: "2%",
                 margin: "2%"
               }}
             />
