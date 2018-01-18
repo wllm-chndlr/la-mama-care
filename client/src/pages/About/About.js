@@ -33,6 +33,7 @@ const About = () => (
       <Col size="md-4">
         <img 
           src={jc}
+          alt="jacqueline chandler"
           style={{ 
             width: "80%", 
             height: "80%",
@@ -48,6 +49,7 @@ const About = () => (
       <Col size="md-4">
         <img 
           src={ac}
+          alt="anne clary"
           style={{ 
             width: "80%", 
             height: "80%",
@@ -92,6 +94,7 @@ const About = () => (
       <Col size="md-4">
         <img 
           src={nm}
+          alt="nique mayo"
           style={{ 
             width: "80%", 
             height: "80%",

@@ -33,5 +33,6 @@ a:hover {
   position: fixed;
   z-index: 1000;
   background-color: #fff;
+  min-height: 100px;
   /* margin-bottom: 4rem; */
 }

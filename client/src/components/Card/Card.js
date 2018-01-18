@@ -9,6 +9,7 @@ import {
 } from "material-ui/Card";
 import FlatButton from "material-ui/FlatButton";
 import RaisedButton from "material-ui/RaisedButton";
+import ModalModalExample from "../../components/Modal";
 import "./Card.css";
 
 const CardExample = props => (
@@ -56,15 +57,14 @@ const CardExample = props => (
       style={{ fontSize: "18px", color: "rgb(0, 125, 138)" }}
     >
       {/* {props.description} */}
-      <div style={{ margin: "2rem"}}>
-        ${props.price}
-      </div>
+      <div style={{ marginLeft: "2rem" }}>${props.price}</div>
       <ul>
         <li className="kit-items">Item1</li>
         <li className="kit-items">Item2</li>
         <li className="kit-items">Item3</li>
       </ul>
     </CardText>
+    <ModalModalExample />
     <CardActions>
       <FlatButton
         label="Add to cart"

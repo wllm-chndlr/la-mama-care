@@ -4,6 +4,7 @@ import Tagline from "../../components/Tagline";
 import TextField from 'material-ui/TextField';
 import RaisedButton from "material-ui/RaisedButton";
 import mom1 from "../../images/mom1.jpeg";
+import ModalModalExample from "../../components/Modal";
 import "./Home.css";
 
 
@@ -45,6 +46,7 @@ const Home = () => (
                 // }}
                 onClick={() => (window.location.href = "/boxes")}
               />
+              <ModalModalExample/>
             </div>
           </Col>
           {/* <Col size="md-3" /> */}
