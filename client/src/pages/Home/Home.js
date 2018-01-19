@@ -4,6 +4,7 @@ import Tagline from "../../components/Tagline";
 import TextField from 'material-ui/TextField';
 import RaisedButton from "material-ui/RaisedButton";
 import mom1 from "../../images/mom1.jpeg";
+import mom2 from "../../images/mom2.jpeg";
 import ModalModalExample from "../../components/Modal";
 import "./Home.css";
 
@@ -13,7 +14,7 @@ const Home = () => (
     <div id="home-main">
       {/* <Tagline>Not all heroes wear capes.</Tagline> */}
       <Row>
-        <div id="teal-top" style={{ backgroundColor: "rgb(0, 178, 169)" }}>
+        <div style={{ backgroundColor: "rgb(0, 178, 169)" }}>
           {/* <Col size="md-3" /> */}
           <Col size="md-12">
             <div id="top">
@@ -46,7 +47,7 @@ const Home = () => (
                 // }}
                 onClick={() => (window.location.href = "/boxes")}
               />
-              <ModalModalExample/>
+              {/* <ModalModalExample/> */}
             </div>
           </Col>
           {/* <Col size="md-3" /> */}
@@ -54,24 +55,25 @@ const Home = () => (
       </Row>
 
       <Row>
-        <Col size="md-7">
-          <div className="p-a">
-            Started by three mamas who know firsthand how life-changing the
-            first few days, weeks, and months can be, La Mama Care was conceived
-            with parents from all walks of life in mind. Whether it is a first
-            time mom or one who already has little ones at home, one who is
-            breast or bottle feeding, is recovering from a cesarean birth or
-            rocked a home birth, she is a superhero who deserves to feel
-            nourished, supported, and strengthened during the postpartum period.
-          </div>
+        <Col size="md-12">
+          <img src={mom2} style={{ maxWidth: "100%" }} />
         </Col>
-        <Col size="md-5">
-          <img src={mom1} style={{ maxWidth: "100%" }} />
-        </Col>
-        {/* <Col size="md-4" /> */}
       </Row>
 
       <Row>
+        <Col size="md-12">
+          <div className="p-a" id="three-mamas">
+            <p>Started by three mamas who know firsthand how life-changing the
+            first few days, weeks, and months can be, La Mama Care was conceived
+            with parents from all walks of life in mind.</p>
+            
+            <p>Whether it is a first time mom or one who already has little ones at home, one who is breast or bottle feeding, is recovering from a cesarean birth or rocked a home birth, she is a superhero who deserves to feel
+            nourished, supported, and strengthened during the postpartum period.</p>
+          </div>
+        </Col>
+      </Row>
+
+      {/* <Row>
         <Col size="md-12">
           <div className="p-a" id="facts">
             <p className="p-header">The facts</p>
@@ -97,9 +99,9 @@ const Home = () => (
             </ul>
           </div>
         </Col>
-      </Row>
+      </Row> */}
 
-      <Row>
+      {/* <Row>
         <Col size="md-12">
           <div className="p-a">
             <p>Bottom line:</p>
@@ -110,12 +112,12 @@ const Home = () => (
             </p>
           </div>
         </Col>
-      </Row>
+      </Row> */}
 
       <Row>
         <Col size="md-12">
           <div className="p-a">
-            This is where La Mama Care steps in. Our care kits are intended to
+            Our care kits are intended to
             provide moms with the sustenance and supplies they need to ensure
             their own self care during this critical time in their lives when
             time for themselves is limited. Through handy, healthy snacks and

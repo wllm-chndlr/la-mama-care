@@ -16,7 +16,7 @@ const About = () => (
 
     <Row>
       <Col size="md-8">
-        <div className="p-a">
+        <div className="p-bio">
           <p className="p-header">Jacqueline Chandler</p>
           <br />
           La Mama Care is focused on a mother’s holistic wellbeing immediately
@@ -37,7 +37,7 @@ const About = () => (
           style={{ 
             width: "80%", 
             height: "80%",
-            // margin: "5rem",
+            marginBottom: "5rem",
             borderRadius: "5px",
             // transform: "rotate(90deg)" 
           }}
@@ -54,12 +54,13 @@ const About = () => (
             width: "80%", 
             height: "80%",
             marginLeft: "6%",
+            marginBottom: "5rem",
             borderRadius: "5px"
           }}
         />
       </Col>
       <Col size="md-8">
-        <div className="p-a">
+        <div className="p-bio">
           <p className="p-header">Anne Clary</p>
           <br />
           La Mama Care is focused on a mother’s holistic wellbeing immediately
@@ -77,7 +78,7 @@ const About = () => (
 
     <Row>
       <Col size="md-8">
-        <div className="p-a">
+        <div className="p-bio">
           <p className="p-header">Nique Mayo</p>
           <br />
           La Mama Care is focused on a mother’s holistic wellbeing immediately
@@ -98,7 +99,7 @@ const About = () => (
           style={{ 
             width: "80%", 
             height: "80%",
-            // margin: "5rem",
+            marginBottom: "5rem",
             borderRadius: "5px"
           }}
         />
