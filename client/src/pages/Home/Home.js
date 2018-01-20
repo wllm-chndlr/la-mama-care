@@ -63,12 +63,14 @@ const Home = () => (
       <Row>
         <Col size="md-12">
           <div className="p-a" id="three-mamas">
-            <p>Started by three mamas who know firsthand how life-changing the
-            first few days, weeks, and months can be, La Mama Care was conceived
-            with parents from all walks of life in mind.</p>
-            
-            <p>Whether it is a first time mom or one who already has little ones at home, one who is breast or bottle feeding, is recovering from a cesarean birth or rocked a home birth, she is a superhero who deserves to feel
-            nourished, supported, and strengthened during the postpartum period.</p>
+            <div id="three-mamas-text">
+              <p>Started by three mamas who know firsthand how life-changing the
+              first few days, weeks, and months can be, La Mama Care was conceived
+              with parents from all walks of life in mind.</p>
+              
+              <p>Whether it is a first time mom or one who already has little ones at home, one who is breast or bottle feeding, is recovering from a cesarean birth or rocked a home birth, she is a superhero who deserves to feel
+              nourished, supported, and strengthened during the postpartum period.</p>
+            </div>
           </div>
         </Col>
       </Row>

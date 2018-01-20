@@ -6,7 +6,12 @@ div#home-main {
 
 #three-mamas {
   background-image: url('../../images/stardust.png');
-  color: #fff;  
+  color: rgb(199, 199, 199);  
+}
+
+#three-mamas-text {
+  max-width: 66%;
+  margin: auto;
 }
 
 h1, h3 {
