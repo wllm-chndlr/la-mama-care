@@ -5,6 +5,8 @@ import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Sign from "./pages/Sign";
+
 import Packages from "./pages/Packages";
 import Resources from "./pages/Resources";
 // import Nav from "./components/Nav";
@@ -26,6 +28,7 @@ const App = () => (
           <Route exact path="/packages" component={Packages} />
           <Route exact path="/resources" component={Resources} />
           <Route exact path="/boxes" component={Boxes} />
+          <Route exact path="/sign" component={Sign} />
           <Route exact path="/boxes/:id" component={Detail} />
           <Route component={NoMatch} />
         </Switch>
