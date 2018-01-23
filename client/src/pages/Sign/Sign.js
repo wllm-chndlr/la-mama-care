@@ -13,11 +13,8 @@ import "./Sign.css";
 
 class Boxes extends Component {
   state = {
-    // boxes: [],
-    firstname: "",
-    lastname: "",
+    name: "",
     email: "",
-    username: "",
     password: ""
   };
 
@@ -50,7 +47,8 @@ class Boxes extends Component {
   };
 
   render() {
-    return <Container fluid>
+    return (
+      <Container fluid>
         <div id="sign-main">
           <Tagline>Sign up or sign in</Tagline>
 
@@ -59,10 +57,28 @@ class Boxes extends Component {
             <Col size="md-4">
               <h3 className="sign">Sign up</h3>
               <form>
-                <Input value={this.state.name} onChange={this.handleInputChange} name="name" placeholder="Name (required)" />
-                <Input value={this.state.email} onChange={this.handleInputChange} name="email" placeholder="Email (required)" />
-                <Input value={this.state.password} onChange={this.handleInputChange} name="password" placeholder="Password (required)" />
-                <FormBtn disabled={!(this.state.name && this.state.email)} onClick={this.handleFormSubmit}>
+                <Input
+                  value={this.state.name}
+                  onChange={this.handleInputChange}
+                  name="name"
+                  placeholder="Name (required)"
+                />
+                <Input
+                  value={this.state.email}
+                  onChange={this.handleInputChange}
+                  name="email"
+                  placeholder="Email (required)"
+                />
+                <Input
+                  value={this.state.password}
+                  onChange={this.handleInputChange}
+                  name="password"
+                  placeholder="Password (required)"
+                />
+                <FormBtn
+                  disabled={!(this.state.name && this.state.email)}
+                  onClick={this.handleFormSubmit}
+                >
                   Submit
                 </FormBtn>
               </form>
@@ -72,9 +88,22 @@ class Boxes extends Component {
             <Col size="md-4">
               <h3 className="sign">Sign in</h3>
               <form>
-                <Input value={this.state.email} onChange={this.handleInputChange} name="email" placeholder="Email (required)" />
-                <Input value={this.state.password} onChange={this.handleInputChange} name="password" placeholder="Password (required)" />
-                <FormBtn disabled={!(this.state.email && this.state.password)} onClick={this.handleFormSubmit}>
+                <Input
+                  value={this.state.email}
+                  onChange={this.handleInputChange}
+                  name="email"
+                  placeholder="Email (required)"
+                />
+                <Input
+                  value={this.state.password}
+                  onChange={this.handleInputChange}
+                  name="password"
+                  placeholder="Password (required)"
+                />
+                <FormBtn
+                  disabled={!(this.state.email && this.state.password)}
+                  onClick={this.handleFormSubmit}
+                >
                   Submit
                 </FormBtn>
               </form>
@@ -82,7 +111,8 @@ class Boxes extends Component {
             <Col size="md-2" />
           </Row>
         </div>
-      </Container>;
+      </Container>
+    );
   }
 }
 
