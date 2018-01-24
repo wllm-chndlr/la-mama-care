@@ -59,13 +59,10 @@ class Boxes extends Component {
   };
 
   render() {
-    return (
-      <Container fluid>
-
+    return <Container fluid>
         <div id="boxes-main">
-
           <Tagline>Care Kits</Tagline>
-          
+
           <Row>
             {/* <Col size="md-6">
               <Jumbotron>
@@ -111,40 +108,27 @@ class Boxes extends Component {
               </form>
             </Col> */}
             <Col size="md-12 sm-12">
-
-              {this.state.boxes.length ? (
-
-              <div>
-
-                {this.state.boxes.map(box => (
-
-                  <Col size="md-4">
-                  
-                    <CardExample
-                      image={packageImg}
-                      title={box.title}
-                      price={box.price}
-                      description={box.description}
-                    />
-
-                  </Col>
-
-                ))}
-
-              </div>
-
-
-
-              ) : (
-                <h3>No Results to Display</h3>
-              )}
+              {this.state.boxes.length ? <div>
+                  {this.state.boxes.map(box => <Col size="md-4">
+                      <CardExample image={packageImg} title={box.title} price={box.price} description={box.description} />
+                    </Col>)}
+                </div> : <h3>No Results to Display</h3>}
             </Col>
           </Row>
-      
+
+          <Row>
+            <p>
+              La Mama Care strives not only to support and nourish, but also
+              educate moms during this important time.
+            </p>
+            <p>
+              All items will come with helpful hints on how to use and where
+              to purchase additional supplies, as well as other available
+              options at a variety of price points.
+            </p>
+          </Row>
         </div>
-        
-      </Container>
-    );
+      </Container>;
   }
 }
 
