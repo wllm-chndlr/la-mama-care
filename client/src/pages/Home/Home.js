@@ -18,7 +18,12 @@ const Home = () => (
           {/* <Col size="md-3" /> */}
           <Col size="md-12">
             <div id="top">
-              <h1>Even superheroes need support.</h1>
+              <span>
+                <p id="header">
+                  Even <p id="super" className="animated zoomInLeft">superheroes</p> need
+                  support.
+                </p>
+              </span>
               <h3
                 style={{
                   maxWidth: "50%",
@@ -171,10 +176,10 @@ const Home = () => (
 
         <Col size="md-8">
           <div className="p-a">
-            Our hope is that every mom receives the love and support
-            she deserves after embarking on one of life’s most exciting
-            journeys. We hope to build not just a product, but a community that
-            continues to grow and nurture each other through the years.
+            Our hope is that every mom receives the love and support she
+            deserves after embarking on one of life’s most exciting journeys. We
+            hope to build not just a product, but a community that continues to
+            grow and nurture each other through the years.
           </div>
         </Col>
 

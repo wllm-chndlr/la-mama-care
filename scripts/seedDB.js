@@ -13,6 +13,7 @@ mongoose.connect(
 
 const boxSeed = [
   {
+    itemID: 1,
     title: "Numero Uno",
     price: 35,
     image:
@@ -22,6 +23,7 @@ const boxSeed = [
     date: new Date(Date.now())
   },
   {
+    itemID: 2,
     title: "Austin Native",
     price: 45,
     image:
@@ -31,6 +33,7 @@ const boxSeed = [
     date: new Date(Date.now())
   },
   {
+    itemID: 3,
     title: "Pamper Perfect",
     price: 50,
     image:

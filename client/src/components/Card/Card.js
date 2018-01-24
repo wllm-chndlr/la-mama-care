@@ -69,6 +69,13 @@ const CardExample = props => (
       <FlatButton
         label="Add to cart"
         style={{ margin: "10px", paddingBottom: "10px" }}
+        className="snipcart-add-item"
+        data-item-id={props.itemID}
+        data-item-name={props.title}
+        data-item-price={props.price}
+        data-item-weight="5"
+        data-item-url="/boxes"
+        data-item-description={props.description}
       />
     </CardActions>
   </Card>

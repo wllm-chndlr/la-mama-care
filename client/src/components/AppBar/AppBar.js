@@ -71,11 +71,8 @@ const AppBarTop = () => (
               <a href="/about">about</a>
             </li>
             <li role="presentation">
-              <a href="/boxes">
-                <img
-                src={cart}
-                alt={cart}
-                />
+              <a href="#" className="snipcart-checkout">
+                <img src={cart} alt={cart} />
               </a>
             </li>
           </ul>
@@ -87,3 +84,4 @@ const AppBarTop = () => (
 );
 
 export default AppBarTop;
+
