@@ -20,9 +20,13 @@ footer {
 
 .foot-cont {
   color: rgb(90, 90, 90);
-  /* text-align: center; */
   font-family: 'Fjalla One', cursive;
   font-size: 12px;
+}
+
+.social-icon {
+  padding: 3%;
+  filter: grayscale(50%);
 }
 
 .mailing {

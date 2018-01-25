@@ -4,7 +4,9 @@ import { Col, Row, Container } from "../../components/Grid";
 import Navbar from "react";
 import TextField from "material-ui/TextField";
 import RaisedButton from "material-ui/RaisedButton";
-
+import Twitter from "../../images/twitter.svg";
+import Instagram from "../../images/instagram.svg";
+import Facebook from "../../images/facebook.svg";
 
 
 const Foot = () => (
@@ -37,9 +39,17 @@ const Foot = () => (
       <Row>
         <Col size="md-2" />
         <Col size="md-3">
-          <p className="foot-cont">Twit</p>
-          <p className="foot-cont">Inst</p>
-          <p className="foot-cont">Face</p>
+          <span>
+            <a href="#">
+              <img src={Twitter} className="social-icon" />
+            </a>
+            <a href="#">
+              <img src={Instagram} className="social-icon" />
+            </a>
+            <a href="#">
+              <img src={Facebook} className="social-icon" />
+            </a>
+          </span>
         </Col>
         <Col size="md-3">
           <p className="foot-cont">Contact</p>

@@ -19,11 +19,15 @@ const Home = () => (
           <Col size="md-12">
             <div id="top">
               <span>
-                <p id="header">
-                  Even <p id="super" className="animated zoomInLeft">superheroes</p> need
-                  support.
-                </p>
+                <div id="header">
+                  Even{" "}
+                  <p id="super" className="animated zoomInLeft">
+                    superheroes
+                  </p>{" "}
+                  need support.
+                </div>
               </span>
+              <br />
               <h3
                 style={{
                   maxWidth: "50%",
@@ -35,7 +39,7 @@ const Home = () => (
                 childbirth, our postpartum care kits provide moms with must-have
                 self-care items for this critical time.
               </h3>
-              <RaisedButton
+              {/* <RaisedButton
                 label="View care kits"
                 primary={false}
                 style={{
@@ -51,7 +55,7 @@ const Home = () => (
                 //   padding: "10px 20px"
                 // }}
                 onClick={() => (window.location.href = "/boxes")}
-              />
+              /> */}
               {/* <ModalModalExample/> */}
             </div>
           </Col>
@@ -59,11 +63,11 @@ const Home = () => (
         </div>
       </Row>
 
-      <Row>
+      {/* <Row>
         <Col size="md-12">
           <img src={mom2} style={{ maxWidth: "100%" }} />
         </Col>
-      </Row>
+      </Row> */}
 
       <Row>
         <Col size="md-12">
@@ -129,7 +133,9 @@ const Home = () => (
       </Row> */}
 
       <Row>
-        <Col size="md-12">
+        <Col size="md-2" />
+
+        <Col size="md-8">
           <div className="p-a">
             Our care kits are intended to provide moms with the sustenance and
             supplies they need to ensure their own self care during this
@@ -139,36 +145,45 @@ const Home = () => (
             helpful information to help navigate the critical 4th trimester.
           </div>
         </Col>
+
+        <Col size="md-2" />
       </Row>
 
       <Row>
-        <Col size="md-4">
-          <div id="whatsinthere">
-            What all is included in a La Mama Care kit?
-          </div>
+        <Col size="md-2" />
+
+        <Col size="md-8">
+          <div className="p-a">So, what's included in a La Mama Care kit?</div>
         </Col>
+
+        <Col size="md-2" />
+      </Row>
+
+      <Row>
+        <Col size="md-2" />
+
         <Col size="md-8">
           <div id="included">
-            <ul>
-              <li>
-                A La Mama Care water bottle with important hydration guidelines
-                for the postpartum period.
-              </li>
-              <li>
-                Nutritious and handy snacks to satisfy when time is limited.
-              </li>
-              <li>
-                Personal care items to aid the postpartum body in recuperating
-                from the major changes that have just taken place.
-              </li>
-              <li>
-                Most importantly, a resource book that walks the mom through the
-                best ways to take care of herself both physically and
-                emotionally over the next year.
-              </li>
-            </ul>
+            <p>
+              A La Mama Care WATER BOTTLE with important hydration guidelines
+              for the postpartum period.
+            </p>
+            <p>
+              Nutritious and handy SNACKS to satisfy when time is limited.
+            </p>
+            <p>
+              PERSONAL CARE ITEMS to aid the postpartum body in recuperating
+              from the major changes that have just taken place.
+            </p>
+            <p>
+              Most importantly, a RESOURCE BOOK that walks the mom through the
+              best ways to take care of herself both physically and emotionally
+              over the next year.
+            </p>
           </div>
         </Col>
+
+        <Col size="md-2" />
       </Row>
 
       <Row>
