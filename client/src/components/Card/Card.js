@@ -7,12 +7,15 @@ import {
   CardTitle,
   CardText
 } from "material-ui/Card";
+import { Col, Row, Container } from "../../components/Grid";
 import FlatButton from "material-ui/FlatButton";
 import RaisedButton from "material-ui/RaisedButton";
 import ModalModalExample from "../../components/Modal";
+import DialogExampleSimple from "../../components/Dialog";
 import "./Card.css";
 
 const CardExample = props => (
+
   <Card
     style={{
       border: "2px solid rgb(182, 207, 208)",
@@ -38,9 +41,10 @@ const CardExample = props => (
     >
       <img src={props.image} alt={props.title} />
     </CardMedia>
+
     <CardTitle
       id="card-title"
-      showExpandableButton={true}
+      showExpandableButton={false}
       actAsExpander={true}
       titleStyle={{ color: "rgb(0, 48, 87)", margin: "2rem" }}
       title={props.title}
@@ -52,6 +56,7 @@ const CardExample = props => (
         margin: "2rem"
       }}
     />
+    
     <CardText
       expandable={true}
       actAsExpander={true}
@@ -67,18 +72,37 @@ const CardExample = props => (
     </CardText>
 
     <CardActions>
-      <FlatButton
-        label="Add to cart"
-        style={{ margin: "10px", paddingBottom: "10px" }}
-        className="snipcart-add-item"
-        data-item-id={props.itemID}
-        data-item-name={props.title}
-        data-item-price={props.price}
-        data-item-weight="5"
-        data-item-url="/boxes"
-        data-item-description={props.description}
-      />
+
+      <Row>
+
+        <Col size="md-6">
+
+          <DialogExampleSimple>
+            {props.title}
+          </DialogExampleSimple>
+
+        </Col>
+
+        <Col size="md-6">
+
+          <FlatButton
+            label="Add to cart"
+            // style={{ margin: "10px", paddingBottom: "10px" }}
+            className="snipcart-add-item"
+            data-item-id={props.itemID}
+            data-item-name={props.title}
+            data-item-price={props.price}
+            data-item-weight="5"
+            data-item-url="/boxes"
+            data-item-description={props.description}
+          />
+
+        </Col>
+
+      </Row>
+
     </CardActions>
+
   </Card>
 );
 
