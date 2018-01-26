@@ -16,7 +16,8 @@ const CardExample = props => (
   <Card
     style={{
       border: "2px solid rgb(182, 207, 208)",
-      margin: "0px 20px 90px 20px"
+      // margin: "0px 20px 90px 20px"
+      margin: "10%"      
     }}
     className="cardpack"
   >

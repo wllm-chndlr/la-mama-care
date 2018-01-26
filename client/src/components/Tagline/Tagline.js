@@ -10,7 +10,7 @@ const Tagline = props => (
           <h1
             style={{
               // fontFamily: "'Squada One', cursive",
-              fontFamily: "'Bungee Shade', cursive",
+              fontFamily: "'Bangers', cursive",
               letterSpacing: "0.3em",
               fontSize: "50px",
               color: "rgb(90, 90, 90)",

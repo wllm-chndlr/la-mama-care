@@ -64,6 +64,21 @@ class Boxes extends Component {
           <Tagline>Care Kits</Tagline>
 
           <Row>
+            <Col size="md-2"/>
+            <Col size="md-8">
+              <div className="p-a">
+                Our care kits are intended to provide moms with the sustenance and
+                supplies they need to ensure their own self care during this
+                critical time in their lives when time for themselves is limited.
+                Through handy, healthy snacks and other practical essentials, our
+                kits are intended to surround the mother with must-have items and
+                helpful information to help navigate the critical 4th trimester.
+              </div>
+            </Col>
+            <Col size="md-2"/>
+          </Row>
+
+          <Row>
             {/* <Col size="md-6">
               <Jumbotron>
                 <h3>Add new box</h3>

@@ -4,7 +4,7 @@ import Tagline from "../../components/Tagline";
 import TextField from 'material-ui/TextField';
 import RaisedButton from "material-ui/RaisedButton";
 import mom1 from "../../images/mom1.jpeg";
-import mom2 from "../../images/mom2.jpeg";
+import mom2 from "../../images/mom2-halftone.jpg";
 import ModalModalExample from "../../components/Modal";
 import "./Home.css";
 
@@ -19,15 +19,24 @@ const Home = () => (
           <Col size="md-12">
             <div id="top">
               <span>
-                <div id="header">
-                  Even{" "}
-                  <p id="super" className="animated zoomInLeft">
+                <div
+                  id="header"
+                  style={{ fontFamily: "'Bangers', sans-serif", lineHeight: 1 }}
+                >
+                  Even
+                  <p
+                    id="super"
+                    className="animated zoomInLeft"
+                    style={{
+                      fontFamily: "'Bangers', sans-serif",
+                      lineHeight: 1
+                    }}
+                  >
                     superheroes
                   </p>{" "}
-                  need support.
+                  need support
                 </div>
               </span>
-              <br />
               <h3
                 style={{
                   maxWidth: "50%",
@@ -75,8 +84,9 @@ const Home = () => (
             <div id="three-mamas-text">
               <p>
                 Started by three mamas who know firsthand how life-changing the
-                first few days, weeks, and months can be, La Mama Care was
-                conceived with parents from all walks of life in mind.
+                first few days, weeks, and months can be,{" "}
+                <text className="bang">La Mama Care</text> was conceived with
+                parents from all walks of life in mind.
               </p>
 
               <p>
@@ -119,18 +129,18 @@ const Home = () => (
         </Col>
       </Row> */}
 
-      {/* <Row>
-        <Col size="md-12">
+      <Row>
+        <Col size="md-2" />
+
+        <Col size="md-8">
           <div className="p-a">
-            <p>Bottom line:</p>
-            <p>
               Mamas still need quite a bit of care after giving birth, but too
               often, the mama’s needs get put on the backburner while focusing
               on their newest addition.
-            </p>
           </div>
         </Col>
-      </Row> */}
+        <Col size="md-2" />
+      </Row>
 
       <Row>
         <Col size="md-2" />
@@ -149,7 +159,7 @@ const Home = () => (
         <Col size="md-2" />
       </Row>
 
-      <Row>
+      {/* <Row>
         <Col size="md-2" />
 
         <Col size="md-8">
@@ -160,31 +170,35 @@ const Home = () => (
       </Row>
 
       <Row>
-        <Col size="md-2" />
-
-        <Col size="md-8">
-          <div id="included">
-            <p>
-              A La Mama Care WATER BOTTLE with important hydration guidelines
-              for the postpartum period.
-            </p>
-            <p>
-              Nutritious and handy SNACKS to satisfy when time is limited.
-            </p>
-            <p>
-              PERSONAL CARE ITEMS to aid the postpartum body in recuperating
-              from the major changes that have just taken place.
-            </p>
-            <p>
-              Most importantly, a RESOURCE BOOK that walks the mom through the
-              best ways to take care of herself both physically and emotionally
-              over the next year.
-            </p>
-          </div>
-        </Col>
-
-        <Col size="md-2" />
-      </Row>
+        <div id="included-div">
+          <Col size="md-3">
+            <div className="included" id="item1">
+              A <text className="bang">WATER BOTTLE</text> with important
+              hydration guidelines for the postpartum period.
+            </div>
+          </Col>
+          <Col size="md-3">
+            <div className="included" id="item2">
+              Nutritious and handy <text className="bang">SNACKS</text> to
+              satisfy when time is limited.
+            </div>
+          </Col>
+          <Col size="md-3">
+            <div className="included" id="item3">
+              <text className="bang">PERSONAL CARE ITEMS</text> to aid the
+              postpartum body in recuperating from the major changes that have
+              just taken place.
+            </div>
+          </Col>
+          <Col size="md-3">
+            <div className="included" id="item4">
+              Most importantly, a <text className="bang">RESOURCE BOOK</text>{" "}
+              that walks the mom through the best ways to take care of herself
+              both physically and emotionally over the next year.
+            </div>
+          </Col>
+        </div>
+      </Row> */}
 
       <Row>
         <Col size="md-2" />
