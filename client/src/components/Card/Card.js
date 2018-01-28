@@ -77,9 +77,7 @@ const CardExample = props => (
 
         <Col size="md-6">
 
-          <DialogExampleSimple>
-            {props.title}
-          </DialogExampleSimple>
+          {/* <DialogExampleSimple/> */}
 
         </Col>
 

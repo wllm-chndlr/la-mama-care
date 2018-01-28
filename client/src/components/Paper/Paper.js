@@ -2,23 +2,24 @@ import React from "react";
 import Paper from "material-ui/Paper";
 
 const style = {
-  height: 100,
-  width: "50%",
+  height: "auto",
+  padding: "3%",
+  width: "80%",
   margin: 20,
   textAlign: "center",
-  display: "inline-block"
-  // background: "grey"
+  display: "inline-block",
+  background: "url('../../images/stardust.png')"
 };
 
-const PaperExampleSimple = () => (
+const PaperExampleSimple = props => (
   <div>
     {/* <Paper style={style} zDepth={1} />
     <Paper style={style} zDepth={2} />
-    <Paper style={style} zDepth={3} />
-    <Paper style={style} zDepth={4} /> */}
-    <Paper style={style} zDepth={5} >
-    You've got this, superhero.
+    <Paper style={style} zDepth={3} /> */}
+    <Paper style={style} zDepth={4} >
+    {props.children}
     </Paper>
+    {/* <Paper style={style} zDepth={5} /> */}
   </div>
 );
 

@@ -4,6 +4,7 @@ import { Col, Row, Container } from "../../components/Grid";
 import Navbar from "react";
 import TextField from "material-ui/TextField";
 import RaisedButton from "material-ui/RaisedButton";
+import FlatButton from "material-ui/FlatButton";
 import Twitter from "../../images/twitter.svg";
 import Instagram from "../../images/instagram.svg";
 import Facebook from "../../images/facebook.svg";
@@ -24,12 +25,12 @@ const Foot = () => (
             <TextField
               hintText="supermama@hero.org"
               floatingLabelText="Sign up"
-              style={{ width: "50%", marginLeft: "30px" }}
+              style={{ width: "50%", marginLeft: "30px"}}
             />
             <RaisedButton
               label="Submit"
               primary={true}
-              style={{ margin: "12px" }}
+              // style={{ paddingBottom: "-6px" }}
             />
           </div>
         </Col>

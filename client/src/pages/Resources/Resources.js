@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
 import Tagline from "../../components/Tagline";
 import "./Resources.css";
+import Paper from "../../components/Paper";
 
 
 
@@ -11,6 +12,8 @@ const Resources = () => (
     <div id="resources-main">
 
       <Tagline>Resources</Tagline>
+
+      <Paper/>
 
     </div>
 

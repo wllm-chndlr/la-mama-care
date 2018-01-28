@@ -36,7 +36,7 @@ export default class DialogExampleSimple extends React.Component {
     return 
       <div>
         <FlatButton label="Details" onClick={this.handleOpen} />
-        <Dialog title="Name of care kit" actions={actions} modal={false} open={this.state.open} onRequestClose={this.handleClose}>
+        <Dialog title="[name of care kit]" actions={actions} modal={false} open={this.state.open} onRequestClose={this.handleClose}>
           The actions in this window were passed in as an array of React objects.
           <ul>
             <li className="kit-items">Item1</li>

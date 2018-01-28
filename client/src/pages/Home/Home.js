@@ -6,6 +6,7 @@ import RaisedButton from "material-ui/RaisedButton";
 import mom1 from "../../images/mom1.jpeg";
 import mom2 from "../../images/mom2-halftone.jpg";
 import ModalModalExample from "../../components/Modal";
+import Paper from "../../components/Paper";
 import "./Home.css";
 
 
@@ -29,7 +30,8 @@ const Home = () => (
                     className="animated zoomInLeft"
                     style={{
                       fontFamily: "'Bangers', sans-serif",
-                      lineHeight: 1
+                      lineHeight: 1,
+                      paddingTop: "5px"
                     }}
                   >
                     superheroes
@@ -81,7 +83,9 @@ const Home = () => (
       <Row>
         <Col size="md-12">
           <div className="p-a" id="three-mamas">
+            <Paper>
             <div id="three-mamas-text">
+
               <p>
                 Started by three mamas who know firsthand how life-changing the
                 first few days, weeks, and months can be,{" "}
@@ -96,10 +100,14 @@ const Home = () => (
                 who deserves to feel nourished, supported, and strengthened
                 during the postpartum period.
               </p>
+
             </div>
+            </Paper>
           </div>
+          <Paper />
         </Col>
       </Row>
+
 
       {/* <Row>
         <Col size="md-12">
@@ -134,21 +142,20 @@ const Home = () => (
 
         <Col size="md-8">
           <div className="p-a">
-
-
-
-            <p>Our care kits are intended to provide moms with the sustenance and
-            supplies they need to ensure their own self care during this
-            critical time in their lives when time for themselves is limited.
-            Through handy, healthy snacks and other practical essentials, our
-            kits are intended to surround the mother with must-have items and
-            helpful information to help navigate the critical 4th trimester.</p>
-
-            <p>Our hope is that every mom receives the love and support she
-            deserves after embarking on one of life’s most exciting journeys. We
-            hope to build not just a product, but a community that continues to
-            grow and nurture each other through the years.</p>
-
+            <p>
+              Our care kits are intended to provide moms with the sustenance and
+              supplies they need to ensure their own self care during this
+              critical time in their lives when time for themselves is limited.
+              Through handy, healthy snacks and other practical essentials, our
+              kits are intended to surround the mother with must-have items and
+              helpful information to help navigate the critical 4th trimester.
+            </p>
+            <p>
+              Our hope is that every mom receives the love and support she
+              deserves after embarking on one of life’s most exciting journeys.
+              We hope to build not just a product, but a community that
+              continues to grow and nurture each other through the years.
+            </p>
           </div>
         </Col>
 
@@ -195,8 +202,6 @@ const Home = () => (
           </Col>
         </div>
       </Row> */}
-
-
     </div>
   </Container>
 );

@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
 import Tagline from "../../components/Tagline";
-import jc from '../../images/jc.jpg'
+import jc from '../../images/jc2.jpg'
 import nm from "../../images/nm.jpg";
 import ac from "../../images/ac.jpg";
 import "./About.css";
@@ -34,7 +34,7 @@ const About = () => (
               width: "80%",
               height: "80%",
               marginBottom: "5rem",
-              borderRadius: "5px"
+              borderRadius: "45px"
               // transform: "rotate(90deg)"
             }}
           />
@@ -51,7 +51,7 @@ const About = () => (
               height: "80%",
               marginLeft: "6%",
               marginBottom: "5rem",
-              borderRadius: "5px"
+              borderRadius: "45px"
             }}
           />
         </Col>
@@ -92,7 +92,7 @@ const About = () => (
               width: "80%",
               height: "80%",
               marginBottom: "5rem",
-              borderRadius: "5px"
+              borderRadius: "45px"
             }}
           />
         </Col>
