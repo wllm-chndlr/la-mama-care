@@ -18,7 +18,7 @@ const CardExample = props => (
 
   <Card
     style={{
-      border: "2px solid rgb(182, 207, 208)",
+      border: "5px solid #444",
       // margin: "0px 20px 90px 20px"
       margin: "10%"      
     }}
@@ -77,7 +77,7 @@ const CardExample = props => (
 
         <Col size="md-6">
 
-          {/* <DialogExampleSimple/> */}
+          <DialogExampleSimple/>
 
         </Col>
 

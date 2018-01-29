@@ -13,7 +13,6 @@ const Resources = () => (
 
       <Tagline>Resources</Tagline>
 
-      <Paper/>
 
     </div>
 

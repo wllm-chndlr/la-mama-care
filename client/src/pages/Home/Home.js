@@ -82,32 +82,34 @@ const Home = () => (
 
       <Row>
         <Col size="md-12">
-          <div className="p-a" id="three-mamas">
-            <Paper>
-            <div id="three-mamas-text">
+          <Paper>
+            <div className="p-a" id="three-mamas">
+              <div id="three-mamas-text">
+                <p>
+                  Started by three mamas who know firsthand how life-changing
+                  the first few days, weeks, and months can be,{" "}
+                  <text className="bang">La Mama Care</text> was conceived with
+                  parents from all walks of life in mind.
+                </p>
 
-              <p>
-                Started by three mamas who know firsthand how life-changing the
-                first few days, weeks, and months can be,{" "}
-                <text className="bang">La Mama Care</text> was conceived with
-                parents from all walks of life in mind.
-              </p>
-
-              <p>
-                Whether it is a first time mom or one who already has little
-                ones at home, one who is breast or bottle feeding, is recovering
-                from a cesarean birth or rocked a home birth, she is a superhero
-                who deserves to feel nourished, supported, and strengthened
-                during the postpartum period.
-              </p>
-
+                <p>
+                  Whether it is a first time mom or one who already has little
+                  ones at home, one who is breast or bottle feeding, is
+                  recovering from a cesarean birth or rocked a home birth, she
+                  is a superhero who deserves to feel nourished, supported, and
+                  strengthened during the postpartum period.
+                </p>
+              </div>
             </div>
-            </Paper>
-          </div>
-          <Paper />
+          </Paper>
         </Col>
       </Row>
 
+      <Row>
+        <Col size="md-12">
+          <Paper>Howdy</Paper>
+        </Col>
+      </Row>
 
       {/* <Row>
         <Col size="md-12">

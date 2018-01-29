@@ -3,12 +3,13 @@ import Paper from "material-ui/Paper";
 
 const style = {
   height: "auto",
-  padding: "3%",
-  width: "80%",
-  margin: 20,
-  textAlign: "center",
+  // padding: "3%",
+  width: "100%",
+  margin: "10px",
+  // textAlign: "center",
   display: "inline-block",
-  background: "url('../../images/stardust.png')"
+  background: "url('../../images/stardust.png')",
+  border: "5px solid #444"
 };
 
 const PaperExampleSimple = props => (
@@ -16,7 +17,7 @@ const PaperExampleSimple = props => (
     {/* <Paper style={style} zDepth={1} />
     <Paper style={style} zDepth={2} />
     <Paper style={style} zDepth={3} /> */}
-    <Paper style={style} zDepth={4} >
+    <Paper style={style} zDepth={4} rounded={false}>
     {props.children}
     </Paper>
     {/* <Paper style={style} zDepth={5} /> */}

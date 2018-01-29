@@ -10,6 +10,7 @@ import Instagram from "../../images/instagram.svg";
 import Facebook from "../../images/facebook.svg";
 
 
+
 const Foot = () => (
   <Container fluid>
     <footer
@@ -19,22 +20,20 @@ const Foot = () => (
     >
       {/* <footer> */}
       <Row>
-        <Col size="md-3" />
-        <Col size="md-6">
+        {/* <Col size="md-3" /> */}
+        <Col size="md-12">
           <div className="mailing">
             <TextField
               hintText="supermama@hero.org"
               floatingLabelText="Sign up"
-              style={{ width: "50%", marginLeft: "30px"}}
+              style={{ width: "30%", marginLeft: "0px" }}
+              type={"email"}
+              hintStyle={{ fontSize: "1.3rem" }}
             />
-            <RaisedButton
-              label="Submit"
-              primary={true}
-              // style={{ paddingBottom: "-6px" }}
-            />
+            <FlatButton label="Submit" hoverColor="orange"/>
           </div>
         </Col>
-        <Col size="md-3" />
+        {/* <Col size="md-3" /> */}
       </Row>
 
       <Row>
