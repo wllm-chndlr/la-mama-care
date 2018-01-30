@@ -69,6 +69,7 @@ const CardExample = props => (
         <li className="kit-items">Item2</li>
         <li className="kit-items">Item3</li>
       </ul>
+
     </CardText>
 
     <CardActions>

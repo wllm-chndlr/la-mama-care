@@ -74,11 +74,17 @@ class Boxes extends Component {
                 </p>
 
                 <p>
-                  Our care kits are intended to provide moms with the sustenance and supplies they need to ensure their own self care during this critical time in their lives when time for themselves is limited. 
+                  Our care kits are intended to provide moms with the
+                  sustenance and supplies they need to ensure their own self
+                  care during this critical time in their lives when time
+                  for themselves is limited.
                 </p>
-                
+
                 <p>
-                  Through handy, healthy snacks and other practical essentials, our kits are intended to surround the mother with must-have items and helpful information to help navigate the critical 4th trimester.
+                  Through handy, healthy snacks and other practical
+                  essentials, our kits are intended to surround the mother
+                  with must-have items and helpful information to help
+                  navigate the critical 4th trimester.
                 </p>
               </div>
             </Col>
@@ -133,6 +139,7 @@ class Boxes extends Component {
               {this.state.boxes.length ? <div>
                   {this.state.boxes.map(box => <Col size="md-4">
                       <CardExample itemID={box.itemID} image={packageImg} title={box.title} price={box.price} description={box.description} />
+                      <Paper title={item.title} />
                     </Col>)}
                 </div> : <h3>No Results to Display</h3>}
             </Col>

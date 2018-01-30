@@ -1,3 +1,4 @@
 module.exports = {
-  Box: require("./box")
+  Box: require("./box"),
+  Item: require("./item")
 };

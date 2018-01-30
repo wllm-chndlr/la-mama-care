@@ -44,9 +44,52 @@ const boxSeed = [
   }
 ];
 
+const itemSeed = [
+  {
+    itemID: 1,
+    title: "Nipple Butter",
+    image: "../client/src/images/items/nipple_cream.jpg",
+    description:
+      "Nursing your baby can be an incredible bonding experience, but it can leave you with less comforting physical symptoms. Motherlove Nipple Cream is an herbal salve that helps soothe sore, cracked nipples after feedings. It’s made with 100% certified organic ingredients (and no vitamin E) that are safe to ingest so it won’t harm you or your baby.",
+    quantity: 1,
+    date: new Date(Date.now())
+  },
+  {
+    itemID: 2,
+    title: "Almonds",
+    image:
+      "https://www.riteaid.com/shop/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/0/4/041570003831.jpg",
+    description: "Delicious nuts.",
+    quantity: 1,
+    date: new Date(Date.now())
+  },
+  {
+    itemID: 3,
+    title: "Hydro Flask 32 oz Wide Mouth w/ Straw Lid",
+    image: "../client/src/images/items/hydroflask.jpg",
+    description:
+      "Sip your way through all-day adventures. Big enough for a whole day on the river or trails, our 32 oz Wide Mouth Bottle is made with professional-grade stainless steel and a wider opening for faster fill.",
+    quantity: 1,
+    date: new Date(Date.now())
+  }
+];
+
+
 db.Box
   .remove({})
   .then(() => db.Box.collection.insertMany(boxSeed))
+  .then(data => {
+    console.log(data.insertedIds.length + " records inserted!");
+    process.exit(0);
+  })
+  .catch(err => {
+    console.error(err);
+    process.exit(1);
+  });
+
+db.Item
+  .remove({})
+  .then(() => db.Item.collection.insertMany(itemSeed))
   .then(data => {
     console.log(data.insertedIds.length + " records inserted!");
     process.exit(0);
