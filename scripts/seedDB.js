@@ -47,8 +47,9 @@ const boxSeed = [
 const itemSeed = [
   {
     itemID: 1,
-    title: "Nipple Butter",
-    image: "../client/src/images/items/nipple_cream.jpg",
+    title: "Motherlove Nipple Butter",
+    image:
+      "http://bocabfc.com/wp-content/uploads/2015/12/Motherlove-nipple_cream.jpg",
     description:
       "Nursing your baby can be an incredible bonding experience, but it can leave you with less comforting physical symptoms. Motherlove Nipple Cream is an herbal salve that helps soothe sore, cracked nipples after feedings. It’s made with 100% certified organic ingredients (and no vitamin E) that are safe to ingest so it won’t harm you or your baby.",
     quantity: 1,
@@ -56,19 +57,79 @@ const itemSeed = [
   },
   {
     itemID: 2,
-    title: "Almonds",
+    title: "austiNuts Deluxe Nut Mix",
     image:
-      "https://www.riteaid.com/shop/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/0/4/041570003831.jpg",
-    description: "Delicious nuts.",
+      "https://cdn3.bigcommerce.com/s-5yyhpm/products/1436/images/1268/Deluxe__30997.1444985699.480.480.jpg?c=2",
+    description:
+      "Top of the line nuts makes for a top of the line snack, featuring Almonds (Blanched and Dry Roasted), Cashews, Macadamia nuts, Pecans, and Pistachio Kernels.",
     quantity: 1,
     date: new Date(Date.now())
   },
   {
     itemID: 3,
-    title: "Hydro Flask 32 oz Wide Mouth w/ Straw Lid",
-    image: "../client/src/images/items/hydroflask.jpg",
+    title: "Double Wall Tumbler with Handle",
+    image: "https://media.asicdn.com/images/jpgo/22590000/22596373.jpg",
     description:
-      "Sip your way through all-day adventures. Big enough for a whole day on the river or trails, our 32 oz Wide Mouth Bottle is made with professional-grade stainless steel and a wider opening for faster fill.",
+      'This frosted clear tumbler features double wall construction for insulation of hot or cold liquids. It comes with a snap-on, spill-resistant flip top lid and a 13" flexi straw with a tethered cap.',
+    quantity: 1,
+    date: new Date(Date.now())
+  },
+  {
+    itemID: 4,
+    title: "austiNuts Dried Turkish Apricots",
+    image:
+      "https://cdn3.bigcommerce.com/s-5yyhpm/products/1507/images/1307/Dry_Apricot__71909.1444985718.480.480.jpg?c=2",
+    description:
+      "Turkish Apricots provide you with Calcium, Iron, Vitamins A and C. They are a great to eat alone or cut up and put into salads or trail mixes.",
+    quantity: 1,
+    date: new Date(Date.now())
+  },
+  {
+    itemID: 5,
+    title: "Thunderbird Real Food Bar",
+    image:
+      "https://cdn.shopify.com/s/files/1/0370/9025/products/IMG_0708_25fbf362-b98d-4dfd-ae6e-b81d9f694eb5_grande.jpg?v=1507417426",
+    description:
+      "Containing uniquely pure and highly powerful ingredients, Thunderbird bars provide consumers with conveniently packaged, nutrient dense, plant-based goodness.",
+    quantity: 1,
+    date: new Date(Date.now())
+  },
+  {
+    itemID: 6,
+    title: "Hair Ties by Stacey's Choice",
+    image:
+      "https://catalog.staceyschoice.com/wp-content/uploads/2017/04/DPO-0026-Neutrals-e1491326071419.jpg",
+    description:
+      "Stacey’s Choice has been offering quality hair accessories since 1987.",
+    quantity: 1,
+    date: new Date(Date.now())
+  },
+  {
+    itemID: 7,
+    title: "Nursing Pads by TL Care",
+    image:
+      "https://images-na.ssl-images-amazon.com/images/I/81kaxtmQxaL._SL1500_.jpg",
+    description:
+      "5 layers of soft, absorbent fabric made with 100% organic cotton.",
+    quantity: 1,
+    date: new Date(Date.now())
+  },
+  {
+    itemID: 8,
+    title: "Lavender Lip Saver by Fortitude Provisions",
+    image:
+      "https://img.etsystatic.com/il/34cfc1/1051445092/il_570xN.1051445092_1945.jpg",
+    description:
+      "Our nourishing Lip Saver protects your lips from the elements using wildcrafted Lavender and unrefined Beeswax. No petrochemicals, artificial flavors or fragrances.",
+    quantity: 1,
+    date: new Date(Date.now())
+  },
+  {
+    itemID: 9,
+    title: "La Mama Care Resource Guide",
+    image:
+      "https://img.etsystatic.com/il/34cfc1/1051445092/il_570xN.1051445092_1945.jpg",
+    description: "This handy resource guide is a must-have for new moms.",
     quantity: 1,
     date: new Date(Date.now())
   }

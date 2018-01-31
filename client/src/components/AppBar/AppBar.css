@@ -13,11 +13,10 @@ a {
   font-size: 2rem;
   background-color: #fff;
   /* font-family: 'Fjalla One', cursive; */
-  font-family: 'Poppins',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
-a:hover {
+a:hover, #shop-cart:hover {
   color: rgb(224, 60, 49);
   text-decoration: none;
 }

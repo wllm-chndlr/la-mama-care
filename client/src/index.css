@@ -121,3 +121,7 @@ div#snipcart-header-total.snip-header__total {
 b.snip-footer__highlight {
   font-size: 12px;
 }
+
+.snipcart-checkout:hover {
+  color: rgb(224, 60, 49);
+}

@@ -25,12 +25,11 @@ const App = () => (
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
+          <Route exact path="/kit" component={Items} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/packages" component={Packages} />
           <Route exact path="/resources" component={Resources} />
-          <Route exact path="/boxes" component={Boxes} />
-          <Route exact path="/items" component={Items} />
-
+          <Route exact path="/kits" component={Boxes} />
+          <Route exact path="/packages" component={Packages} />
           <Route exact path="/sign" component={Sign} />
           <Route exact path="/boxes/:id" component={Detail} />
           <Route component={NoMatch} />

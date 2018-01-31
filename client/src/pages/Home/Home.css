@@ -36,7 +36,16 @@ div#home-main {
   max-width: 66%;
   margin: auto;
   color: rgb(199, 199, 199);
-  
+  background-image: url('../../images/stardust.png');
+  padding: 3%;
+}
+
+#home-headshots {
+  margin: auto;
+}
+
+.home-headshot {
+  /* border-radius: 80%; */
 }
 
 #whatsinthere {

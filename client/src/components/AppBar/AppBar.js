@@ -62,7 +62,7 @@ const AppBarTop = () => (
             <a href="/home">home</a>
           </li> */}
             <li role="presentation">
-              <a href="/boxes">care kits</a>
+              <a href="/boxes">care kit</a>
             </li>
             <li role="presentation">
               <a href="/resources">resources</a>
@@ -72,7 +72,7 @@ const AppBarTop = () => (
             </li>
             <li role="presentation">
               <a href="#" className="snipcart-checkout">
-                <img src={cart} alt={cart} />
+                <img id='shop-cart' src={cart} alt={cart} />
               </a>
             </li>
           </ul>

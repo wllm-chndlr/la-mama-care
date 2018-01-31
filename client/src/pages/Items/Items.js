@@ -33,9 +33,9 @@ class Items extends Component {
   render() {
     return <Container fluid>
         <div id="items-main">
-          <Tagline>Care Items</Tagline>
+          <Tagline>Care Kit</Tagline>
 
-          <Row>
+          {/* <Row>
             <Col size="md-2" />
             <Col size="md-8">
               <div className="p-a">
@@ -45,17 +45,18 @@ class Items extends Component {
               </div>
             </Col>
             <Col size="md-2" />
-          </Row>
+          </Row> */}
 
           <Row>
             <Col size="md-12 sm-12">
               {this.state.items.length ? <div>
-                  {this.state.items.map(item => <Col size="md-2">
-                      <Paper>
-                        <h2>{item.title}</h2>
-                        <img src={item.image} style={{maxWidth: "100%"}}/>
-                        <p>{item.description}</p>
-                      </Paper>
+                  {this.state.items.map(item => <Col size="md-4">
+                      <CardExample 
+                        itemID={item.itemID} 
+                        image={item.image} 
+                        title={item.title} 
+                        description={item.description}>
+                      </CardExample>
                     </Col>)}
                 </div> : <h3>No Results to Display</h3>}
             </Col>

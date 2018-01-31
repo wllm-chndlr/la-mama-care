@@ -5,11 +5,11 @@ const style = {
   height: "auto",
   // padding: "3%",
   width: "100%",
-  margin: "10px",
+  // margin: "5%",
   // textAlign: "center",
   display: "inline-block",
   background: "url('../../images/stardust.png')",
-  border: "5px solid #444"
+  // border: "5px solid #444"
 };
 
 const PaperExampleSimple = props => (

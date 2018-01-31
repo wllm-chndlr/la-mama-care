@@ -8,6 +8,11 @@ import mom2 from "../../images/mom2-halftone.jpg";
 import ModalModalExample from "../../components/Modal";
 import Paper from "../../components/Paper";
 import "./Home.css";
+import jc from "../../images/jc-halftone.jpg";
+import nm from "../../images/nm-halftone.jpg";
+import ac from "../../images/ac-halftone.jpg";
+import packageImg from "../../images/package.jpeg";
+
 
 
 const Home = () => (
@@ -42,12 +47,12 @@ const Home = () => (
               <h3
                 style={{
                   maxWidth: "50%",
-                  fontFamily: "'Oswald', cursive",
+                  fontFamily: "'Poppins'",
                   margin: "auto"
                 }}
               >
                 Focused on a mother’s holistic wellbeing immediately following
-                childbirth, our postpartum care kits provide moms with must-have
+                childbirth, our postpartum care kit provides moms with must-have
                 self-care items for this critical time.
               </h3>
               {/* <RaisedButton
@@ -82,8 +87,8 @@ const Home = () => (
 
       <Row>
         <Col size="md-12">
-          <Paper>
-            <div className="p-a" id="three-mamas">
+          <div className="p-a" id="three-mamas">
+            <Paper>
               <div id="three-mamas-text">
                 <p>
                   Started by three mamas who know firsthand how life-changing
@@ -91,7 +96,34 @@ const Home = () => (
                   <text className="bang">La Mama Care</text> was conceived with
                   parents from all walks of life in mind.
                 </p>
-
+              </div>
+              <Row>
+                <Col size="md-3" />
+                <Col size="md-6">
+                  <div id="home-headshots">
+                    <img
+                      style={{ maxWidth: "32%", marginRight: "2%" }}
+                      className="home-headshot"
+                      src={jc}
+                      alt="jacqueline chandler"
+                    />
+                    <img
+                      style={{ maxWidth: "32%", marginRight: "2%" }}
+                      className="home-headshot"
+                      src={ac}
+                      alt="anne clary"
+                    />
+                    <img
+                      style={{ maxWidth: "32%" }}
+                      className="home-headshot"
+                      src={nm}
+                      alt="nique mayo"
+                    />
+                  </div>
+                </Col>
+                <Col size="md-3" />
+              </Row>
+              <div id="three-mamas-text">
                 <p>
                   Whether it is a first time mom or one who already has little
                   ones at home, one who is breast or bottle feeding, is
@@ -100,58 +132,35 @@ const Home = () => (
                   strengthened during the postpartum period.
                 </p>
               </div>
-            </div>
-          </Paper>
+            </Paper>
+          </div>
         </Col>
       </Row>
 
       <Row>
-        <Col size="md-12">
-          <Paper>Howdy</Paper>
+        <Col size="md-5">
+          <img src={packageImg} style={{ maxWidth: "100%" }} />
+        </Col>
+
+        <Col size="md-7">
+          <p className="p-a">
+            Our care kit is intended to provide moms with the sustenance and
+            supplies they need to ensure their own self care during this
+            critical time in their lives when time for themselves is limited.
+          </p>
+          <p className="p-a">
+            Through handy, healthy snacks and other practical essentials, our
+            kit is intended to surround the mother with must-have items and
+            helpful information to help navigate the critical 4th trimester.
+          </p>
         </Col>
       </Row>
-
-      {/* <Row>
-        <Col size="md-12">
-          <div className="p-a" id="facts">
-            <p className="p-header">The facts</p>
-            <br />
-            Each year in the United States:
-            <br />
-            <ul>
-              <li>
-                11 to 20% of women who give birth have postpartum depression
-                symptoms, yet only 15% of women with postpartum depression ever
-                receive professional treatment.
-              </li>
-              <br />
-              <li>More than 600 women die of pregnancy-related causes.</li>
-              <br />
-
-              <li>65,000 women will have severe pregnancy complications.</li>
-              <br />
-
-              <li>
-                <p id="cdc">Source: Centers for Disease Control</p>
-              </li>
-            </ul>
-          </div>
-        </Col>
-      </Row> */}
 
       <Row>
         <Col size="md-2" />
 
         <Col size="md-8">
           <div className="p-a">
-            <p>
-              Our care kits are intended to provide moms with the sustenance and
-              supplies they need to ensure their own self care during this
-              critical time in their lives when time for themselves is limited.
-              Through handy, healthy snacks and other practical essentials, our
-              kits are intended to surround the mother with must-have items and
-              helpful information to help navigate the critical 4th trimester.
-            </p>
             <p>
               Our hope is that every mom receives the love and support she
               deserves after embarking on one of life’s most exciting journeys.

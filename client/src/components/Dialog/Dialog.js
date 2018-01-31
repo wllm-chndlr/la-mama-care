@@ -36,16 +36,12 @@ export default class DialogExampleSimple extends React.Component {
       <div>
         <FlatButton label="Details" onClick={this.handleOpen} />
         <Dialog
-          title="[name of kit]"
+          title="name of kit"
           actions={actions}
           modal={false}
           open={this.state.open}
           onRequestClose={this.handleClose}
         >
-          Here's a bunch of stuff that's in the kit.
-          Item
-          Item
-          Item
         </Dialog>
       </div>
     );
