@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Boxes from "./pages/Boxes";
+import Items from "./pages/Items";
+
 import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import Home from "./pages/Home";
@@ -27,6 +29,8 @@ const App = () => (
           <Route exact path="/packages" component={Packages} />
           <Route exact path="/resources" component={Resources} />
           <Route exact path="/boxes" component={Boxes} />
+          <Route exact path="/items" component={Items} />
+
           <Route exact path="/sign" component={Sign} />
           <Route exact path="/boxes/:id" component={Detail} />
           <Route component={NoMatch} />

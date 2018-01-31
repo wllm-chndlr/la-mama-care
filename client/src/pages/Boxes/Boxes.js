@@ -7,6 +7,7 @@ import { List, ListItem } from "../../components/List";
 import { Input, TextArea, FormBtn } from "../../components/Form";
 import CardExample from "../../components/Card";
 import Tagline from "../../components/Tagline";
+import Paper from "../../components/Paper";
 import packageImg from "../../images/package.jpeg";
 import "./Boxes.css";
 
@@ -26,7 +27,12 @@ class Boxes extends Component {
   loadBoxes = () => {
     API.getBoxes()
       .then(res =>
-        this.setState({ boxes: res.data, title: "", price: "", description: "" })
+        this.setState({
+          boxes: res.data,
+          title: "",
+          price: "",
+          description: ""
+        })
       )
       .catch(err => console.log(err));
   };
@@ -59,7 +65,8 @@ class Boxes extends Component {
   };
 
   render() {
-    return <Container fluid>
+    return (
+      <Container fluid>
         <div id="boxes-main">
           <Tagline>Care Kits</Tagline>
 
@@ -68,23 +75,23 @@ class Boxes extends Component {
             <Col size="md-8">
               <div className="p-a">
                 <p>
-                  Mamas still need quite a bit of care after giving birth,
-                  but too often, the mama’s needs get put on the backburner
-                  while focusing on their newest addition.
+                  Mamas still need quite a bit of care after giving birth, but
+                  too often, the mama’s needs get put on the backburner while
+                  focusing on their newest addition.
                 </p>
 
                 <p>
-                  Our care kits are intended to provide moms with the
-                  sustenance and supplies they need to ensure their own self
-                  care during this critical time in their lives when time
-                  for themselves is limited.
+                  Our care kits are intended to provide moms with the sustenance
+                  and supplies they need to ensure their own self care during
+                  this critical time in their lives when time for themselves is
+                  limited.
                 </p>
 
                 <p>
-                  Through handy, healthy snacks and other practical
-                  essentials, our kits are intended to surround the mother
-                  with must-have items and helpful information to help
-                  navigate the critical 4th trimester.
+                  Through handy, healthy snacks and other practical essentials,
+                  our kits are intended to surround the mother with must-have
+                  items and helpful information to help navigate the critical
+                  4th trimester.
                 </p>
               </div>
             </Col>
@@ -136,12 +143,23 @@ class Boxes extends Component {
               </form>
             </Col> */}
             <Col size="md-12 sm-12">
-              {this.state.boxes.length ? <div>
-                  {this.state.boxes.map(box => <Col size="md-4">
-                      <CardExample itemID={box.itemID} image={packageImg} title={box.title} price={box.price} description={box.description} />
-                      <Paper title={item.title} />
-                    </Col>)}
-                </div> : <h3>No Results to Display</h3>}
+              {this.state.boxes.length ? (
+                <div>
+                  {this.state.boxes.map(box => (
+                    <Col size="md-4">
+                      <CardExample
+                        itemID={box.itemID}
+                        image={packageImg}
+                        title={box.title}
+                        price={box.price}
+                        description={box.description}
+                      />
+                    </Col>
+                  ))}
+                </div>
+              ) : (
+                <h3>No Results to Display</h3>
+              )}
             </Col>
           </Row>
 
@@ -157,7 +175,8 @@ class Boxes extends Component {
             </p>
           </Row> */}
         </div>
-      </Container>;
+      </Container>
+    );
   }
 }
 
