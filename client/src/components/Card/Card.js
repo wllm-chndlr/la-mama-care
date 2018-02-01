@@ -18,7 +18,7 @@ const CardExample = props => (
 
   <Card
     style={{
-      border: "5px solid #444",
+      border: "3px solid #444",
       // margin: "0px 20px 90px 20px"
       margin: "10%",
       maxHeight: "600px"

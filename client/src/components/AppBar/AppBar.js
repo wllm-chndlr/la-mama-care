@@ -62,7 +62,7 @@ const AppBarTop = () => (
             <a href="/home">home</a>
           </li> */}
             <li role="presentation">
-              <a href="/boxes">care kit</a>
+              <a href="/kit">care kit</a>
             </li>
             <li role="presentation">
               <a href="/resources">resources</a>

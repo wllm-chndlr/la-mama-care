@@ -4,7 +4,7 @@ import Paper from "material-ui/Paper";
 const style = {
   height: "auto",
   // padding: "3%",
-  width: "100%",
+  width: "auto",
   // margin: "5%",
   // textAlign: "center",
   display: "inline-block",
@@ -17,7 +17,7 @@ const PaperExampleSimple = props => (
     {/* <Paper style={style} zDepth={1} />
     <Paper style={style} zDepth={2} />
     <Paper style={style} zDepth={3} /> */}
-    <Paper style={style} zDepth={4} rounded={false}>
+    <Paper style={style} zDepth={5} rounded={false}>
     {props.children}
     </Paper>
     {/* <Paper style={style} zDepth={5} /> */}
