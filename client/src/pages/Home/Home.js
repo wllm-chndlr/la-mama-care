@@ -18,10 +18,8 @@ import packageImg from "../../images/package.jpeg";
 const Home = () => (
   <Container fluid>
     <div id="home-main">
-      {/* <Tagline>Not all heroes wear capes.</Tagline> */}
       <Row>
         <div style={{ backgroundColor: "rgb(0, 178, 169)" }}>
-          {/* <Col size="md-3" /> */}
           <Col size="md-12">
             <div id="top">
               <span>
@@ -114,55 +112,56 @@ const Home = () => (
         </Col>
       </Row>
 
-
       <div className="superhero-div">
+        <Row>
+          <Col size="md-12">
+            <div className="superhero-div">
+              <p id="sup-top" className="superhero-p">
+                Whether she is
+              </p>
+            </div>
+          </Col>
+        </Row>
 
-      <Row>
-        <Col size="md-12">
-          <div className="superhero-div">
-            <p id="sup-top" className="superhero-p">Whether she is</p>
-          </div>
-        </Col>
-      </Row>
+        <Row>
+          <Col size="md-4">
+            <div className="superhero-div">
+              <p className="superhero-p">
+                a first-time mom <br />or <br />one with little ones at home
+              </p>
+            </div>
+          </Col>
+          <Col size="md-4">
+            <div className="superhero-div">
+              <p className="superhero-p">
+                recovering from a cesarean birth <br />or <br />rocked a home
+                birth
+              </p>
+            </div>
+          </Col>
+          <Col size="md-4">
+            <div className="superhero-div">
+              <p className="superhero-p">
+                breast feeding <br />or <br />bottle feeding
+              </p>
+            </div>
+          </Col>
+        </Row>
 
-      <Row>
-        <Col size="md-4">
-          <div className="superhero-div">
-            <p className="superhero-p">
-              a first-time mom <br/>or <br/>one with little ones at home
-            </p>
-          </div>
-        </Col>
-        <Col size="md-4">
-          <div className="superhero-div">
-            <p className="superhero-p">
-              recovering from a cesarean birth <br/>or <br/>rocked a home birth
-            </p>
-          </div>
-        </Col>
-        <Col size="md-4">
-          <div className="superhero-div">
-            <p className="superhero-p">breast feeding <br/>or <br/>bottle feeding</p>
-          </div>
-        </Col>
-      </Row>
-
-      <Row>
-        <Col size="md-12">
-          <div className="superhero-div">
-        
-          <p className="superhero-p">
-            she is a <span className="bang">superhero</span> who deserves to feel <br/>nourished, <br/>supported, <br/>and
-            strengthened <br/>during the postpartum period.
-          </p>
-          </div>
-        </Col>
-      </Row>
-
+        <Row>
+          <Col size="md-12">
+            <div className="superhero-div">
+              <p className="superhero-p">
+                she is a <span className="bang">superhero</span> who deserves to
+                feel <br />nourished, <br />supported, <br />and strengthened{" "}
+                <br />during the postpartum period.
+              </p>
+            </div>
+          </Col>
+        </Row>
       </div>
 
       <Row>
-        
         <Col size="md-4">
           <img
             src={packageImg}
@@ -178,10 +177,8 @@ const Home = () => (
         </Col>
 
         <Col size="md-8">
-
-          <div style={{minHeight: "30rem"}}>
-
-            <p className="p-a" id="item2" >
+          <div style={{ minHeight: "30rem" }}>
+            <p className="p-a" id="item2">
               Our care kit is intended to provide moms with the sustenance and
               supplies they need to ensure their own self care during this
               critical time in their lives when time for themselves is limited.
@@ -191,47 +188,42 @@ const Home = () => (
               helpful information to help navigate the critical 4th trimester.
             </p>
 
+            <RaisedButton
+              label="View care kit"
+              primary={true}
+              style={{
+                margin: "1rem",
+                backgroundColor: "rgb(182, 207, 208)"
+              }}
+              onClick={() => (window.location.href = "/kit")}
+            />
+            
           </div>
-
-          <RaisedButton
-            label="View care kit"
-            primary={true}
-            style={{
-              margin: "1rem",
-              backgroundColor: "rgb(182, 207, 208)"
-            }}
-            onClick={() => (window.location.href = "/kit")}
-          />
-
         </Col>
-
       </Row>
 
       <div id="end">
-
         <Row>
-
           <Col size="md-3" />
 
           <Col size="md-6">
-
             <Paper>
-            <div className="p-a">
-              <p>
-                Our hope is that every mom receives the love and support she
-                deserves after embarking on one of life’s most exciting journeys.
-              </p>
-              <p>
-                We hope to build not just a product, but a community that
-                continues to grow and nurture each other through the years.
-              </p>
-            </div>
+              <div className="p-a">
+                <p>
+                  Our hope is that every mom receives the love and support she
+                  deserves after embarking on one of life’s most exciting
+                  journeys.
+                </p>
+                <p>
+                  We hope to build not just a product, but a community that
+                  continues to grow and nurture each other through the years.
+                </p>
+              </div>
             </Paper>
           </Col>
 
           <Col size="md-3" />
         </Row>
-
       </div>
 
       {/* <Row>
@@ -279,22 +271,3 @@ const Home = () => (
 );
 
 export default Home;
-
-
-
-      {
-        /* <Col size="md-6">
-        <img
-          src="https://www.littlebigcrafter.com/wp-content/uploads/2016/04/Super-Mom-Download-Design-Freebie-1.jpg"
-          alt="supermom"
-          style={{
-            width: "100%",
-            opacity: "0.8",
-            paddingleft: "0px",
-            paddingright: "0px",
-            margin: "auto"
-          }}
-        />
-        <div />
-      </Col> */
-      }

@@ -4,7 +4,7 @@ import Paper from "material-ui/Paper";
 const style = {
   height: "auto",
   // padding: "3%",
-  width: "auto",
+  width: "100%",
   // margin: "5%",
   // textAlign: "center",
   display: "inline-block",

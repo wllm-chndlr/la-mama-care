@@ -15,15 +15,14 @@ import DialogExampleSimple from "../../components/Dialog";
 import "./Card.css";
 
 const CardExample = props => (
-
   <Card
     style={{
-      border: "3px solid #444",
+      border: "3px solid rgb(0, 178, 169)",
       // margin: "0px 20px 90px 20px"
       margin: "10%",
-      maxHeight: "600px"
+      maxHeight: "20%"
     }}
-    className="cardpack"
+    className="animated rotateInDownRight"
   >
     {/* <CardHeader
       title="URL Avatar"
@@ -37,7 +36,7 @@ const CardExample = props => (
           title={props.title}
           // subtitle="Overlay subtitle"
           actAsExpander={true}
-          titleStyle={{ fontFamily: "'Bangers'" }}
+          titleStyle={{ fontFamily: "'Poppins'" }}
         />
       }
     >
@@ -58,7 +57,7 @@ const CardExample = props => (
         margin: "2rem"
       }}
     /> */}
-    
+
     <CardText
       expandable={true}
       actAsExpander={true}
@@ -71,7 +70,6 @@ const CardExample = props => (
         <li className="kit-items">Item2</li>
         <li className="kit-items">Item3</li>
       </ul> */}
-
     </CardText>
 
     {/* <CardActions>
@@ -105,7 +103,6 @@ const CardExample = props => (
       </Row>
 
     </CardActions> */}
-
   </Card>
 );
 

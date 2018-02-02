@@ -13,14 +13,15 @@ import Facebook from "../../images/facebook.svg";
 
 const Foot = () => (
   <Container fluid>
+    
     <footer
       className="navbar-bottom"
       id="footer"
       style={{ marginRight: "0px" }}
     >
-      {/* <footer> */}
+
       <Row>
-        <div className="mailing">
+        <div id="mailing">
           <Col size="md-2" />
           <Col size="md-4">
             <TextField
@@ -97,7 +98,9 @@ const Foot = () => (
         </Col>
         <Col size="md-5" />
       </Row>
+
     </footer>
+    
   </Container>
 );
 
