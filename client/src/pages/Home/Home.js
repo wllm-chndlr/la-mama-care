@@ -1,11 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
-import Tagline from "../../components/Tagline";
-import TextField from 'material-ui/TextField';
 import RaisedButton from "material-ui/RaisedButton";
-import mom1 from "../../images/mom1.jpeg";
-import mom2 from "../../images/mom2-halftone.jpg";
-import ModalModalExample from "../../components/Modal";
 import Paper from "../../components/Paper";
 import "./Home.css";
 import jc from "../../images/jc-new.jpg";
@@ -17,7 +12,9 @@ import packageImg from "../../images/package.jpeg";
 
 const Home = () => (
   <Container fluid>
+
     <div id="home-main">
+
       <Row>
         <div style={{ backgroundColor: "rgb(0, 178, 169)" }}>
           <Col size="md-12">
@@ -54,18 +51,11 @@ const Home = () => (
                 self-care items for this critical time.
               </h3>
 
-              {/* <ModalModalExample/> */}
             </div>
           </Col>
           {/* <Col size="md-3" /> */}
         </div>
       </Row>
-
-      {/* <Row>
-        <Col size="md-12">
-          <img src={mom2} style={{ maxWidth: "100%" }} />
-        </Col>
-      </Row> */}
 
       <Row>
         <Col size="md-12">
@@ -174,6 +164,7 @@ const Home = () => (
           <Col size="md-4">
             <img
               src={packageImg}
+              alt="care kit"
               data-aos={"zoom-in"}
               data-aos-offset={500}
               style={{
@@ -242,47 +233,8 @@ const Home = () => (
         </Row>
       </div>
 
-      {/* <Row>
-        <Col size="md-2" />
-
-        <Col size="md-8">
-          <div className="p-a">So, what's included in a La Mama Care kit?</div>
-        </Col>
-
-        <Col size="md-2" />
-      </Row>
-
-      <Row>
-        <div id="included-div">
-          <Col size="md-3">
-            <div className="included" id="item1">
-              A <text className="bang">WATER BOTTLE</text> with important
-              hydration guidelines for the postpartum period.
-            </div>
-          </Col>
-          <Col size="md-3">
-            <div className="included" id="item2">
-              Nutritious and handy <text className="bang">SNACKS</text> to
-              satisfy when time is limited.
-            </div>
-          </Col>
-          <Col size="md-3">
-            <div className="included" id="item3">
-              <text className="bang">PERSONAL CARE ITEMS</text> to aid the
-              postpartum body in recuperating from the major changes that have
-              just taken place.
-            </div>
-          </Col>
-          <Col size="md-3">
-            <div className="included" id="item4">
-              Most importantly, a <text className="bang">RESOURCE BOOK</text>{" "}
-              that walks the mom through the best ways to take care of herself
-              both physically and emotionally over the next year.
-            </div>
-          </Col>
-        </div>
-      </Row> */}
     </div>
+
   </Container>
 );
 

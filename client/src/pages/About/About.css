@@ -13,7 +13,7 @@ div#about-main {
 }
 
 .headshot {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   /* margin-bottom: 5rem; */
   /* border: 5px solid rgb(219, 219, 219); */

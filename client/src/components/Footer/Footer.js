@@ -1,11 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import { Col, Row, Container } from "../../components/Grid";
-import Navbar from "react";
 import TextField from "material-ui/TextField";
-import RaisedButton from "material-ui/RaisedButton";
 import FlatButton from "material-ui/FlatButton";
-import Twitter from "../../images/twitter.svg";
 import Instagram from "../../images/instagram.svg";
 import Facebook from "../../images/facebook.svg";
 
@@ -13,13 +10,11 @@ import Facebook from "../../images/facebook.svg";
 
 const Foot = () => (
   <Container fluid>
-    
     <footer
       className="navbar-bottom"
       id="footer"
       style={{ marginRight: "0px" }}
     >
-
       <Row>
         <div id="mailing">
           <Col size="md-2" />
@@ -43,20 +38,25 @@ const Foot = () => (
             <FlatButton label="Submit" hoverColor="rgb(0, 178, 169)" />
           </Col>
 
-
           <Col size="md-2" />
 
           <Col size="md-4">
-            <div id="social-div">
+            <div
+              id="social-div"
+              style={{
+                textAlign: "center"
+              }}
+            >
               <span>
-                <a href="#">
-                  <img src={Twitter} className="social-icon" />
+                <a href="https://www.instagram.com/lamamacare/">
+                  <img
+                    src={Instagram}
+                    alt={Instagram}
+                    className="social-icon"
+                  />
                 </a>
-                <a href="#">
-                  <img src={Instagram} className="social-icon" />
-                </a>
-                <a href="#">
-                  <img src={Facebook} className="social-icon" />
+                <a href="https://www.facebook.com/lamamacare/">
+                  <img src={Facebook} alt={Facebook} className="social-icon" />
                 </a>
               </span>
             </div>
@@ -67,26 +67,26 @@ const Foot = () => (
       <Row>
         <Col size="md-4" />
 
-        <Col size="md-1">
-          <a href="#" className="foot-cont">
-            Contact
-          </a>
+        <Col size="md-4">
+          <div
+            style={{
+              textAlign: "center",
+              paddingTop: "2rem",
+              paddingBottom: "2rem"
+            }}
+          >
+            <a href="/kit" className="foot-cont">
+              Care Kit
+            </a>
+            <a href="/resources" className="foot-cont">
+              Resources
+            </a>
+            <a href="/about" className="foot-cont">
+              About Us
+            </a>
+          </div>
         </Col>
-        <Col size="md-1">
-          <a href="#" className="foot-cont">
-            About Us
-          </a>
-        </Col>
-        <Col size="md-1">
-          <a href="#" className="foot-cont">
-            Care Kit
-          </a>
-        </Col>
-        <Col size="md-1">
-          <a href="#" className="foot-cont">
-            Resources
-          </a>
-        </Col>
+
         <Col size="md-4" />
       </Row>
 
@@ -94,13 +94,17 @@ const Foot = () => (
         <Col size="md-5" />
 
         <Col size="md-2">
-          <p className="foot-cont">© La Mama Care 2017</p>
+          <div
+            style={{
+              textAlign: "center"
+            }}
+          >
+            <p className="foot-cont">© La Mama Care 2017</p>
+          </div>
         </Col>
         <Col size="md-5" />
       </Row>
-
     </footer>
-    
   </Container>
 );
 

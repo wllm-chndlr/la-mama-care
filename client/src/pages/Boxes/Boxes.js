@@ -1,13 +1,8 @@
 import React, { Component } from "react";
-import DeleteBtn from "../../components/DeleteBtn";
 import API from "../../utils/API";
-import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../../components/Grid";
-import { List, ListItem } from "../../components/List";
-import { Input, TextArea, FormBtn } from "../../components/Form";
 import CardExample from "../../components/Card";
 import Tagline from "../../components/Tagline";
-import Paper from "../../components/Paper";
 import packageImg from "../../images/package.jpeg";
 import "./Boxes.css";
 

@@ -11,9 +11,12 @@ const Resources = () => (
     <div id="resources-main">
       <Tagline>Resources</Tagline>
 
-      <div className="res-pap" style={{ maxWidth: "33%", margin: "5%" }}>
+      <Row>
+
+      <Col size="md-4">
+      <div className="res-pap" style={{ maxWidth: "80%", margin: "5%" }}>
         <Paper>
-          <p className="p-bio" >
+          <p className="p-bio">
             <a
               style={{
                 color: "#fff",
@@ -21,16 +24,19 @@ const Resources = () => (
               }}
               href="http://www.postpartum.net/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Postpartum Support International
             </a>
           </p>
         </Paper>
       </div>
+      </Col>
 
-      <div className="res-pap" style={{ maxWidth: "33%", margin: "5%" }}>
+      <Col size="md-4">
+      <div className="res-pap" style={{ maxWidth: "80%", margin: "5%" }}>
         <Paper>
-          <p className="p-bio" >
+          <p className="p-bio">
             <a
               style={{
                 color: "#fff",
@@ -38,16 +44,19 @@ const Resources = () => (
               }}
               href="https://www.seleni.org/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Seleni Institute
             </a>
           </p>
         </Paper>
       </div>
+      </Col>
 
-      <div className="res-pap" style={{ maxWidth: "33%", margin: "5%" }}>
+      <Col size="md-4">
+      <div className="res-pap" style={{ maxWidth: "80%", margin: "5%" }}>
         <Paper>
-          <p className="p-bio" >
+          <p className="p-bio">
             <a
               style={{
                 color: "#fff",
@@ -55,12 +64,16 @@ const Resources = () => (
               }}
               href="https://kellymom.com/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Kelly Mom
             </a>
           </p>
         </Paper>
       </div>
+      </Col>
+
+      </Row>
     </div>
   </Container>
 );

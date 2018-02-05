@@ -125,3 +125,8 @@ b.snip-footer__highlight {
 .snipcart-checkout:hover {
   color: rgb(224, 60, 49);
 }
+
+#shop-cart:hover {
+  cursor: pointer;
+  color: rgb(224, 60, 49);
+}
