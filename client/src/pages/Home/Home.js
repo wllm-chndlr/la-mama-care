@@ -115,24 +115,28 @@ const Home = () => (
       <div className="superhero-div">
         <Row>
           <Col size="md-12">
-            <div className="superhero-div">
-              <p id="sup-top" className="superhero-p">
-                Whether she is
-              </p>
-            </div>
+            <p className="superhero-p">Whether she is</p>
           </Col>
         </Row>
 
         <Row>
           <Col size="md-4">
-            <div className="superhero-div">
+            <div
+              className="super-anim"
+              data-aos="fade-up"
+              data-aos-offset={500}
+            >
               <p className="superhero-p">
-                a first-time mom <br />or <br />one with little ones at home
+                a first-time mom <br />or <br />a mom with little ones at home
               </p>
             </div>
           </Col>
           <Col size="md-4">
-            <div className="superhero-div">
+            <div
+              className="super-anim"
+              data-aos="fade-up"
+              data-aos-offset={550}
+            >
               <p className="superhero-p">
                 recovering from a cesarean birth <br />or <br />rocked a home
                 birth
@@ -140,7 +144,11 @@ const Home = () => (
             </div>
           </Col>
           <Col size="md-4">
-            <div className="superhero-div">
+            <div
+              className="super-anim"
+              data-aos="fade-up"
+              data-aos-offset={600}
+            >
               <p className="superhero-p">
                 breast feeding <br />or <br />bottle feeding
               </p>
@@ -162,44 +170,49 @@ const Home = () => (
       </div>
 
       <Row>
-        <Col size="md-4">
-          <img
-            src={packageImg}
-            style={{
-              maxWidth: "100%",
-              minHeight: "30rem",
-              borderTop: "3px solid rgb(54, 54, 54)",
-              borderBottom: "3px solid rgb(54, 54, 54)",
-              borderRight: "3px solid rgb(54, 54, 54)"
-              // borderLeft: "3px solid rgb(54, 54, 54)"
-            }}
-          />
-        </Col>
-
-        <Col size="md-8">
-          <div style={{ minHeight: "30rem" }}>
-            <p className="p-a" id="item2">
-              Our care kit is intended to provide moms with the sustenance and
-              supplies they need to ensure their own self care during this
-              critical time in their lives when time for themselves is limited.
-              <br />
-              Through handy, healthy snacks and other practical essentials, our
-              kit is intended to surround the mother with must-have items and
-              helpful information to help navigate the critical 4th trimester.
-            </p>
-
-            <RaisedButton
-              label="View care kit"
-              primary={true}
+        <div id="kit-div">
+          <Col size="md-4">
+            <img
+              src={packageImg}
+              data-aos={"zoom-in"}
+              data-aos-offset={500}
               style={{
-                margin: "1rem",
-                backgroundColor: "rgb(182, 207, 208)"
+                maxWidth: "100%",
+                minHeight: "30rem",
+                borderTop: "3px solid rgb(54, 54, 54)",
+                borderBottom: "3px solid rgb(54, 54, 54)",
+                borderRight: "3px solid rgb(54, 54, 54)"
+                // borderLeft: "3px solid rgb(54, 54, 54)"
               }}
-              onClick={() => (window.location.href = "/kit")}
             />
-            
-          </div>
-        </Col>
+          </Col>
+
+          <Col size="md-8">
+            <div style={{ minHeight: "30rem" }}>
+              <p className="p-a" id="item2">
+                Our care kit is intended to provide moms with the sustenance and
+                supplies they need to ensure their own self care during this
+                critical time in their lives when time for themselves is
+                limited.
+                <br />
+                Through handy, healthy snacks and other practical essentials,
+                our kit is intended to surround the mother with must-have items
+                and helpful information to help navigate the critical 4th
+                trimester.
+              </p>
+
+              <RaisedButton
+                label="View care kit"
+                primary={true}
+                style={{
+                  margin: "1rem",
+                  backgroundColor: "rgb(182, 207, 208)"
+                }}
+                onClick={() => (window.location.href = "/kit")}
+              />
+            </div>
+          </Col>
+        </div>
       </Row>
 
       <div id="end">
@@ -208,16 +221,19 @@ const Home = () => (
 
           <Col size="md-6">
             <Paper>
-              <div className="p-a">
+              <div
+                className="p-a"
+                style={{ backgroundColor: "rgb(0, 178, 169)", color: "#fff" }}
+              >
                 <p>
                   Our hope is that every mom receives the love and support she
                   deserves after embarking on one of life’s most exciting
                   journeys.
                 </p>
-                <p>
+                {/* <p>
                   We hope to build not just a product, but a community that
                   continues to grow and nurture each other through the years.
-                </p>
+                </p> */}
               </div>
             </Paper>
           </Col>

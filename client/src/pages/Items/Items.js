@@ -54,7 +54,7 @@ class Items extends Component {
               {this.state.items.length ? <div>
                   {this.state.items.map(item => 
                   <Col size="md-4">
-                      <CardExample itemID={item.itemID} image={item.image} title={item.title} description={item.description} data-aos={"zoom-in"} />
+                      <CardExample itemID={item.itemID} image={item.image} title={item.title} description={item.description} />
                   </Col>)}
                 </div> : <h3>No Results to Display</h3>}
             </Col>

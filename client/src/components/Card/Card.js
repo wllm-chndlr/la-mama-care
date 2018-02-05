@@ -17,30 +17,40 @@ import "./Card.css";
 const CardExample = props => (
   <Card
     style={{
-      border: "3px solid rgb(0, 178, 169)",
+      border: "3px solid rgb(90,90,90)",
       // margin: "0px 20px 90px 20px"
-      margin: "10%",
+      margin: "15%",
       maxHeight: "20%"
     }}
-    className="animated rotateInDownRight"
+    // className="animated rotateInDownRight"
+    // data-aos={"zoom-in"}
+    // data-aos-offset={500}
+    onClick={this.handleOpen}
   >
+    <DialogExampleSimple />
+
     {/* <CardHeader
       title="URL Avatar"
       subtitle="Subtitle"
       // avatar="images/jsa-128.jpg"
     /> */}
     <CardMedia
-      actAsExpander={true}
+      actAsExpander={false}
       overlay={
         <CardTitle
           title={props.title}
           // subtitle="Overlay subtitle"
-          actAsExpander={true}
+          actAsExpander={false}
           titleStyle={{ fontFamily: "'Poppins'" }}
         />
       }
     >
-      <img src={props.image} alt={props.title} />
+      <img
+        src={props.image}
+        alt={props.title}
+        data-aos={"zoom-in"}
+        data-aos-offset={500}
+      />
     </CardMedia>
 
     {/* <CardTitle
@@ -58,19 +68,13 @@ const CardExample = props => (
       }}
     /> */}
 
-    <CardText
-      expandable={true}
-      actAsExpander={true}
+    {/* <CardText
+      expandable={false}
+      actAsExpander={false}
       style={{ fontSize: "18px", color: "rgb(90,90,90)" }}
     >
       {props.description}
-      {/* <div style={{ marginLeft: "2rem" }}>${props.price}</div>
-      <ul>
-        <li className="kit-items">Item1</li>
-        <li className="kit-items">Item2</li>
-        <li className="kit-items">Item3</li>
-      </ul> */}
-    </CardText>
+    </CardText> */}
 
     {/* <CardActions>
 

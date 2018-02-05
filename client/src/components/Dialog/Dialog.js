@@ -5,12 +5,20 @@ import RaisedButton from 'material-ui/RaisedButton';
 
 
 export default class DialogExampleSimple extends React.Component {
-  state = {
-    open: false,
-  };
+
+  constructor(props) {
+    super(props);
+    // this.handleClick = this.handleClick.bind(this);
+    this.state = { open: false, title: props.title };
+  }
+
+  // state = {
+  //   open: false,
+  //   title: props.title
+  // };
 
   handleOpen = () => {
-    this.setState({open: true});
+    this.setState({ open: true });
   };
 
   handleClose = () => {
@@ -33,15 +41,17 @@ export default class DialogExampleSimple extends React.Component {
     ];
 
     return (
-      <div>
-        <FlatButton label="Details" onClick={this.handleOpen} />
+      <div onClick={this.handleOpen}>
+        {/* <FlatButton label="Details" onClick={this.handleOpen} /> */}
         <Dialog
-          title="name of kit"
+          title={this.title}
           actions={actions}
           modal={false}
           open={this.state.open}
           onRequestClose={this.handleClose}
+          
         >
+        {/* {props.title} */}
         </Dialog>
       </div>
     );
