@@ -1,8 +1,15 @@
 div#items-main {
   background-image: url('../../images/sos.png');
-  margin-top: 100px;
+  margin-top: 7.5%;
+  margin-bottom: 5%;
 }
 
 #kit-title {
   font-weight: 800;
+}
+
+@media only screen and (max-width: 768px) {
+  div#items-main {
+    margin-top: 60%;
+  }
 }

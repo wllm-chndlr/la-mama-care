@@ -5,7 +5,6 @@ import cart from '../../images/cart.svg'
 import "./AppBar.css";
 
 const AppBarTop = () => (
-
   <Container fluid>
     <div className="app-main">
       <Row>
@@ -23,18 +22,24 @@ const AppBarTop = () => (
           </a>
         </Col>
         <Col size="md-6" id="navbtns" style={{ marginTop: "30px" }}>
+          <div id="app-link-div">
           <ul className="nav nav-pills nav-justified">
-
-            <li role="presentation">
-              <a href="/kit">care kit</a>
+            <li className="app-link" role="presentation">
+              <a href="/kit">
+                care kit
+              </a>
             </li>
-            <li role="presentation">
-              <a href="/resources">resources</a>
+            <li className="app-link" role="presentation">
+              <a href="/resources">
+                resources
+              </a>
             </li>
-            <li role="presentation">
-              <a href="/about">about</a>
+            <li className="app-link" role="presentation">
+              <a href="/about">
+                about
+              </a>
             </li>
-            <li role="presentation">
+            <li className="app-link" role="presentation">
               <a href="#">
                 <img
                   className="snipcart-checkout"
@@ -46,6 +51,7 @@ const AppBarTop = () => (
               </a>
             </li>
           </ul>
+          </div>
         </Col>
       </Row>
     </div>

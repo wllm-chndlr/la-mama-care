@@ -17,8 +17,10 @@ const CardExample = props => (
     style={{
       border: "3px solid rgb(90,90,90)",
       margin: "10%",
-      minHeight: "20%"
+      // minHeight: "20%",
+      maxHeight: "100%"
     }}
+    containerStyle={{maxHeight: "100%"}}
     // data-aos={"zoom-in"}
     // data-aos-offset={500}
     onClick={this.handleOpen}
@@ -29,7 +31,7 @@ const CardExample = props => (
       // avatar="images/jsa-128.jpg"
     /> */}
     <CardMedia
-      actAsExpander={false}
+      actAsExpander={true}
       // overlay={
       //   <CardTitle
       //     title={props.title}
@@ -47,51 +49,27 @@ const CardExample = props => (
       showExpandableButton={false}
       actAsExpander={true}
       titleStyle={{
-        // color: "rgb(0, 48, 87)"
+        color: "rgb(0, 125, 138)"
         // margin: "2rem"
       }}
       title={props.title}
       // subtitle={props.price}
       // subtitle={props.description}
       subtitleStyle={{
-        fontSize: "16px",
+        fontSize: "2rem",
         color: "rgb(0, 125, 138)"
-        // margin: "2rem"
       }}
       data-aos={"zoom-in"}
       // data-aos-offset={500}
     />
 
-    {/* <CardText
-      expandable={false}
-      actAsExpander={false}
+    <CardText
+      expandable={true}
+      actAsExpander={true}
       style={{ fontSize: "18px", color: "rgb(90,90,90)" }}
     >
       {props.description}
-    </CardText> */}
-
-    {/* <CardActions>
-
-      <Row>
-
-        <Col size="md-6">
-
-          <DialogExampleSimple
-            title={props.title}
-          />
-
-        </Col>
-
-        <Col size="md-6">
-
-
-
-        </Col>
-
-      </Row>
-
-    </CardActions> */}
-    <DialogExampleSimple />
+    </CardText>
   </Card>
 );
 

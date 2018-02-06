@@ -1,6 +1,8 @@
 import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
 import RaisedButton from "material-ui/RaisedButton";
+import FlatButton from "material-ui/FlatButton";
+
 import Paper from "../../components/Paper";
 import "./Home.css";
 import packageImg from "../../images/package.jpeg";
@@ -88,7 +90,7 @@ const Home = () => (
                     <div
                       className="super-anim"
                       data-aos="fade-up"
-                      data-aos-offset={400}
+                      data-aos-offset={350}
                     >
                       <p className="superhero-p">
                         <span className="bang2">breast feeding</span> or{" "}
@@ -104,7 +106,7 @@ const Home = () => (
                     <div
                       className="super-anim"
                       data-aos="fade-up"
-                      data-aos-offset={350}
+                      data-aos-offset={400}
                     >
                       <p className="superhero-p">
                         <span className="bang2">
@@ -169,13 +171,16 @@ const Home = () => (
             </Row>
             <Row>
               <Col size="md-12">
-                <RaisedButton
+                <FlatButton
                   label="View care kit"
                   primary={true}
                   style={{
                     margin: "5%",
-                    backgroundColor: "rgb(182, 207, 208)"
                   }}
+                  backgroundColor="rgb(0, 178, 169)"
+                  hoverColor="rgb(0, 125, 138)"
+                  rippleColor="#fff"
+                  labelStyle={{ color: "#fff", paddingBottom: "5%" }}
                   onClick={() => (window.location.href = "/kit")}
                 />
               </Col>

@@ -3,6 +3,7 @@ import API from "../../utils/API";
 import { Col, Row, Container } from "../../components/Grid";
 import CardExample from "../../components/Card";
 import Tagline from "../../components/Tagline";
+import DialogExampleSimple from "../../components/Dialog";
 import FlatButton from "material-ui/FlatButton";
 import RaisedButton from "material-ui/RaisedButton";
 import packageImg from "../../images/package.jpeg";
@@ -13,8 +14,7 @@ import AOS from "aos";
 class Items extends Component {
   state = {
     items: [],
-    title: "",
-    description: ""
+    title: this.title
   };
 
   componentDidMount() {
@@ -51,9 +51,10 @@ class Items extends Component {
                 style={{ 
                   maxWidth: "100%", 
                   minHeight: "30rem", 
-                  borderTop: "3px solid rgb(54, 54, 54)", 
-                  borderBottom: "3px solid rgb(54, 54, 54)", 
-                  borderRight: "3px solid rgb(54, 54, 54)" 
+                  borderTop: "3px solid rgb(90,90,90)", 
+                  borderBottom: "3px solid rgb(90,90,90)", 
+                  borderRight: "3px solid rgb(90,90,90)",
+                  marginBottom: "5%"
                 }
                   // borderLeft: "3px solid rgb(54, 54, 54)"
                 } />
@@ -66,40 +67,30 @@ class Items extends Component {
                 <p>
                   $45
                 </p>
-                <RaisedButton
+                <FlatButton
+                  type="button"
                   label="Add to cart" 
                   primary={true} 
                   className="snipcart-add-item" 
                   data-item-id="1" 
+                  data-item-price="45.00" 
                   data-item-name="Signature Care Kit" 
-                  data-item-price="45" 
                   data-item-weight="5" 
                   data-item-url="/kit" 
                   data-item-description="A selection of must-have items for new moms" 
                   style={{marginBottom: "3%"}}
+                  backgroundColor="rgb(0, 178, 169)"
+                  hoverColor="rgb(0, 125, 138)"
+                  rippleColor="#fff"
+                  labelStyle={{color:"#fff", paddingBottom: "5%"}}
                 />
-                {/* <button 
-                  type="button" 
-                  className="btn btn-info snipcart-add-item"
-                  // primary={true} 
-                  data-item-id="1" 
-                  data-item-name="Signature Care Kit" 
-                  data-item-price="45" 
-                  data-item-weight="5" 
-                  data-item-url="/kit" 
-                  data-item-description="A selection of must-have items for new moms" 
-                  style={{background: "rgb(0, 178, 169)"}}
-                >
-                  Add to cart
-                </button> */}
                   <p style={{fontSize:"1.5rem"}}>
                     Through handy, healthy snacks
                     and other practical essentials, our signature kit is intended to
-                    surround the mother with must-have items and helpful
-                    information to help navigate the critical 4th trimester.
+                    surround the mother with must-have items to help navigate the critical 4th trimester.
                   </p>
                   <p style={{fontSize:"1.5rem"}}>
-                    Below are the items included in our care kit.
+                    Each kit includes the items below, along with a La Mama Care resource book filled with helpful information. Click on an item for details.
                   </p>
               </div>
             </Col>

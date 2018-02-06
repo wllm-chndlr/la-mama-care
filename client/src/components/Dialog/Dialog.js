@@ -6,7 +6,7 @@ import FlatButton from 'material-ui/FlatButton';
 export default class DialogExampleSimple extends React.Component {
 
   state = {
-    open: false
+    open: false,
   };
 
   handleOpen = () => {
@@ -36,7 +36,6 @@ export default class DialogExampleSimple extends React.Component {
           open={this.state.open}
           onRequestClose={this.handleClose}
         >
-        {/* {props.title} */}
         </Dialog>
       </div>
     );

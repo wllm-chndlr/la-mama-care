@@ -47,9 +47,9 @@ const boxSeed = [
 const itemSeed = [
   {
     itemID: 1,
-    title: "Motherlove Nipple Butter",
+    title: "Nipple Cream",
     image:
-      "http://bocabfc.com/wp-content/uploads/2015/12/Motherlove-nipple_cream.jpg",
+      "https://www.mommygear.com/media/motherlove/ss_size1/motherlove-nipple-cream.jpg",
     description:
       "Nursing your baby can be an incredible bonding experience, but it can leave you with less comforting physical symptoms. Motherlove Nipple Cream is an herbal salve that helps soothe sore, cracked nipples after feedings. It’s made with 100% certified organic ingredients (and no vitamin E) that are safe to ingest so it won’t harm you or your baby.",
     quantity: 1,
@@ -57,7 +57,7 @@ const itemSeed = [
   },
   {
     itemID: 2,
-    title: "austiNuts Deluxe Nut Mix",
+    title: "Deluxe Nut Mix",
     image:
       "https://cdn3.bigcommerce.com/s-5yyhpm/products/1436/images/1268/Deluxe__30997.1444985699.480.480.jpg?c=2",
     description:
@@ -67,7 +67,17 @@ const itemSeed = [
   },
   {
     itemID: 3,
-    title: "Double Wall Tumbler with Handle",
+    title: "Lavender Lip Saver",
+    image:
+      "https://img.etsystatic.com/il/34cfc1/1051445092/il_570xN.1051445092_1945.jpg",
+    description:
+      "Our nourishing Lip Saver protects your lips from the elements using wildcrafted Lavender and unrefined Beeswax. No petrochemicals, artificial flavors or fragrances.",
+    quantity: 1,
+    date: new Date(Date.now())
+  },
+  {
+    itemID: 4,
+    title: "Double Wall Tumbler",
     image: "https://media.asicdn.com/images/jpgo/22590000/22596373.jpg",
     description:
       'This frosted clear tumbler features double wall construction for insulation of hot or cold liquids. It comes with a snap-on, spill-resistant flip top lid and a 13" flexi straw with a tethered cap.',
@@ -75,8 +85,8 @@ const itemSeed = [
     date: new Date(Date.now())
   },
   {
-    itemID: 4,
-    title: "austiNuts Dried Turkish Apricots",
+    itemID: 5,
+    title: "Dried Apricots",
     image:
       "https://cdn3.bigcommerce.com/s-5yyhpm/products/1507/images/1307/Dry_Apricot__71909.1444985718.480.480.jpg?c=2",
     description:
@@ -85,18 +95,8 @@ const itemSeed = [
     date: new Date(Date.now())
   },
   {
-    itemID: 5,
-    title: "Thunderbird Real Food Bar",
-    image:
-      "https://cdn.shopify.com/s/files/1/0370/9025/products/IMG_0708_25fbf362-b98d-4dfd-ae6e-b81d9f694eb5_grande.jpg?v=1507417426",
-    description:
-      "Containing uniquely pure and highly powerful ingredients, Thunderbird bars provide consumers with conveniently packaged, nutrient dense, plant-based goodness.",
-    quantity: 1,
-    date: new Date(Date.now())
-  },
-  {
     itemID: 6,
-    title: "Hair Ties by Stacey's Choice",
+    title: "Hair Ties",
     image:
       "https://catalog.staceyschoice.com/wp-content/uploads/2017/04/DPO-0026-Neutrals-e1491326071419.jpg",
     description:
@@ -106,30 +106,21 @@ const itemSeed = [
   },
   {
     itemID: 7,
-    title: "Nursing Pads by TL Care",
+    title: "Food Bars",
     image:
-      "https://images-na.ssl-images-amazon.com/images/I/81kaxtmQxaL._SL1500_.jpg",
+      "https://cdn.shopify.com/s/files/1/1077/6418/products/thunderbird.png?v=1504130332",
     description:
-      "5 layers of soft, absorbent fabric made with 100% organic cotton.",
+      "Containing uniquely pure and highly powerful ingredients, Thunderbird bars provide consumers with conveniently packaged, nutrient dense, plant-based goodness.",
     quantity: 1,
     date: new Date(Date.now())
   },
   {
     itemID: 8,
-    title: "Lavender Lip Saver by Fortitude Provisions",
+    title: "Nursing Pads",
     image:
-      "https://img.etsystatic.com/il/34cfc1/1051445092/il_570xN.1051445092_1945.jpg",
+      "https://images-na.ssl-images-amazon.com/images/I/81kaxtmQxaL._SL1500_.jpg",
     description:
-      "Our nourishing Lip Saver protects your lips from the elements using wildcrafted Lavender and unrefined Beeswax. No petrochemicals, artificial flavors or fragrances.",
-    quantity: 1,
-    date: new Date(Date.now())
-  },
-  {
-    itemID: 9,
-    title: "La Mama Care Resource Guide",
-    image:
-      "https://img.etsystatic.com/il/34cfc1/1051445092/il_570xN.1051445092_1945.jpg",
-    description: "This handy resource guide is a must-have for new moms.",
+      "5 layers of soft, absorbent fabric made with 100% organic cotton.",
     quantity: 1,
     date: new Date(Date.now())
   }
