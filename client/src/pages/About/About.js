@@ -14,6 +14,18 @@ const About = () => (
     <div id="about-main">
       <Tagline style={{ color: "#fff" }}>About Us</Tagline>
 
+      <Row>
+        <Col size="md-2" />
+        <Col size="md-8">
+          <p style={{ fontSize: "2rem", marginBottom: "4rem" }}>
+            Started by three mamas who know firsthand how life-changing the
+            first few days, weeks, and months can be, La Mama Care was conceived
+            with parents from all walks of life in mind.
+          </p>
+        </Col>
+        <Col size="md-2" />
+      </Row>
+
       <div className="individual">
         <Row>
           <Col size="md-1" />
@@ -56,14 +68,14 @@ const About = () => (
             <Paper>
               <div className="p-bio">
                 <p className="p-header">Anne Clary</p>
-                Vape poke celiac flexitarian locavore fixie stumptown. Master
-                cleanse retro try-hard, tattooed you probably haven't heard of
-                them lo-fi seitan kombucha meggings fingerstache keffiyeh next
-                level. Kale chips freegan food truck flexitarian palo santo meh
-                YOLO brooklyn, meggings forage viral. Migas crucifix tumblr
-                marfa shabby chic waistcoat sartorial pop-up four loko blog.
-                Pabst cold-pressed slow-carb jianbing street art copper mug raw
-                denim disrupt.
+                Anne is the mama of twins James and Rosie living in Austin,
+                Texas. While parenting twins with her husband is simultaneously
+                fun and exhausting, Anne is fortunate to have lots of help from
+                her parents and sister who live nearby. This support network has
+                been crucial for everyone's sanity (and sleep!) and is something
+                Anne hopes to recreate through La Mama Care's services. When not
+                working full-time or changing diapers, you can find Anne having
+                a glass of wine...or two.
               </div>
             </Paper>
           </Col>
@@ -79,13 +91,16 @@ const About = () => (
             <Paper>
               <div className="p-bio">
                 <p className="p-header">Nique Mayo</p>
-                Health goth tbh chicharrones, narwhal kitsch +1 vinyl iPhone
-                ramps. Authentic stumptown before they sold out snackwave
-                hashtag coloring book pickled fashion axe lyft XOXO la croix
-                PBR&B. Viral hot chicken meh stumptown selfies pitchfork cray
-                DIY photo booth flannel franzen letterpress. Quinoa irony
-                chartreuse fashion axe lo-fi master cleanse pok pok direct trade
-                raclette listicle skateboard cloud bread vaporware.
+                Nique is mama to three-year-old Annabelle and baby Anderson.
+                Along with her husband and pup Lucy, Nique and the kids live
+                “just west of weird” in Dripping Springs, TX. While struggling
+                with nursing issues and perinatal and postpartum anxiety/OCD,
+                Nique was lucky to have an incredible support system in her
+                friends, family and healthcare providers. She believes every mom
+                deserves holistic support, regardless of race, orientation or
+                income level. When Nique powers down from her full-time
+                consulting job, she enjoys neighborhood walks with Lucy and
+                pre-bedtime dance parties with her family.
               </div>
             </Paper>
           </Col>

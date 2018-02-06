@@ -4,6 +4,7 @@ import { Col, Row, Container } from "../../components/Grid";
 import CardExample from "../../components/Card";
 import Tagline from "../../components/Tagline";
 import FlatButton from "material-ui/FlatButton";
+import RaisedButton from "material-ui/RaisedButton";
 import packageImg from "../../images/package.jpeg";
 import "./Items.css";
 import AOS from "aos";
@@ -37,6 +38,7 @@ class Items extends Component {
     return <Container fluid>
         <div id="items-main">
           <Tagline>Care Kit</Tagline>
+          
 
           <Row>
             <Col size="md-4">
@@ -44,7 +46,7 @@ class Items extends Component {
                 src={packageImg} 
                 alt="care kit" 
                 data-aos={"flip-up"} 
-                data-aos-offset={500} 
+                data-aos-offset={400} 
                 data-aos-duration="600"
                 style={{ 
                   maxWidth: "100%", 
@@ -58,20 +60,13 @@ class Items extends Component {
             </Col>
             <Col size="md-8">
               <div className="p-a">
-                <p>
-                  Our care kit is intended to provide moms with the
-                  sustenance and supplies they need to ensure their own self
-                  care during this critical time in their lives when time
-                  for themselves is limited. 
+                <p id="kit-title">
+                  La Mama Care Signature Care Kit
                 </p>
                 <p>
-                  Through handy, healthy snacks
-                  and other practical essentials, our kit is intended to
-                  surround the mother with must-have items and helpful
-                  information to help navigate the critical 4th trimester.
+                  $45
                 </p>
-                <p>Below are the items included in our care kit.</p>
-                <FlatButton 
+                <RaisedButton
                   label="Add to cart" 
                   primary={true} 
                   className="snipcart-add-item" 
@@ -80,7 +75,32 @@ class Items extends Component {
                   data-item-price="45" 
                   data-item-weight="5" 
                   data-item-url="/kit" 
-                  data-item-description="A selection of must-have items for new moms" />
+                  data-item-description="A selection of must-have items for new moms" 
+                  style={{marginBottom: "3%"}}
+                />
+                {/* <button 
+                  type="button" 
+                  className="btn btn-info snipcart-add-item"
+                  // primary={true} 
+                  data-item-id="1" 
+                  data-item-name="Signature Care Kit" 
+                  data-item-price="45" 
+                  data-item-weight="5" 
+                  data-item-url="/kit" 
+                  data-item-description="A selection of must-have items for new moms" 
+                  style={{background: "rgb(0, 178, 169)"}}
+                >
+                  Add to cart
+                </button> */}
+                  <p style={{fontSize:"1.5rem"}}>
+                    Through handy, healthy snacks
+                    and other practical essentials, our signature kit is intended to
+                    surround the mother with must-have items and helpful
+                    information to help navigate the critical 4th trimester.
+                  </p>
+                  <p style={{fontSize:"1.5rem"}}>
+                    Below are the items included in our care kit.
+                  </p>
               </div>
             </Col>
           </Row>
@@ -89,7 +109,7 @@ class Items extends Component {
             <Col size="md-12 sm-12">
               {this.state.items.length ? <div>
                   {this.state.items.map(item => (
-                    <Col size="md-4" key={item.itemID}>
+                    <Col size="md-3" key={item.itemID}>
                       <CardExample
                         itemID={item.itemID}
                         image={item.image}
@@ -107,3 +127,5 @@ class Items extends Component {
 }
 
 export default Items;
+
+

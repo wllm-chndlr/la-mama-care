@@ -35,13 +35,15 @@ const AppBarTop = () => (
               <a href="/about">about</a>
             </li>
             <li role="presentation">
+              <a href="#">
                 <img
                   className="snipcart-checkout"
                   id="shop-cart"
                   src={cart}
                   alt={cart}
-                  style={{marginLeft: "4rem"}}
+                  // style={{marginLeft: "4rem"}}
                 />
+              </a>
             </li>
           </ul>
         </Col>

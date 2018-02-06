@@ -1,6 +1,8 @@
 div#items-main {
-  /* background-image: url('../../images/stardust.png'); */
   background-image: url('../../images/sos.png');
-  /* background: rgb(0, 178, 169); */
   margin-top: 100px;
+}
+
+#kit-title {
+  font-weight: 800;
 }

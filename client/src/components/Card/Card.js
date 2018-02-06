@@ -16,8 +16,8 @@ const CardExample = props => (
   <Card
     style={{
       border: "3px solid rgb(90,90,90)",
-      margin: "15%",
-      maxHeight: "20%"
+      margin: "10%",
+      minHeight: "20%"
     }}
     // data-aos={"zoom-in"}
     // data-aos-offset={500}
@@ -30,32 +30,37 @@ const CardExample = props => (
     /> */}
     <CardMedia
       actAsExpander={false}
-      overlay={
-        <CardTitle
-          title={props.title}
-          // subtitle="Overlay subtitle"
-          actAsExpander={false}
-          titleStyle={{ fontFamily: "'Poppins'" }}
-        />
-      }
+      // overlay={
+      //   <CardTitle
+      //     title={props.title}
+      //     // subtitle="Overlay subtitle"
+      //     actAsExpander={false}
+      //     titleStyle={{ fontFamily: "'Poppins'" }}
+      //   />
+      // }
     >
       <img src={props.image} alt={props.title} />
     </CardMedia>
 
-    {/* <CardTitle
+    <CardTitle
       id="card-title"
       showExpandableButton={false}
       actAsExpander={true}
-      titleStyle={{ color: "rgb(0, 48, 87)", margin: "2rem" }}
-      // title={props.title}
+      titleStyle={{
+        // color: "rgb(0, 48, 87)"
+        // margin: "2rem"
+      }}
+      title={props.title}
       // subtitle={props.price}
       // subtitle={props.description}
       subtitleStyle={{
         fontSize: "16px",
-        color: "rgb(0, 125, 138)",
-        margin: "2rem"
+        color: "rgb(0, 125, 138)"
+        // margin: "2rem"
       }}
-    /> */}
+      data-aos={"zoom-in"}
+      // data-aos-offset={500}
+    />
 
     {/* <CardText
       expandable={false}

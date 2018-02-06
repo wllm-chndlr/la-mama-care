@@ -3,18 +3,13 @@ import { Col, Row, Container } from "../../components/Grid";
 import RaisedButton from "material-ui/RaisedButton";
 import Paper from "../../components/Paper";
 import "./Home.css";
-import jc from "../../images/jc-new.jpg";
-import nm from "../../images/nm-new.jpg";
-import ac from "../../images/ac-new.jpg";
 import packageImg from "../../images/package.jpeg";
 
 
 
 const Home = () => (
   <Container fluid>
-
     <div id="home-main">
-
       <Row>
         <div style={{ backgroundColor: "rgb(0, 178, 169)" }}>
           <Col size="md-12">
@@ -41,7 +36,7 @@ const Home = () => (
               </span>
               <h3
                 style={{
-                  maxWidth: "50%",
+                  maxWidth: "70%",
                   fontFamily: "'Poppins'",
                   margin: "auto"
                 }}
@@ -50,7 +45,6 @@ const Home = () => (
                 childbirth, our postpartum care kit provides moms with must-have
                 self-care items for this critical time.
               </h3>
-
             </div>
           </Col>
           {/* <Col size="md-3" /> */}
@@ -59,42 +53,81 @@ const Home = () => (
 
       <Row>
         <Col size="md-12">
-          <div className="p-a" id="three-mamas">
+          <div id="sup-main">
             <Paper>
-              <div id="about-main-div">
-                <div id="three-mamas-text">
-                  <p>
-                    Started by three mamas who know firsthand how life-changing
-                    the first few days, weeks, and months can be,{" "}
-                    <span className="bang">La Mama Care</span> was conceived
-                    with parents from all walks of life in mind.
-                  </p>
-                </div>
+              <div className="superhero-div">
                 <Row>
-                  <Col size="md-3" />
-                  <Col size="md-6">
-                    <div id="home-headshots">
-                      <img
-                        style={{ maxWidth: "32%", marginRight: "2%" }}
-                        className="home-headshot"
-                        src={jc}
-                        alt="jacqueline chandler"
-                      />
-                      <img
-                        style={{ maxWidth: "32%", marginRight: "2%" }}
-                        className="home-headshot"
-                        src={ac}
-                        alt="anne clary"
-                      />
-                      <img
-                        style={{ maxWidth: "32%" }}
-                        className="home-headshot"
-                        src={nm}
-                        alt="nique mayo"
-                      />
+                  <Col size="md-1" />
+
+                  <Col size="md-11">
+                    <p className="superhero-p">Whether she is</p>
+                  </Col>
+                </Row>
+
+                <Row>
+                  <Col size="md-2" />
+                  <Col size="md-10">
+                    <div
+                      className="super-anim"
+                      data-aos="fade-up"
+                      data-aos-offset={300}
+                    >
+                      <p className="superhero-p">
+                        <span className="bang2">a first-time mom</span> or{" "}
+                        <span className="bang2">
+                          a mom with little ones at home
+                        </span>
+                      </p>
                     </div>
                   </Col>
+                </Row>
+
+                <Row>
                   <Col size="md-3" />
+                  <Col size="md-9">
+                    <div
+                      className="super-anim"
+                      data-aos="fade-up"
+                      data-aos-offset={400}
+                    >
+                      <p className="superhero-p">
+                        <span className="bang2">breast feeding</span> or{" "}
+                        <span className="bang2">bottle feeding</span>
+                      </p>
+                    </div>
+                  </Col>
+                </Row>
+
+                <Row>
+                  <Col size="md-4" />
+                  <Col size="md-8">
+                    <div
+                      className="super-anim"
+                      data-aos="fade-up"
+                      data-aos-offset={350}
+                    >
+                      <p className="superhero-p">
+                        <span className="bang2">
+                          recovering from a cesarean birth
+                        </span>{" "}
+                        or <span className="bang2">rocked a home birth</span>
+                      </p>
+                    </div>
+                  </Col>
+                </Row>
+
+                <Row>
+                  <Col size="md-11">
+                    <div className="superhero-div">
+                      <p className="superhero-p" style={{ textAlign: "right" }}>
+                        she is a <span className="bang2">superhero</span> who
+                        deserves to feel <br />nourished, <br />supported,{" "}
+                        <br />and strengthened <br />during the postpartum
+                        period.
+                      </p>
+                    </div>
+                  </Col>
+                  <Col size="md-1" />
                 </Row>
               </div>
             </Paper>
@@ -102,65 +135,8 @@ const Home = () => (
         </Col>
       </Row>
 
-      <div className="superhero-div">
+      <div id="kit-div">
         <Row>
-          <Col size="md-12">
-            <p className="superhero-p">Whether she is</p>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col size="md-4">
-            <div
-              className="super-anim"
-              data-aos="fade-up"
-              data-aos-offset={500}
-            >
-              <p className="superhero-p">
-                a first-time mom <br />or <br />a mom with little ones at home
-              </p>
-            </div>
-          </Col>
-          <Col size="md-4">
-            <div
-              className="super-anim"
-              data-aos="fade-up"
-              data-aos-offset={550}
-            >
-              <p className="superhero-p">
-                recovering from a cesarean birth <br />or <br />rocked a home
-                birth
-              </p>
-            </div>
-          </Col>
-          <Col size="md-4">
-            <div
-              className="super-anim"
-              data-aos="fade-up"
-              data-aos-offset={600}
-            >
-              <p className="superhero-p">
-                breast feeding <br />or <br />bottle feeding
-              </p>
-            </div>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col size="md-12">
-            <div className="superhero-div">
-              <p className="superhero-p">
-                she is a <span className="bang">superhero</span> who deserves to
-                feel <br />nourished, <br />supported, <br />and strengthened{" "}
-                <br />during the postpartum period.
-              </p>
-            </div>
-          </Col>
-        </Row>
-      </div>
-
-      <Row>
-        <div id="kit-div">
           <Col size="md-4">
             <img
               src={packageImg}
@@ -169,72 +145,45 @@ const Home = () => (
               data-aos-offset={500}
               style={{
                 maxWidth: "100%",
-                minHeight: "30rem",
-                borderTop: "3px solid rgb(54, 54, 54)",
-                borderBottom: "3px solid rgb(54, 54, 54)",
-                borderRight: "3px solid rgb(54, 54, 54)"
-                // borderLeft: "3px solid rgb(54, 54, 54)"
+                margin: "5%"
+                // maxHeight: "80%"
+                // borderTop: "3px solid rgb(54, 54, 54)",
+                // borderBottom: "3px solid rgb(54, 54, 54)",
+                // borderRight: "3px solid rgb(54, 54, 54)"
               }}
             />
           </Col>
 
           <Col size="md-8">
-            <div style={{ minHeight: "30rem" }}>
-              <p className="p-a" id="item2">
-                Our care kit is intended to provide moms with the sustenance and
-                supplies they need to ensure their own self care during this
-                critical time in their lives when time for themselves is
-                limited.
-                <br />
-                Through handy, healthy snacks and other practical essentials,
-                our kit is intended to surround the mother with must-have items
-                and helpful information to help navigate the critical 4th
-                trimester.
-              </p>
-
-              <RaisedButton
-                label="View care kit"
-                primary={true}
-                style={{
-                  margin: "1rem",
-                  backgroundColor: "rgb(182, 207, 208)"
-                }}
-                onClick={() => (window.location.href = "/kit")}
-              />
-            </div>
+            <Row>
+              <Col size="md-12">
+                <div>
+                  <p className="kit-p">
+                    Our care kit is intended to provide moms with the sustenance
+                    and supplies they need to ensure their own self care during
+                    this critical time in their lives when time for themselves
+                    is limited.
+                  </p>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col size="md-12">
+                <RaisedButton
+                  label="View care kit"
+                  primary={true}
+                  style={{
+                    margin: "5%",
+                    backgroundColor: "rgb(182, 207, 208)"
+                  }}
+                  onClick={() => (window.location.href = "/kit")}
+                />
+              </Col>
+            </Row>
           </Col>
-        </div>
-      </Row>
-
-      <div id="end">
-        <Row>
-          <Col size="md-3" />
-
-          <Col size="md-6">
-            <Paper>
-              <div
-                className="p-a"
-                style={{ backgroundColor: "rgb(0, 178, 169)", color: "#fff" }}
-              >
-                <p>
-                  Our hope is that every mom receives the love and support she
-                  deserves after embarking on one of life’s most exciting
-                  journeys.
-                </p>
-                {/* <p>
-                  We hope to build not just a product, but a community that
-                  continues to grow and nurture each other through the years.
-                </p> */}
-              </div>
-            </Paper>
-          </Col>
-
-          <Col size="md-3" />
         </Row>
       </div>
-
     </div>
-
   </Container>
 );
 

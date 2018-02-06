@@ -1,12 +1,11 @@
 * {
-    font-family: 'Oswald',
+    font-family: 'Poppins',
     sans-serif;
     line-height: 2;
     font-size: 2rem;
 }
 
 div#home-main {
-  /* background-image: url('../../images/stardust.png'); */
   background-image: url('../../images/sos.png');
   margin-top: 100px;
 }
@@ -22,11 +21,14 @@ div#home-main {
   font-size: 20px;
 }
 
+.bang2 {
+  font-family: 'Bangers';
+  font-size: 3rem;
+}
+
 #super {
   font-family: 'Bangers', sans-serif;
 }
-
-
 
 #three-mamas {
   /* background-image: url('../../images/stardust.png'); */
@@ -39,23 +41,22 @@ div#home-main {
   margin: auto;
   /* color: rgb(199, 199, 199); */
   color: rgb(90, 90, 90);
-  
   /* background-image: url('../../images/stardust.png'); */
   padding: 3%;
 }
 
-#about-main-div {
-  /* background-image: url('../../images/stardust.png'); */
-  
+#sup-main {
+  /* width: 80%; */
+  margin: 5%;
 }
 
 .superhero-div {
   /* background: rgb(0, 178, 169); */
   /* background: rgb(0, 125, 138); */
   /* min-height: 100px; */
-  background-image: url('../../images/stardust.png');
+  background-image: url('../../images/sos.png');
   /* max-width: 50%; */
-  text-align: center;
+  /* text-align: center; */
   /* padding-top: 3%;
   margin-bottom: 3%; */
   border: 3px solid rgb (199, 199, 199);
@@ -64,46 +65,23 @@ div#home-main {
 
 .superhero-p {
   /* color: #fff; */
-  /* color: rgb(90,90,90); */
-  color: rgb(199, 199, 199);
-  margin-bottom: 3%;
-  padding-top: 3%;
+  color: rgb(90,90,90);
+  /* color: rgb(199, 199, 199); */
+  /* margin-bottom: 3%; */
+  padding: 3%;
   /* background-image: url('../../images/stardust.png'); */
   /* border: 3px solid rgb (199,199,199); */
 }
 
-#home-headshots {
-  margin: auto;
-}
-
-.home-headshot {
-  /* border-radius: 80%; */
-  margin-bottom: 30px;
-}
-
-#whatsinthere {
-  /* border: 5px solid rgb(90,90,90); */
-  /* padding: 20px; */
-  /* margin: auto; */
-}
-
-.included {
-  /* border: 5px solid rgb(54, 54, 54); */
-  /* background-color: rgb(0, 125, 138); */
-  /* color: rgb(199, 199, 199); */
-  padding-bottom: 15px;
-  margin: auto;
-  padding: 5%;
-  min-height: 250px;
-  font-size: 20px;
-}
-
-/* div#included-div {
-  border: 5px solid rgb(54, 54, 54);
-} */
-
 #kit-div {
   margin-top: 3%;
+  margin-bottom: 6%;
+  background: url('../../images/stardust.png');
+}
+
+.kit-p {
+  color: rgb(199, 199, 199);
+  padding: 5%;
 }
 
 #item1 {
@@ -139,7 +117,6 @@ div#home-main {
   border-top: 5px solid rgb(54, 54, 54);
   border-bottom: 5px solid rgb(54, 54, 54);
   color: rgb(199, 199, 199);
-  
 }
 
 li {
