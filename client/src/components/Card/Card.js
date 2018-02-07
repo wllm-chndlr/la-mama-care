@@ -9,7 +9,6 @@ import {
 } from "material-ui/Card";
 // import FlatButton from "material-ui/FlatButton";
 // import RaisedButton from "material-ui/RaisedButton";
-import DialogExampleSimple from "../../components/Dialog";
 import "./Card.css";
 
 const CardExample = props => (

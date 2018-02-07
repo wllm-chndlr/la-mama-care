@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
-import logo from '../../images/logo.png'
+import logo from '../../images/logo_crop.png'
 import cart from '../../images/cart.svg'
 import "./AppBar.css";
 

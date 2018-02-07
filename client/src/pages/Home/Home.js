@@ -1,13 +1,9 @@
 import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
-import RaisedButton from "material-ui/RaisedButton";
 import FlatButton from "material-ui/FlatButton";
-
 import Paper from "../../components/Paper";
 import "./Home.css";
 import packageImg from "../../images/package.jpeg";
-
-
 
 const Home = () => (
   <Container fluid>
