@@ -21,8 +21,7 @@ const AppBarTop = () => (
             />
           </a>
         </Col>
-        <Col size="md-6" id="navbtns" style={{ marginTop: "30px" }}>
-          <div id="app-link-div">
+        <Col size="md-6" id="navbtns">
           <ul className="nav nav-pills nav-justified">
             <li className="app-link" role="presentation">
               <a href="/kit">
@@ -46,12 +45,10 @@ const AppBarTop = () => (
                   id="shop-cart"
                   src={cart}
                   alt={cart}
-                  // style={{marginLeft: "4rem"}}
                 />
               </a>
             </li>
           </ul>
-          </div>
         </Col>
       </Row>
     </div>
