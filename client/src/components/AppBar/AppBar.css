@@ -1,12 +1,10 @@
 .app-main {
   border-bottom: 2px solid rgb(136, 136, 136);
   box-shadow: 2px 3px 1px 1px rgba(138, 138, 138, 0.3);
-  /* background-image: url('../../images/sos.png'); */
   position: fixed;
   z-index: 1000;
   background-color: #fff;
   min-height: 100px;
-  /* margin-bottom: 4rem; */
 }
 
 div.h1 {
@@ -23,7 +21,6 @@ a {
   color: rgb(90,90,90);
   font-size: 2rem;
   background-color: #fff;
-  /* font-family: 'Fjalla One', cursive; */
   font-family: 'Poppins', sans-serif;
 }
 
@@ -35,17 +32,3 @@ a:hover, #shop-cart:hover {
 .nav-pills>li>a:hover {
   background-color: #fff;
 }
-
-.app-link {
-  /* max-width: 25%; */
-}
-
-@media only screen and (max-width: 768px) {
-  .nav>li {
-    /* max-width: 25%; */
-  }
-  .nav>li>a {
-    padding: 0px;
-  }
-}
-
