@@ -5,7 +5,9 @@ mongoose.Promise = global.Promise;
 // This file empties the Box collection and inserts the boxes below
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/laMamaCare",
+  process.env.MONGODB_URI ||
+    "mongodb://heroku_p0rlm2v7:1r6d8l6uft7saf4fmr5t1a6fn8@ds125048.mlab.com:25048/heroku_p0rlm2v7",
+
   {
     useMongoClient: true
   }

@@ -3,7 +3,7 @@ div.container-fluid {
 }
 
 div#about-main {
-  margin-top: 7.5%;
+  /* margin-top: 120px; */
   margin-bottom: 5%;
   background-image: url('../../images/sos.png');
 }
@@ -34,10 +34,7 @@ div#about-main {
 }
 
 @media only screen and (max-width: 768px) {
-  div#about-main {
-    margin-top: 60%;
-  }
-  img {
-    data-aos-offset: 400;
+  .p-header {
+    line-height: 1.0;
   }
 }

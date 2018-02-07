@@ -13,14 +13,12 @@ html, body, #root {
 
 body {
   margin: 0;
-  padding-bottom: 6rem;
 }
 
 div.container-fluid {
   padding-left: 0px;
   padding-right: 0px;
   min-height: 100%;
-  /* margin-bottom: 60px; */
   margin-right: 0px;
 }
 

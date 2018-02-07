@@ -7,7 +7,7 @@
 
 div#home-main {
   background-image: url('../../images/sos.png');
-  margin-top: 7.5%;
+  /* margin-top: 120px; */
   margin-bottom: 5%;
 }
 
@@ -172,6 +172,6 @@ span {
 
 @media only screen and (max-width: 768px) {
   div#home-main {
-    margin-top: 60%;
+    /* margin-top: 60%; */
   }
 }

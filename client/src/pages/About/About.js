@@ -17,7 +17,7 @@ const About = () => (
       <Row>
         <Col size="md-2" />
         <Col size="md-8">
-          <p style={{ fontSize: "2rem", marginBottom: "4rem" }}>
+          <p style={{ fontSize: "2rem", marginBottom: "4rem", padding: "3%" }}>
             Started by three mamas who know firsthand how life-changing the
             first few days, weeks, and months can be, La Mama Care was conceived
             with parents from all walks of life in mind.

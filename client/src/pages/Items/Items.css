@@ -1,6 +1,6 @@
 div#items-main {
   background-image: url('../../images/sos.png');
-  margin-top: 7.5%;
+  /* margin-top: 60px; */
   margin-bottom: 5%;
 }
 
@@ -10,6 +10,6 @@ div#items-main {
 
 @media only screen and (max-width: 768px) {
   div#items-main {
-    margin-top: 60%;
+    /* margin-top: 60%; */
   }
 }

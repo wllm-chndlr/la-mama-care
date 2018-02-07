@@ -14,8 +14,10 @@ const Resources = () => (
       <Row>
         <Col size="md-2" />
         <Col size="md-8">
-          <p style={{ fontSize: "2rem", marginBottom: "4rem" }}>
-            Each care kit includes a resource book filled with helpful information for new moms and their families. Included below are some additional resources for anyone navigating the postpartum period.
+          <p style={{ fontSize: "2rem", marginBottom: "4rem", padding: "3%" }}>
+            Each care kit includes a resource book filled with helpful
+            information for new moms and their families. Included below are some
+            additional resources for anyone navigating the postpartum period.
           </p>
         </Col>
         <Col size="md-2" />

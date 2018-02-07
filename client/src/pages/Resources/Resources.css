@@ -1,8 +1,8 @@
 div#resources-main {
   /* background-image: url('../../images/stardust.png'); */
   background-image: url('../../images/sos.png');
-  min-height: 600px;
-  margin-top: 7.5%;
+  /* min-height: 600px; */
+  /* margin-top: 7.5%; */
   margin-bottom: 5%;
 }
 
@@ -18,6 +18,6 @@ div#resources-main {
 
 @media only screen and (max-width: 768px) {
   div#resources-main {
-    margin-top: 60%;
+    /* margin-top: 60%; */
   }
 }

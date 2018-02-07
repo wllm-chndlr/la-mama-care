@@ -139,11 +139,13 @@ const Home = () => (
             <img
               src={packageImg}
               alt="care kit"
+              onClick={() => (window.location.href = "/kit")}
               data-aos={"zoom-in"}
               data-aos-offset={500}
               style={{
                 maxWidth: "100%",
-                margin: "5%"
+                margin: "5%",
+                cursor: "pointer"
                 // maxHeight: "80%"
                 // borderTop: "3px solid rgb(54, 54, 54)",
                 // borderBottom: "3px solid rgb(54, 54, 54)",
@@ -171,7 +173,7 @@ const Home = () => (
                   label="View care kit"
                   primary={true}
                   style={{
-                    margin: "5%",
+                    margin: "5%"
                   }}
                   backgroundColor="rgb(0, 178, 169)"
                   hoverColor="rgb(0, 125, 138)"
