@@ -14,7 +14,7 @@ const Resources = () => (
       <Row>
         <Col size="md-2" />
         <Col size="md-8">
-          <p style={{ fontSize: "2rem", marginBottom: "4rem", padding: "3%" }}>
+          <p style={{ fontSize: "2rem", marginBottom: "4rem", padding: "0 3% 0 3%" }}>
             Each care kit includes a resource book filled with helpful
             information for new moms and their families. Included below are some
             additional resources for anyone navigating the postpartum period.
@@ -166,7 +166,7 @@ const Resources = () => (
                     The First 40 Days: The Essential Art of Nourishing the New
                     Mother
                   </em>
-                  <br /> by heng Ou
+                  <br /> by Heng Ou
                 </a>
               </p>
               <p className="p-bio">
@@ -197,8 +197,8 @@ const Resources = () => (
                   rel="noopener noreferrer"
                 >
                   <em>
-                    The Postpartum Husband: Practical Solutions for living with
-                    Postpatrum Depression
+                    The Postpartum Husband: Practical Solutions for Living with
+                    Postpartum Depression
                   </em>
                   <br /> by Karen Kleinman
                 </a>

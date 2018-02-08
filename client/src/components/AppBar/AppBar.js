@@ -8,7 +8,7 @@ const AppBarTop = () => (
   <Container fluid>
     <div className="app-main">
       <Row>
-        <Col size="md-4">
+        <Col size="md-5">
           <a href="/">
             <img
               src={logo}
@@ -21,7 +21,7 @@ const AppBarTop = () => (
             />
           </a>
         </Col>
-      <Col size="md-6" id="navbtns">
+      <Col size="md-7" id="navbtns">
           <ul className="nav nav-pills nav-justified">
             <li className="app-link" role="presentation">
               <a href="/kit">care kit</a>
