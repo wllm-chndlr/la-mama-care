@@ -19,7 +19,7 @@ const CardExample = props => (
       // minHeight: "20%",
       maxHeight: "100%"
     }}
-    containerStyle={{maxHeight: "100%"}}
+    containerStyle={{ maxHeight: "100%" }}
     // data-aos={"zoom-in"}
     // data-aos-offset={500}
     onClick={this.handleOpen}
@@ -58,7 +58,8 @@ const CardExample = props => (
         fontSize: "2rem",
         color: "rgb(0, 125, 138)"
       }}
-      data-aos={"zoom-in"}
+      data-aos={"flip-up"}
+      data-aos-once={true}
       // data-aos-offset={500}
     />
 

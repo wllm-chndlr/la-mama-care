@@ -44,8 +44,9 @@ class Items extends Component {
                 src={packageImg} 
                 alt="care kit" 
                 data-aos={"flip-up"} 
-                data-aos-offset={400} 
+                data-aos-offset={200} 
                 data-aos-duration="600"
+                data-aos-once={true}
                 style={{ 
                   maxWidth: "100%", 
                   minHeight: "30rem", 
