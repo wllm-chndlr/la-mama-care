@@ -10,9 +10,9 @@ import Foot from "./components/Footer";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 
 const App = () => (
-  <MuiThemeProvider>
-    <Router>
-      <div>
+  <Router>
+    <div>
+      <MuiThemeProvider>
         <AppBarTop />
         <Switch>
           <Route exact path="/" component={Home} />
@@ -23,9 +23,9 @@ const App = () => (
           <Route component={NoMatch} />
         </Switch>
         <Foot />
-      </div>
-    </Router>
-  </MuiThemeProvider>
+      </MuiThemeProvider>
+    </div>
+  </Router>
 );
 
 export default App;

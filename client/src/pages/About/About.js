@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
 import Tagline from "../../components/Tagline";
-import jc from '../../images/jc-new2.jpg'
-import nm from "../../images/nm-new2.jpg";
-import ac from "../../images/ac-new2.jpg";
+import jc from '../../images/jc.jpg'
+import nm from "../../images/nm.jpg";
+import ac from "../../images/ac.jpg";
 import "./About.css";
 import Paper from "../../components/Paper";
 

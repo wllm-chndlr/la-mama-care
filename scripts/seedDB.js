@@ -92,7 +92,7 @@ const itemSeed = [
     image:
       "https://cdn3.bigcommerce.com/s-5yyhpm/products/1507/images/1307/Dry_Apricot__71909.1444985718.480.480.jpg?c=2",
     description:
-      "Turkish Apricots provide you with Calcium, Iron, Vitamins A and C. They are a great to eat alone or cut up and put into salads or trail mixes.",
+      "Turkish Apricots provide you with Calcium, Iron, Vitamins A and C. They are great to eat alone or cut up and put into salads or trail mixes.",
     quantity: 1,
     date: new Date(Date.now())
   },
