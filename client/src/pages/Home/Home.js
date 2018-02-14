@@ -15,14 +15,17 @@ const Home = () => (
               <span>
                 <div
                   id="header"
-                  style={{ fontFamily: "'Bangers', sans-serif", lineHeight: 1 }}
+                  style={{
+                    fontFamily: "'MyWebFont', Fallback, sans-serif",
+                    lineHeight: 1
+                  }}
                 >
                   Even
                   <p
                     id="super"
                     className="animated zoomInLeft"
                     style={{
-                      fontFamily: "'Bangers', sans-serif",
+                      fontFamily: "'MyWebFont', Fallback, sans-serif",
                       lineHeight: 1,
                       paddingTop: "5px"
                     }}
@@ -35,13 +38,13 @@ const Home = () => (
               <h3
                 style={{
                   maxWidth: "70%",
-                  fontFamily: "'Poppins'",
+                  fontFamily: "'Open Sans'",
                   margin: "auto"
                 }}
               >
                 Focused on a mother’s holistic wellbeing immediately following
                 childbirth, our postpartum care kit provides moms with must-have
-                self-care items for this critical time.
+                self-care items.
               </h3>
             </div>
           </Col>
@@ -55,9 +58,9 @@ const Home = () => (
             <Paper>
               <div className="superhero-div">
                 <Row>
-                  <Col size="md-1" />
+                  {/* <Col size="md-1" /> */}
 
-                  <Col size="md-11">
+                  <Col size="md-12">
                     <p className="superhero-p" style={{ paddingTop: "3%" }}>
                       Whether she is
                     </p>
@@ -65,8 +68,8 @@ const Home = () => (
                 </Row>
 
                 <Row>
-                  <Col size="md-2" />
-                  <Col size="md-10">
+                  <Col size="md-1" />
+                  <Col size="md-11">
                     <div
                       className="super-anim"
                       data-aos="fade-up"
@@ -84,8 +87,8 @@ const Home = () => (
                 </Row>
 
                 <Row>
-                  <Col size="md-3" />
-                  <Col size="md-9">
+                  <Col size="md-2" />
+                  <Col size="md-10">
                     <div
                       className="super-anim"
                       data-aos="fade-up"
@@ -101,8 +104,8 @@ const Home = () => (
                 </Row>
 
                 <Row>
-                  <Col size="md-4" />
-                  <Col size="md-8">
+                  <Col size="md-3" />
+                  <Col size="md-9">
                     <div
                       className="super-anim"
                       data-aos="fade-up"
@@ -120,7 +123,7 @@ const Home = () => (
                 </Row>
 
                 <Row>
-                  <Col size="md-11">
+                  <Col size="md-12">
                     <div className="superhero-div">
                       <p
                         className="superhero-p"
@@ -133,7 +136,7 @@ const Home = () => (
                       </p>
                     </div>
                   </Col>
-                  <Col size="md-1" />
+                  {/* <Col size="md-1" /> */}
                 </Row>
               </div>
             </Paper>
@@ -168,17 +171,18 @@ const Home = () => (
               <Col size="md-12">
                 <div>
                   <p className="kit-p">
-                    Our care kit is intended to provide moms with the sustenance
-                    and supplies they need to ensure their own self care during
-                    this critical time in their lives when time for themselves
-                    is limited.
+                    Through handy, healthy snacks and other practical
+                    essentials, our signature kit is intended to surround the
+                    mother with must-have items to help navigate the crucial 4th
+                    trimester.
                   </p>
 
                   <FlatButton
                     label="View care kit"
                     primary={true}
                     style={{
-                      marginLeft: "5%"
+                      marginLeft: "5%",
+                      marginBottom: "5%"
                     }}
                     backgroundColor="rgb(0, 178, 169)"
                     hoverColor="rgb(0, 125, 138)"

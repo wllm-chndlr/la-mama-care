@@ -1,19 +1,20 @@
 import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
-// import Jumbotron from "../../components/Jumbotron";
 import Tagline from "../../components/Tagline";
+import "./NoMatch.css";
+
 
 
 const NoMatch = () => (
   <Container fluid>
-    <Row>
-      <Col size="md-12">
-        <Tagline>
-        404 Page Not Found<br/>
-        Sorry!
-        </Tagline>
-      </Col>
-    </Row>
+    <div id="nomatch-main">
+      <Row>
+        <Col size="md-12">
+          <Tagline>404 Page Not Found</Tagline>
+          <Tagline>Sorry!</Tagline>
+        </Col>
+      </Row>
+    </div>
   </Container>
 );
 

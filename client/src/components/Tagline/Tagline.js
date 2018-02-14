@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
+import "./Tagline.css";
 
 
 const Tagline = props => (
@@ -10,7 +11,7 @@ const Tagline = props => (
           <h1
             style={{
               // fontFamily: "'Squada One', cursive",
-              fontFamily: "'Bangers', cursive",
+              fontFamily: "'MyWebFont', Fallback, sans-serif",
               letterSpacing: "0.3em",
               fontSize: "50px",
               color: "rgb(90, 90, 90)",
