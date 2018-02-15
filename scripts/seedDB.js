@@ -59,11 +59,11 @@ const itemSeed = [
   },
   {
     itemID: 2,
-    title: "Deluxe Nut Mix",
+    title: "Pumpkin Seeds",
     image:
-      "https://cdn3.bigcommerce.com/s-5yyhpm/products/1436/images/1268/Deluxe__30997.1444985699.480.480.jpg?c=2",
+      "https://cdn3.bigcommerce.com/s-5yyhpm/products/1569/images/1319/Pumpkin_K__23885.1444985725.480.480.jpg?c=2",
     description:
-      "Top of the line nuts makes for a top of the line snack, featuring Almonds (Blanched and Dry Roasted), Cashews, Macadamia nuts, Pecans, and Pistachio Kernels.",
+      "Affectionately known as “pepitas,” the little green kernel inside the big white shell of the pumpkin seed is a favorite snack because of its taste . . . or WAIT, is it because of its health benefits?",
     quantity: 1,
     date: new Date(Date.now())
   },
@@ -79,7 +79,7 @@ const itemSeed = [
   },
   {
     itemID: 4,
-    title: "Double Wall Tumbler",
+    title: "Water bottle",
     image: "https://media.asicdn.com/images/jpgo/22590000/22596373.jpg",
     description:
       'This frosted clear tumbler features double wall construction for insulation of hot or cold liquids. It comes with a snap-on, spill-resistant flip top lid and a 13" flexi straw with a tethered cap.',
@@ -88,21 +88,21 @@ const itemSeed = [
   },
   {
     itemID: 5,
-    title: "Dried Apricots",
+    title: "Hand sanitizer",
     image:
-      "https://cdn3.bigcommerce.com/s-5yyhpm/products/1507/images/1307/Dry_Apricot__71909.1444985718.480.480.jpg?c=2",
+      "https://static1.squarespace.com/static/545a7d88e4b04f070d4b2270/t/578383b120099e05b58f3f7b/1468236724044/download.png?format=500w",
     description:
-      "Turkish Apricots provide you with Calcium, Iron, Vitamins A and C. They are great to eat alone or cut up and put into salads or trail mixes.",
+      "Kills the most germs1 – Just 1 squirt of PURELL Advanced Hand Sanitizer kills as many germs as 2 squirts of any other national brand.",
     quantity: 1,
     date: new Date(Date.now())
   },
   {
     itemID: 6,
-    title: "Hair Ties",
+    title: "Pashmina",
     image:
-      "https://catalog.staceyschoice.com/wp-content/uploads/2017/04/DPO-0026-Neutrals-e1491326071419.jpg",
+      "https://ii.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/12961_XXX_v1.tif&wid=2000&cvt=jpeg",
     description:
-      "Stacey’s Choice has been offering quality hair accessories since 1987.",
+      "Our soft pashmina-style shawl is perfectly sized to do double-duty as a scarf or shawl.",
     quantity: 1,
     date: new Date(Date.now())
   },
