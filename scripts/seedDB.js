@@ -51,7 +51,8 @@ const itemSeed = [
     itemID: 1,
     title: "Nipple Cream",
     image:
-      "https://www.mommygear.com/media/motherlove/ss_size1/motherlove-nipple-cream.jpg",
+      // "https://www.mommygear.com/media/motherlove/ss_size1/motherlove-nipple-cream.jpg",
+      "https://github.com/wllm-chndlr/la-mama-care/blob/master/client/src/images/items/cream.jpg?raw=true",
     description:
       "Nursing your baby can be an incredible bonding experience, but it can leave you with less comforting physical symptoms. Motherlove Nipple Cream is an herbal salve that helps soothe sore, cracked nipples after feedings. It’s made with 100% certified organic ingredients (and no vitamin E) that are safe to ingest so it won’t harm you or your baby.",
     quantity: 1,
@@ -61,7 +62,8 @@ const itemSeed = [
     itemID: 2,
     title: "Pumpkin Seeds",
     image:
-      "https://cdn3.bigcommerce.com/s-5yyhpm/products/1569/images/1319/Pumpkin_K__23885.1444985725.480.480.jpg?c=2",
+      // "https://cdn3.bigcommerce.com/s-5yyhpm/products/1569/images/1319/Pumpkin_K__23885.1444985725.480.480.jpg?c=2",
+      "https://github.com/wllm-chndlr/la-mama-care/blob/master/client/src/images/items/seeds.jpg?raw=true",
     description:
       "Affectionately known as “pepitas,” the little green kernel inside the big white shell of the pumpkin seed is a favorite snack because of its taste . . . or WAIT, is it because of its health benefits?",
     quantity: 1,
@@ -71,7 +73,8 @@ const itemSeed = [
     itemID: 3,
     title: "Lavender Lip Saver",
     image:
-      "https://img.etsystatic.com/il/34cfc1/1051445092/il_570xN.1051445092_1945.jpg",
+      // "https://img.etsystatic.com/il/34cfc1/1051445092/il_570xN.1051445092_1945.jpg",
+      "https://github.com/wllm-chndlr/la-mama-care/blob/master/client/src/images/items/lip-saver.jpg?raw=true",
     description:
       "Our nourishing Lip Saver protects your lips from the elements using wildcrafted Lavender and unrefined Beeswax. No petrochemicals, artificial flavors or fragrances.",
     quantity: 1,
@@ -80,7 +83,9 @@ const itemSeed = [
   {
     itemID: 4,
     title: "Water bottle",
-    image: "https://media.asicdn.com/images/jpgo/22590000/22596373.jpg",
+    image: 
+      // "https://media.asicdn.com/images/jpgo/22590000/22596373.jpg",
+      "https://github.com/wllm-chndlr/la-mama-care/blob/master/client/src/images/items/water.jpg?raw=true",
     description:
       'This frosted clear tumbler features double wall construction for insulation of hot or cold liquids. It comes with a snap-on, spill-resistant flip top lid and a 13" flexi straw with a tethered cap.',
     quantity: 1,
@@ -90,7 +95,8 @@ const itemSeed = [
     itemID: 5,
     title: "Hand sanitizer",
     image:
-      "https://static1.squarespace.com/static/545a7d88e4b04f070d4b2270/t/578383b120099e05b58f3f7b/1468236724044/download.png?format=500w",
+      // "https://static1.squarespace.com/static/545a7d88e4b04f070d4b2270/t/578383b120099e05b58f3f7b/1468236724044/download.png?format=500w",
+      "https://github.com/wllm-chndlr/la-mama-care/blob/master/client/src/images/items/sanitizer.jpeg?raw=true",
     description:
       "Kills the most germs1 – Just 1 squirt of PURELL Advanced Hand Sanitizer kills as many germs as 2 squirts of any other national brand.",
     quantity: 1,
@@ -100,7 +106,8 @@ const itemSeed = [
     itemID: 6,
     title: "Pashmina",
     image:
-      "https://ii.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/12961_XXX_v1.tif&wid=2000&cvt=jpeg",
+      // "https://ii.worldmarket.com/fcgi-bin/iipsrv.fcgi?FIF=/images/worldmarket/source/12961_XXX_v1.tif&wid=2000&cvt=jpeg",
+      "https://github.com/wllm-chndlr/la-mama-care/blob/master/client/src/images/items/pashmina.jpg?raw=true",
     description:
       "Our soft pashmina-style shawl is perfectly sized to do double-duty as a scarf or shawl.",
     quantity: 1,
@@ -110,7 +117,8 @@ const itemSeed = [
     itemID: 7,
     title: "Food Bars",
     image:
-      "https://cdn.shopify.com/s/files/1/1077/6418/products/thunderbird.png?v=1504130332",
+      // "https://cdn.shopify.com/s/files/1/1077/6418/products/thunderbird.png?v=1504130332",
+      "https://github.com/wllm-chndlr/la-mama-care/blob/master/client/src/images/items/bars.png?raw=true",
     description:
       "Containing uniquely pure and highly powerful ingredients, Thunderbird bars provide consumers with conveniently packaged, nutrient dense, plant-based goodness.",
     quantity: 1,
@@ -120,7 +128,8 @@ const itemSeed = [
     itemID: 8,
     title: "Nursing Pads",
     image:
-      "https://images-na.ssl-images-amazon.com/images/I/81kaxtmQxaL._SL1500_.jpg",
+      // "https://images-na.ssl-images-amazon.com/images/I/81kaxtmQxaL._SL1500_.jpg",
+      "https://github.com/wllm-chndlr/la-mama-care/blob/master/client/src/images/items/pads.jpg?raw=true",
     description:
       "5 layers of soft, absorbent fabric made with 100% organic cotton.",
     quantity: 1,
