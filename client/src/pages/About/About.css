@@ -14,16 +14,18 @@ div#about-main {
 }
 
 .p-header {
-  font-size: 50px;
+  font-size: 2em;
   letter-spacing: 0.3rem;
-  font-family: "MyWebFont";
+  font-family: 'MyWebFont',
+  Fallback,
+  sans-serif;
   color: #fff;
 }
 
 .p-bio {
   color: rgb(90,90,90);
   background: rgb(182, 207, 208);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
   font-size: 2rem;
   padding: 5%;

@@ -1,5 +1,5 @@
 * {
-  font-family: 'Poppins', cursive;
+  font-family: 'Open Sans', cursive;
   color: rgb (90,90,90);
 }
 
@@ -94,7 +94,9 @@ div#snipcart-footer.snip-footer {
 h2#snipcart-title.snip-header__title {
   /* color: rgb(199, 199, 199); */
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'MyWebFont',
+  Fallback,
+  sans-serif;
 }
 
 div#snipcart-header-total.snip-header__total {

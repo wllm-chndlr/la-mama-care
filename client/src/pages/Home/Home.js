@@ -77,9 +77,9 @@ const Home = () => (
                       data-aos-once={true}
                     >
                       <p className="superhero-p">
-                        <span className="bang2">a first-time mom</span> or{" "}
+                        <span className="bang2">a FIRST-TIME MOM</span> or{" "}
                         <span className="bang2">
-                          a mom with little ones at home
+                          a MOM WITH LITTLE ONES AT HOME
                         </span>
                       </p>
                     </div>

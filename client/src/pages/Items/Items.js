@@ -99,7 +99,7 @@ class Items extends Component {
             <Col size="md-12 sm-12">
               {this.state.items.length ? <div id="items-div">
                   {this.state.items.map(item => (
-                    <Col size="md-2" key={item.itemID}>
+                    <Col size="md-3" key={item.itemID}>
                       <CardExample
                         itemID={item.itemID}
                         image={item.image}

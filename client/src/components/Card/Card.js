@@ -48,7 +48,8 @@ const CardExample = props => (
       showExpandableButton={false}
       actAsExpander={true}
       titleStyle={{
-        color: "rgb(0, 125, 138)"
+        color: "rgb(90,90,90)",
+        fontFamily: "'MyWebFont', Fallback, sans-serif"
         // margin: "2rem"
       }}
       title={props.title}

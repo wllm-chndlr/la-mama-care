@@ -1,5 +1,5 @@
 * {
-    font-family: 'Poppins',
+    font-family: 'Open Sans',
     sans-serif;
     line-height: 2;
     font-size: 2rem;
@@ -13,22 +13,24 @@ div#home-main {
 
 #header {
   line-height: 3;
-  font-family: 'Bangers';
+  font-family: 'MyWebFont', Fallback, sans-serif;
   margin-bottom: 2%;
 }
 
 .bang {
-  font-family: 'Bangers';
+  font-family: 'MyWebFont', Fallback, sans-serif;
   font-size: 20px;
 }
 
 .bang2 {
-  font-family: 'Bangers';
-  font-size: 3rem;
+  font-family: 'MyWebFont', Fallback, sans-serif;
+  font-size: 2.25rem;
 }
 
 #super {
-  font-family: 'Bangers', sans-serif;
+  font-family: 'MyWebFont',
+  Fallback,
+  sans-serif;
 }
 
 #three-mamas {
@@ -130,7 +132,7 @@ h1, h3, #header, #super {
   /* color: rgb(90, 90, 90); */
   /* color: rgb(182, 207, 208); */
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 4rem;
 }
 
