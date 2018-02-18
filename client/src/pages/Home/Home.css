@@ -1,8 +1,7 @@
 * {
-    font-family: 'Open Sans',
-    sans-serif;
-    line-height: 2;
-    font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2;
+  font-size: 2rem;
 }
 
 div#home-main {
@@ -15,6 +14,7 @@ div#home-main {
   line-height: 3;
   font-family: 'MyWebFont', Fallback, sans-serif;
   margin-bottom: 2%;
+  max-width: 100%;
 }
 
 .bang {
@@ -28,9 +28,8 @@ div#home-main {
 }
 
 #super {
-  font-family: 'MyWebFont',
-  Fallback,
-  sans-serif;
+  font-family: 'MyWebFont', Fallback, sans-serif;
+  font-size: 2em;
 }
 
 #three-mamas {
@@ -137,7 +136,7 @@ h1, h3, #header, #super {
 }
 
 #header, #super {
-  font-size: 60px;
+  font-size: 50px;
   line-height: 4rem;  
 }
 

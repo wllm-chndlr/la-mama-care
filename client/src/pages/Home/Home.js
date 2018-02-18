@@ -156,7 +156,7 @@ const Home = () => (
               data-aos-once={true}
               style={{
                 maxWidth: "100%",
-                margin: "5%",
+                // margin: "5%",
                 cursor: "pointer"
                 // maxHeight: "80%"
                 // borderTop: "3px solid rgb(54, 54, 54)",
