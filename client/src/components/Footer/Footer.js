@@ -99,7 +99,7 @@ const Foot = () => (
               textAlign: "center"
             }}
           >
-            <p className="foot-cont">© La Mama Care 2017</p>
+            <p className="foot-cont">© La Mama Care 2018</p>
           </div>
         </Col>
         <Col size="md-5" />

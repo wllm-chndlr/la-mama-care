@@ -68,8 +68,7 @@ const Home = () => (
                 </Row>
 
                 <Row>
-                  <Col size="md-1" />
-                  <Col size="md-11">
+                  <Col size="md-12">
                     <div
                       className="super-anim"
                       data-aos="fade-up"
@@ -87,8 +86,7 @@ const Home = () => (
                 </Row>
 
                 <Row>
-                  <Col size="md-2" />
-                  <Col size="md-10">
+                  <Col size="md-12">
                     <div
                       className="super-anim"
                       data-aos="fade-up"
@@ -104,8 +102,7 @@ const Home = () => (
                 </Row>
 
                 <Row>
-                  <Col size="md-3" />
-                  <Col size="md-9">
+                  <Col size="md-12">
                     <div
                       className="super-anim"
                       data-aos="fade-up"
@@ -127,11 +124,10 @@ const Home = () => (
                     <div className="superhero-div">
                       <p
                         className="superhero-p"
-                        style={{ textAlign: "right", paddingBottom: "3%" }}
+                        style={{ paddingBottom: "3%" }}
                       >
-                        she is a <span className="bang2">superhero</span> who
-                        deserves to feel <br />nourished, <br />supported,{" "}
-                        <br />and strengthened <br />during the postpartum
+                        she is a <span className="bang2">superhero</span><br/> who
+                        deserves to feel nourished, supported, and strengthened<br/> during the postpartum
                         period.
                       </p>
                     </div>

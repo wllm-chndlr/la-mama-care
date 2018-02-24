@@ -4,7 +4,28 @@ import logo from '../../images/logo_crop.png'
 import cart from '../../images/cart.svg'
 import "./AppBar.css";
 
+
+// function ActionLink() {
+
+//   function handleClick(e) {
+//     e.preventDefault();
+//     console.log("The link was clicked.");
+//   }
+
+//   return (
+//     <a href="#" onClick={handleClick}>
+//       Click me
+//     </a>
+//   );
+// }
+
+// function click(e) {
+//     e.preventDefault();
+// }
+
+
 const AppBarTop = () => (
+  
   <Container fluid>
     <div className="app-main">
       <Row>
@@ -21,16 +42,22 @@ const AppBarTop = () => (
             />
           </a>
         </Col>
-      <Col size="md-7" id="navbtns">
+        <Col size="md-7" id="navbtns">
           <ul className="nav nav-pills nav-justified">
             <li className="app-link" role="presentation">
-              <a href="/kit">care kit</a>
+              <a href="/kit">
+                care kit
+              </a>
             </li>
             <li className="app-link" role="presentation">
-              <a href="/resources">resources</a>
+              <a href="/resources">
+                resources
+              </a>
             </li>
             <li className="app-link" role="presentation">
-              <a href="/about">about</a>
+              <a href="/about">
+                about
+              </a>
             </li>
             <li className="app-link" role="presentation">
               <a href="#">
@@ -44,6 +71,9 @@ const AppBarTop = () => (
             </li>
           </ul>
         </Col>
+
+
+
 
         {/* <div id="nav-div">
           <Col size="md-3">
