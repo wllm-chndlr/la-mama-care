@@ -111,9 +111,9 @@ const Home = () => (
                     >
                       <p className="superhero-p">
                         <span className="bang2">
-                          recovering from a cesarean birth
+                          rocked a hospital birth
                         </span>{" "}
-                        or <span className="bang2">rocked a home birth</span>
+                        or <span className="bang2">a home birth</span>
                       </p>
                     </div>
                   </Col>

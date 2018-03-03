@@ -2,3 +2,14 @@
   font-family: 'MyWebFont';
   src: url('../../Geometos.ttf') format('truetype');
 }
+
+h1 {
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 525px) {
+
+  h1 {
+  font-size: 30px;
+  }
+}

@@ -16,7 +16,7 @@ const Foot = () => (
       style={{ marginRight: "0px" }}
     >
       <Row>
-        <div id="mailing">
+        <div id="mailing" style={{textAlign: "center"}}>
           <Col size="md-2" />
           <Col size="md-4">
             <TextField

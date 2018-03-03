@@ -59,7 +59,7 @@ const AppBarTop = () => (
                 about
               </a>
             </li>
-            <li className="app-link" role="presentation">
+            {/* <li className="app-link" role="presentation">
               <a href="#">
                 <img
                   className="snipcart-checkout"
@@ -68,7 +68,7 @@ const AppBarTop = () => (
                   alt={cart}
                 />
               </a>
-            </li>
+            </li> */}
           </ul>
         </Col>
 
