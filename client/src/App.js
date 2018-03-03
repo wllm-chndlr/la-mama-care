@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Resources from "./pages/Resources";
 import AppBarTop from "./components/AppBar";
+import AppBar2 from "./components/AppBar2";
 import Foot from "./components/Footer";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 
@@ -13,7 +14,7 @@ const App = () => (
   <MuiThemeProvider>
     <Router>
       <div>
-        <AppBarTop />
+        <AppBarTop/>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />

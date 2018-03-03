@@ -25,55 +25,51 @@ import "./AppBar.css";
 
 
 const AppBarTop = () => (
-  
   <Container fluid>
     <div className="app-main">
       <Row>
         <Col size="md-5">
-          <a href="/">
-            <img
-              src={logo}
-              alt={"logo"}
-              style={{
-                width: "25%",
-                height: "25%",
-                margin: "2%"
-              }}
-            />
-          </a>
+          <div id="logo-div">
+            <a href="/" id="logo-link">
+              <img
+                src={logo}
+                alt={"logo"}
+                id="lmcLogo"
+                style={{
+                  width: "33%",
+                  height: "33%",
+                  margin: "3%"
+                }}
+              />
+            </a>
+          </div>
         </Col>
+        
         <Col size="md-7" id="navbtns">
-          <ul className="nav nav-pills nav-justified">
-            <li className="app-link" role="presentation">
-              <a href="/kit">
-                care kit
-              </a>
-            </li>
-            <li className="app-link" role="presentation">
-              <a href="/resources">
-                resources
-              </a>
-            </li>
-            <li className="app-link" role="presentation">
-              <a href="/about">
-                about
-              </a>
-            </li>
-            {/* <li className="app-link" role="presentation">
-              <a href="#">
-                <img
-                  className="snipcart-checkout"
-                  id="shop-cart"
-                  src={cart}
-                  alt={cart}
-                />
-              </a>
-            </li> */}
-          </ul>
+          <div id="nav-div">
+            <ul className="nav nav-pills nav-justified">
+              <li className="app-link" role="presentation">
+                <a href="/kit">care kit</a>
+              </li>
+              <li className="app-link" role="presentation">
+                <a href="/resources">resources</a>
+              </li>
+              <li className="app-link" role="presentation">
+                <a href="/about">about us</a>
+              </li>
+              {/* <li className="app-link" role="presentation">
+                <a href="#">
+                  <img
+                    className="snipcart-checkout"
+                    id="shop-cart"
+                    src={cart}
+                    alt={cart}
+                  />
+                </a>
+              </li> */}
+            </ul>
+          </div>
         </Col>
-
-
-
 
         {/* <div id="nav-div">
           <Col size="md-3">
