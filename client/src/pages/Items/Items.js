@@ -53,6 +53,7 @@ class Items extends Component {
                   borderTop: "3px solid rgb(90,90,90)", 
                   borderBottom: "3px solid rgb(90,90,90)", 
                   borderRight: "3px solid rgb(90,90,90)",
+                  borderLeft: "3px solid rgb(90,90,90)",
                   marginBottom: "5%"
                 }
                   // borderLeft: "3px solid rgb(54, 54, 54)"

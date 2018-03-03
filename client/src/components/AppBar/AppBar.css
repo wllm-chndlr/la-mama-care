@@ -13,10 +13,10 @@
 }
 
 ul {
-  margin-top: 3%;
-  margin-bottom: 3%;
+  /* margin-top: 3%;
+  margin-bottom: 3%; */
   background: #fff;
-  height: 33%;
+  padding-top: 5%;
 }
 
 a {
@@ -36,6 +36,10 @@ a:hover, #shop-cart:hover {
   background-color: #fff;
 }
 
+div#logo-div, div#nav-div {
+  height: 100%;
+}
+
 div.nav-item {
   /* margin-top: 3%;
   margin-bottom: 3%; */
@@ -43,23 +47,17 @@ div.nav-item {
   background: #fff;
 }
 
-#nav-div {
-  margin-top: 3%;
-  height: 100%;
-}
-
-div.col-md-7 {
-  height: 33%;
-}
-
 @media only screen and (max-width: 991px) {
   #logo-link {
     display: flex;
     justify-content: center;
   }
-  img {
+  #lmcLogo {
     width: 80%;
     height: 80%;
+  }
+  ul {
+    padding-top: 3%;
   }
 }
 
@@ -76,7 +74,7 @@ div.col-md-7 {
 @media only screen and (max-width: 480px) {
   .nav-justified>li {
     float: left;
-    width: 33%;
+    width: 32%;
   }
   .nav-justified>li>a {
     font-size: 1.5rem;

@@ -17,7 +17,7 @@ const Home = () => (
                   id="header"
                   style={{
                     fontFamily: "'MyWebFont', Fallback, sans-serif",
-                    lineHeight: 1
+                    lineHeight: 1.3
                   }}
                 >
                   Even
@@ -26,7 +26,7 @@ const Home = () => (
                     className="animated zoomInLeft"
                     style={{
                       fontFamily: "'MyWebFont', Fallback, sans-serif",
-                      lineHeight: 1,
+                      lineHeight: 0.9,
                       paddingTop: "5px"
                     }}
                   >
@@ -37,10 +37,11 @@ const Home = () => (
               </span>
               <h3
                 style={{
-                  maxWidth: "70%",
+                  // maxWidth: "70%",
                   fontFamily: "'Open Sans'",
                   margin: "auto"
                 }}
+                id="p-focus"
               >
                 Focused on a mother’s holistic wellbeing immediately following
                 childbirth, our postpartum care kit provides moms with must-have

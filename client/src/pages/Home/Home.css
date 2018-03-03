@@ -13,7 +13,7 @@ div#home-main {
 #header {
   line-height: 3;
   font-family: 'MyWebFont', Fallback, sans-serif;
-  margin-bottom: 2%;
+  margin-bottom: 1.5%;
   max-width: 100%;
 }
 
@@ -30,6 +30,14 @@ div#home-main {
 #super {
   font-family: 'MyWebFont', Fallback, sans-serif;
   font-size: 2em;
+}
+
+#p-focus {
+  max-width: 70%;
+}
+
+div#header {
+  line-height: 2;
 }
 
 #three-mamas {
@@ -77,7 +85,7 @@ div#home-main {
 }
 
 #kit-div {
-  margin-top: 3%;
+  margin-top: 4%;
   margin-bottom: 6%;
   background: url('../../images/stardust.png');
 }
@@ -175,5 +183,14 @@ span {
 @media only screen and (max-width: 768px) {
   div#home-main {
     /* margin-top: 60%; */
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  div#header, #super {
+    font-size: 36px;
+  }
+  #p-focus {
+    max-width: 100%;
   }
 }
