@@ -7,8 +7,8 @@ footer {
   padding: 30px;
   margin-left: 0px;
   margin-right: 0px;
-  border-top: 0.5px solid rgb(136,136,136);
-  box-shadow: 2px -3px 1px 1px rgba(138, 138, 138, 0.3);
+  border-top: 2px solid rgb(136,136,136);
+  box-shadow: 2px -1px 1px 1px rgba(138, 138, 138, 0.3);
   color: rgb(199, 199, 199);
 }
 
@@ -26,7 +26,7 @@ footer {
   /* filter: grayscale(50%); */
   fill: orange;
   /* display: block; */
-  margin: 5%;
+  margin-top: 3%;
 }
 
 #mailing {

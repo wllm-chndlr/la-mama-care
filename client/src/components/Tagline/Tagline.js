@@ -7,7 +7,7 @@ const Tagline = props => (
   <Container fluid>
     <Row>
       <Col size="md-12">
-        <div>
+        <div id="tag-text">
           <h1
             style={{
               // fontFamily: "'Squada One', cursive",

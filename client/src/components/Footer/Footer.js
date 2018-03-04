@@ -38,9 +38,9 @@ const Foot = () => (
             <FlatButton label="Submit" hoverColor="rgb(0, 178, 169)" />
           </Col>
 
-          <Col size="md-2" />
+          {/* <Col size="md-2" /> */}
 
-          <Col size="md-4">
+          <Col size="md-6">
             <div
               id="social-div"
               style={{

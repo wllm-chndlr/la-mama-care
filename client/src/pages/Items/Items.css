@@ -5,11 +5,19 @@ div#items-main {
 }
 
 #kit-title {
-  font-weight: 800;
+  font-size: 1.5rem;
+  font-family: 'MyWebFont';
 }
 
 div#items-div {
   min-height: 500px;
+}
+
+#coming-soon {
+    font-family: 'Open Sans', cursive;
+    color: rgb (90, 90, 90);
+    text-align: center;
+    padding-top: 15px;
 }
 
 @media only screen and (max-width: 768px) {

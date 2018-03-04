@@ -167,7 +167,7 @@ const Home = () => (
             <Row>
               <Col size="md-12">
                 <div>
-                  <p className="kit-p">
+                  <p className="kit-p" style={{ paddingRight: "10%"}}>
                     Through handy, healthy snacks and other practical
                     essentials, our signature kit is intended to surround the
                     mother with must-have items to help navigate the crucial 4th
