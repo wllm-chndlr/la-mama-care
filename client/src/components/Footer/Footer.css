@@ -33,6 +33,10 @@ footer {
   margin-bottom: 3%;
 }
 
+button#mc-embedded-subscribe {
+  margin-top: 3%;
+}
+
 #footer-links>a {
   text-align: center;
 }

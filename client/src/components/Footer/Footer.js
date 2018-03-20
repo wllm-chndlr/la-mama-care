@@ -7,7 +7,6 @@ import Instagram from "../../images/instagram.svg";
 import Facebook from "../../images/facebook.svg";
 
 
-
 const Foot = () => (
   <Container fluid>
     <footer
@@ -16,7 +15,7 @@ const Foot = () => (
       style={{ marginRight: "0px" }}
     >
       <Row>
-        <div id="mailing" style={{textAlign: "center"}}>
+        <div id="mailing" style={{ textAlign: "center" }}>
           <Col size="md-2" />
           {/* <Col size="md-4">
             <TextField
@@ -38,7 +37,7 @@ const Foot = () => (
             <FlatButton label="Submit" hoverColor="rgb(0, 178, 169)" />
           </Col> */}
 
-          <Col size="md-4">
+          {/* <Col size="md-4">
           
             <div id="mc_embed_signup" style={{background:"#fff", clear:"left", font:"14px, Helvetica,Arial,sans-serif", width:"100%"}}>
               <form action="https://lamamacare.us17.list-manage.com/subscribe/post?u=2442aa5f68e55a714269be4e1&amp;id=7c3c6a8080" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -55,7 +54,118 @@ const Foot = () => (
               </form>
             </div>
 
+          </Col> */}
+
+          <Col size="md-4">
+            <div id="mc_embed_signup">
+              <form
+                action="https://lamamacare.us17.list-manage.com/subscribe/post?u=2442aa5f68e55a714269be4e1&amp;id=7c3c6a8080"
+                method="post"
+                id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form"
+                className="validate"
+                target="_blank"
+                noValidate
+              >
+                <div id="mc_embed_signup_scroll">
+                  <div className="mc-field-group">
+                    {/* <input
+                      type="email"
+                      // value=""
+                      name="EMAIL"
+                      className="required email"
+                      placeholder="email"
+                      id="mce-EMAIL"
+                    />
+                  </div> */}
+                    <TextField
+                      id="mce-EMAIL"
+                      hintText="supermama@hero.org"
+                      floatingLabelText="SIGN UP"
+                      style={{
+                        width: "100%",
+                        marginLeft: "0px",
+                        color: "rgb(199, 199, 199)"
+                      }}
+                      type={"email"}
+                      name={"EMAIL"}
+                      className={"required email"}
+                      hintStyle={{ fontSize: "1.5rem" }}
+                      floatingLabelStyle={{
+                        fontSize: "1.5rem",
+                        color: "rgb(0, 178, 169)"
+                      }}
+                      underlineStyle={{ borderColor: "rgb(90,90,90)" }}
+                    />
+                  </div>
+                  <div id="mce-responses" className="clear">
+                    <div
+                      className="response"
+                      id="mce-error-response"
+                      style={{ display: "none" }}
+                    />
+                    <div
+                      className="response"
+                      id="mce-success-response"
+                      style={{ display: "none" }}
+                    />
+                  </div>
+                  <div
+                    style={{
+                      position: "absolute",
+                      left: "-5000px",
+                      ariaHidden: "true"
+                    }}
+                  >
+                    <input
+                      type="text"
+                      name="b_2442aa5f68e55a714269be4e1_7c3c6a8080"
+                      tabIndex="-1"
+                      value=""
+                    />
+                  </div>
+                  <FlatButton
+                    label="Submit"
+                    hoverColor="rgb(0, 178, 169)"
+                    type="submit"
+                    value="Subscribe"
+                    name="subscribe"
+                    id="mc-embedded-subscribe"
+                    style={{textAlign: "left"}}
+                    className="button"
+                    // onChange={
+                    //   document.getElementById(
+                    //     "mc-embedded-subscribe-form"
+                    //   ).reset()
+                    // }
+                  />
+                  {/* <div className="clear">
+                    <input
+                      type="submit"
+                      value="Subscribe"
+                      name="subscribe"
+                      id="mc-embedded-subscribe"
+                      className="button"
+                      style={{ background: "rgb(0, 178, 169)" }}
+                    />
+                  </div> */}
+                </div>
+              </form>
+            </div>
           </Col>
+
+          {/* <Col size="md-1">
+            <FlatButton
+            label="Submit"
+            hoverColor="rgb(0, 178, 169)"
+            type="submit"
+            value="Subscribe"
+            name="subscribe"
+            id="mc-embedded-subscribe"
+            className="button"
+            // style={{marginTop: "33%"}}
+            />
+          </Col> */}
 
           {/* <Col size="md-2" /> */}
 
