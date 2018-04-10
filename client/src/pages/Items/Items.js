@@ -97,8 +97,8 @@ class Items extends Component {
             </Col>
             <Col size="md-12 sm-12">
               <p id="coming-soon" style={{ color: "rgb(0, 178, 169)" }}>
-                Items coming soon.<br />
-                Sign up below to be the first to know!
+                Please note: Specific items are currently being finalized; these are placeholder items.<br />
+                Sign up below to be the first to know when care kit is available!
               </p>
             </Col>
           </Row>
