@@ -57,8 +57,7 @@ const Foot = () => (
           </Col> */}
 
           <Col size="md-4">
-
-            <div id="mc_embed_signup" style={{clear: "left"}}>
+            <div id="mc_embed_signup" style={{ clear: "left" }}>
               <form
                 action="https://lamamacare.us17.list-manage.com/subscribe/post?u=2442aa5f68e55a714269be4e1&amp;id=7c3c6a8080"
                 method="post"
@@ -89,7 +88,7 @@ const Foot = () => (
                         color: "rgb(199, 199, 199)"
                       }}
                       type="email"
-                      value=""
+                      // value=""
                       name="EMAIL"
                       className="required email"
                       hintStyle={{ fontSize: "1.5rem" }}
@@ -127,21 +126,20 @@ const Foot = () => (
                     />
                   </div>
                   <div className="clear">
-                  <FlatButton
-                    label="Submit"
-                    hoverColor="rgb(0, 178, 169)"
-                    type="submit"
-                    value="Subscribe"
-                    name="subscribe"
-                    id="mc-embedded-subscribe"
-                    style={{textAlign: "left"}}
-                    className="button"
-                    // onChange={
-                    //   document.getElementById(
-                    //     "mc-embedded-subscribe-form"
-                    //   ).reset()
-                    // }
-                  />
+                    <FlatButton
+                      label="Submit"
+                      hoverColor="rgb(0, 178, 169)"
+                      type="submit"
+                      value="Subscribe"
+                      name="subscribe"
+                      id="mc-embedded-subscribe"
+                      style={{ textAlign: "left" }}
+                      className="button"
+                      // onClick="document.getElementById('mce-EMAIL').value = ''"
+                      onClick={() =>
+                        document.getElementById('mce-EMAIL').value = ''
+                      }
+                    />
                   </div>
                   {/* <div className="clear">
                     <input

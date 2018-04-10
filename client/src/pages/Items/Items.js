@@ -81,7 +81,7 @@ class Items extends Component {
           </Row>
 
           <Row>
-            {/* <Col size="md-12 sm-12">
+            <Col size="md-12 sm-12">
               {this.state.items.length ? <div id="items-div">
                   {this.state.items.map(item => (
                     <Col size="md-3" key={item.itemID}>
@@ -94,7 +94,7 @@ class Items extends Component {
                     </Col>
                   ))}
                 </div> : <h3>No Results to Display</h3>}
-            </Col> */}
+            </Col>
             <Col size="md-12 sm-12">
               <p id="coming-soon" style={{ color: "rgb(0, 178, 169)" }}>
                 Items coming soon.<br />
